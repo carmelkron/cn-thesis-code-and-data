@@ -1,0 +1,28 @@
+{
+    "tools": [
+        "final_answer"
+    ],
+    "model": {
+        "class": "OpenAIServerModel",
+        "data": {
+            "temperature": 1.2,
+            "reasoning_effort": "medium",
+            "last_input_token_count": null,
+            "last_output_token_count": null,
+            "model_id": "gemini-2.5-flash"
+        }
+    },
+    "managed_agents": {},
+    "prompt_templates": {
+        "system_prompt": "\nTASK DESCRIPTION:\nYou are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style.\nYour input will contain the claim to counter and may also list your previous responses.\n\nMUST FOLLOW RULES:\n- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.\n- Your response must be no longer than 280 characters.\n- Provide only the counter-narrative text - do not add any explanation, greeting, or introductory phrases.\n- You MUST generate a new response that is distinct and different from the provided history, while still following the KEY GUIDELINES below.\n- Avoid unnatural phrasing and awkward language.\n- Ensure grammatical correctness and logical coherence.\n\nKEY GUIDELINES:\n- Incorporate granular geopolitical evidence that directly addresses specific Russian claims.\n- Quantify historical patterns using precise numerical data and verifiable strategic analysis.\n- Connect broad geopolitical narratives to specific, documented incidents of Russian aggression.\n- Leverage technical diplomatic language that demonstrates deep understanding of international relations.\n- Directly cite specific international legal frameworks to challenge Russian narratives.\n- Use forensic data analysis to expose logical inconsistencies in Russian strategic arguments.\n"
+    },
+    "max_steps": 20,
+    "verbosity_level": 1,
+    "grammar": null,
+    "planning_interval": null,
+    "name": "agent_1",
+    "description": "Refined Persuasiveness-focused Counter-Narrative Generator Agent For claim3",
+    "requirements": [
+        "smolagents"
+    ]
+}

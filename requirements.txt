@@ -1,0 +1,32 @@
+# Python dependencies for the offline part of the thesis.
+# Install with:  pip install -r requirements.txt
+#
+# Versions are left unpinned deliberately: the runs reported in the thesis were
+# made against the model APIs below rather than against a fixed local stack, and
+# the analysis code does not depend on any version-specific behaviour.
+
+# Agent framework and model access
+smolagents
+litellm
+groq
+python-dotenv
+
+# Data handling
+pandas
+numpy
+openpyxl          # required by pandas for the .xlsx files
+pyyaml            # agent configuration in Refined_CN_Agents/
+
+# Analysis and statistics
+scipy
+statsmodels
+scikit-learn
+scikit-posthocs   # Dunn post-hoc tests
+matplotlib
+seaborn
+tqdm
+
+# Safety analysis only (refinement-per-claim/safety_metrics/)
+detoxify
+transformers
+torch

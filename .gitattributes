@@ -1,0 +1,23 @@
+# Normalize text files to LF in the repository, whatever the contributor's
+# platform. Without this, line-ending behaviour depends on each clone's local
+# core.autocrlf setting.
+* text=auto
+
+# Binary formats. Marking these explicitly means no platform or local setting
+# can apply line-ending conversion to them. The pickles matter most: a single
+# LF-to-CRLF substitution inside one would break every length prefix and make
+# the file unloadable.
+*.pkl   binary
+*.xlsx  binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.docx  binary
+*.pdf   binary
+
+# Notebooks are JSON. Keeping them LF avoids spurious whole-file diffs when the
+# same notebook is opened on different platforms.
+*.ipynb text eol=lf
+
+# The knitted R report is a single generated artifact; diffing it is noise.
+*.html  -diff

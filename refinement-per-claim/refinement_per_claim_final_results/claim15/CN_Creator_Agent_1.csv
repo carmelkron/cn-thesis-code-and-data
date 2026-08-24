@@ -1,0 +1,790 @@
+claim,counter_narrative,avg_pers,avg_emot,avg_share,std_pers,std_emot,std_share,aggregated_feedback,updated_system_prompt
+The West violated post-Cold War promises not to expand NATO eastward.,Ukraine's sovereignty is not a bargaining chip. NATO doesn't threaten Russia — Putin's aggression endangers peace. Free nations choose their alliances. #UkraineFirst #StandWithUkraine,23.055555555555557,37.77777777777778,41.388888888888886,4.453116539411499,5.58326423395605,5.964141820439969,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Attempts to frame the conflict as Ukraine's sovereign choice
+2. Highlights concept of national self-determination
+3. Implies democratic freedom of choice for nations
+4. Attempts to frame Ukraine's right to choose as a principle of self-determination
+5. Attempts to frame Ukraine's sovereignty as a universal right
+
+Emotional_Engagement:
+1. Appeals to principles of freedom and self-determination
+2. Hashtags like #UkraineFirst create a sense of national unity
+3. Portrays Ukraine as having agency in its own choices
+4. Invokes concepts of sovereignty and freedom
+5. Uses language of freedom and self-determination
+
+Shareability:
+1. Short, tweet-like format makes it easily shareable
+2. Uses popular hashtag trends
+3. Short, punchy format suitable for social media
+4. Simplifies complex geopolitical issue into clear narrative
+5. Short, tweet-friendly format
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Ignores Russia's legitimate security concerns
+2. Dismisses historical diplomatic context
+3. Fails to acknowledge NATO's strategic encroachment
+4. Ignores documented verbal assurances given to Soviet leaders
+5. Completely ignores documented NATO expansion promises
+
+Emotional_Engagement:
+1. Sounds like typical Western propaganda
+2. Lacks personal connection to actual geopolitical realities
+3. Fails to address Russia's historical and cultural connections to Ukraine
+4. Overlooks complex regional dynamics
+5. Lacks genuine empathy for Russian historical and security perspectives
+
+Shareability:
+1. Might be perceived as one-sided by informed audiences
+2. Lacks substantive evidence
+3. Relies on simplistic sloganeering
+4. Relies on Western-centric narrative
+5. May not resonate with audiences skeptical of NATO
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Craft counter-narratives that address underlying geopolitical context while maintaining Ukraine's sovereignty
+- Acknowledge complex historical perspectives without compromising core Ukrainian narrative
+- Include nuanced references to diplomatic history and international law
+- Your counter-narrative must strategically validate some Russian concerns while definitively supporting Ukraine
+- Use language that demonstrates understanding of regional complexities
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Historical grievances don't justify invasion. Ukraine's democratic choice matters. Russia misinterprets protection as oppression. International law supports Ukraine's sovereign right to self-determination. #RespectUkraine #InternationalLaw""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Legitimate security concerns exist for all parties. Ukraine's independence isn't a NATO strategy—it's a sovereign choice. Diplomatic dialogue, not military aggression, ensures regional stability. #PeacefulResolution""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Minority rights are protected within Ukraine's constitutional framework. Russia's 'protection' violates international sovereignty principles. Dialogue, not occupation, resolves regional tensions. #DiplomaticSolution"""
+The West violated post-Cold War promises not to expand NATO eastward.,"Sovereign nations choose alliances freely. NATO expansion reflects democratic self-determination, not external coercion. Russia's interpretation misrepresents complex geopolitical realities. #UkrainianSovereignty",27.77777777777778,39.72222222222222,44.72222222222222,5.061351988413499,4.5558942963490905,7.354556830485403,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Emphasizes principle of national sovereignty
+2. Challenges Russian narrative of geopolitical victimhood
+3. Frames NATO expansion as a result of democratic choice
+4. Challenges Russian narrative by highlighting geopolitical complexity
+5. Suggests Russia misunderstands complex geopolitical dynamics
+
+Emotional_Engagement:
+1. Appeals to Western liberal democratic values
+2. Uses language of freedom and self-determination
+3. Portrays nations as active agents rather than passive subjects
+4. Creates an emotional appeal to freedom of choice
+5. Invokes powerful concepts of freedom and self-determination
+
+Shareability:
+1. Concise and tweet-friendly format
+2. Uses a catchy hashtag (#UkrainianSovereignty)
+3. Simple, declarative statements that are easy to spread
+4. Presents a clear, simplified message
+5. Concise and social media-friendly format
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Ignores documented diplomatic discussions about NATO expansion
+2. Fails to address specific historical promises made to Russia
+3. Dismisses legitimate Russian security concerns
+4. Completely ignores documented NATO expansion promises
+5. Relies on abstract principles rather than concrete historical evidence
+
+Emotional_Engagement:
+1. Lacks personal narrative or emotional depth
+2. Sounds like generic Western propaganda
+3. Disconnected from on-the-ground geopolitical realities
+4. May not resonate with audiences sympathetic to Russian perspective
+5. Lacks empathy for Russian historical perspective
+
+Shareability:
+1. Might not resonate with audiences skeptical of Western narratives
+2. Lacks substantive evidence
+3. Relies on abstract principles rather than concrete arguments
+4. Limited appeal to audiences critical of Western narratives
+5. Too academic and theoretical for typical social media
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Provide concrete historical evidence to support Ukraine's sovereignty
+- Address specific Russian security concerns with documented diplomatic context
+- Use precise references to international agreements and historical treaties
+- Demonstrate deep understanding of regional geopolitical nuances
+- Cite specific diplomatic exchanges and international legal frameworks
+- Acknowledge Russia's historical perspectives while firmly asserting Ukraine's independence
+- Provide counter-narratives with verifiable, fact-based arguments
+- Highlight documented international commitments and legal precedents
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Budapest Memorandum guarantees Ukraine's sovereignty. 1994 agreement explicitly protects Ukrainian territorial integrity. Russia violates international law and its own diplomatic commitments. #DiplomaticAccountability""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""1997 NATO-Russia Founding Act permits sovereign nation choices. Ukraine's independence predates NATO discussions. Diplomatic records prove mutual agreement on European security. #InternationalLaw""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""UN minority rights protocols protect ethnic Russians in Ukraine. International observers confirm no systemic oppression. Russia's intervention violates Helsinki Final Act principles. #RuleLaw"""
+The West violated post-Cold War promises not to expand NATO eastward.,1997 NATO-Russia Founding Act affirms sovereign nations' right to choose alliances. No legally binding commitment restricts NATO expansion. Ukraine's independence is sovereign. #InternationalLaw,34.72222222222222,31.11111111111111,40.27777777777778,4.5558942963490905,4.581228472908512,4.5558942963490905,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. References specific diplomatic document (NATO-Russia Founding Act)
+2. Attempts to use legal language to challenge Russian claims
+3. Grounds argument in international law principles
+4. Challenges Russian narrative with technical legal argument
+5. Emphasizes legal terminology to add credibility
+
+Emotional_Engagement:
+1. Invokes international law as a moral high ground
+2. Frames the argument around Ukraine's sovereignty
+3. Highlights Ukraine's right to self-determination
+4. Creates narrative of national independence
+5. Uses authoritative language of international legal standards
+
+Shareability:
+1. Concise, fact-based tweet format
+2. Uses a professional hashtag (#InternationalLaw)
+3. Provides a clear, quotable statement
+4. Short, precise legal reference
+5. Compact message that looks intellectually substantive
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Ignores informal diplomatic assurances made to Soviet/Russian leaders
+2. Oversimplifies complex geopolitical negotiations
+3. Fails to acknowledge Russia's genuine security concerns
+4. Relies on technical legal interpretation over historical context
+5. Ignores verbal assurances made to Soviet leadership
+
+Emotional_Engagement:
+1. Lacks emotional depth and personal narrative
+2. Sounds like sterile legal argumentation
+3. Disconnected from real geopolitical tensions
+4. Appears detached from on-the-ground realities
+5. Lacks emotional resonance with audiences sympathetic to Russian perspective
+
+Shareability:
+1. Legal language may be too complex for average social media user
+2. Lacks emotional appeal
+3. Might not resonate with audiences beyond policy circles
+4. Legal jargon reduces viral potential
+5. Requires significant background knowledge
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Contextualize arguments with nuanced historical evidence linking Russian and Ukrainian shared histories
+- Include strategic references to specific diplomatic negotiations and power transitions
+- Demonstrate understanding of complex geopolitical power dynamics
+- Highlight overlooked historical compromises and mutual agreements
+- Use precise historical documentation to validate Ukraine's sovereignty
+- Connect current conflict to broader patterns of historical power negotiations
+- Provide counter-narratives that reveal underlying geopolitical complexities
+- Ground arguments in detailed historical context that challenges simplistic narratives
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Ukraine's complex history reveals shared Slavic roots. Soviet agreements recognized Ukrainian sovereignty. Russia's invasion betrays centuries of mutual understanding and diplomatic compromise. #HistoricalTruth""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Geopolitical shifts reflect nations' sovereign choices. Historical power transitions require mutual respect. Ukrainian independence emerges from complex historical negotiations, not external manipulation. #SovereignChoice""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Multicultural regions require dialogue, not occupation. Historical Ukrainian-Russian interactions demonstrate complex, intertwined identities beyond simplistic ethnic divisions. #ComplexIdentities"""
+The West violated post-Cold War promises not to expand NATO eastward.,Sovereign nations choose alliances. NATO expansion reflects democratic self-determination. Historical agreements recognize Ukraine's right to independent strategic partnerships. #NationalSovereignty,29.166666666666668,38.333333333333336,45.27777777777778,5.068968775248516,4.714045207910317,5.393468844152111,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Emphasizes fundamental principle of national sovereignty
+2. Frames NATO expansion as a democratic choice
+3. Challenges Russian narrative of geopolitical victimhood
+4. Suggests Ukraine has legitimate right to determine its own path
+5. Presents Ukraine's choice as a matter of democratic rights
+
+Emotional_Engagement:
+1. Appeals to Western liberal democratic values
+2. Uses language of freedom and self-determination
+3. Tries to position Ukraine as an independent actor
+4. Creates emotional appeal to freedom of choice
+5. Frames the argument as a moral struggle against external control
+
+Shareability:
+1. Concise and tweet-friendly format
+2. Uses a popular hashtag highlighting sovereignty
+3. Simple, declarative statements that are easy to spread
+4. Presents a clear, simplified message that resonates quickly
+5. Resonates with Western liberal democratic audience
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks specific historical context about NATO expansion negotiations
+2. Ignores informal diplomatic assurances made to Soviet/Russian leaders
+3. Fails to address specific concerns about strategic encroachment
+4. Dismisses legitimate Russian security perceptions
+5. Overlooks complex historical context of NATO expansion
+
+Emotional_Engagement:
+1. Sounds like typical Western propaganda rhetoric
+2. Lacks personal connection to geopolitical realities
+3. May not resonate with audiences sympathetic to Russian perspective
+4. Lacks depth about historical Russia-Ukraine connections
+5. Appears to dismiss legitimate Russian strategic interests
+
+Shareability:
+1. Might not resonate with audiences skeptical of Western narratives
+2. Lacks substantive geopolitical evidence
+3. Relies on abstract principles rather than concrete arguments
+4. Could be perceived as superficial by informed audiences
+5. Limited appeal to audiences critical of Western narratives
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Provide granular, specific historical evidence addressing Russia's security narrative
+- Include precise documentation of diplomatic negotiations and territorial agreements
+- Demonstrate deep understanding of geopolitical power dynamics through specific historical references
+- Systematically deconstruct Russian claims using verifiable archival documentation
+- Use detailed historical evidence to validate Ukraine's sovereignty beyond abstract principles
+- Cite specific agreements, treaties, and diplomatic exchanges that support Ukrainian independence
+- Ground arguments in meticulously researched historical documentation
+- Reveal nuanced geopolitical complexities through precise historical context
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""1954 Khrushchev transfer legally bound Russia to respect Ukrainian territorial integrity. Budapest Memorandum confirms sovereignty. Invasion violates 70 years of diplomatic agreements. #LegalAccountability""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""1997 Founding Act explicitly permits sovereign nation choices. Diplomatic records prove mutual security guarantees. Ukraine's independence predates NATO discussions. #DocumentedDiplomacy""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""1991 Ukrainian Constitution guarantees minority linguistic and cultural rights. OSCE reports confirm no systemic oppression. Russia's intervention violates international law. #MinorityProtection"""
+The West violated post-Cold War promises not to expand NATO eastward.,1997 Founding Act confirms NATO-Russia cooperation. No legally binding agreement prohibited sovereign nations' alliance choices. Ukraine's independence supersedes Russian territorial claims. #DiplomaticTruth,32.22222222222222,31.11111111111111,40.27777777777778,5.8267158231675085,5.90563656263036,4.2400937562427075,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. References specific diplomatic document (1997 Founding Act)
+2. Attempts to use legal language to challenge Russian narrative
+3. Highlights nuanced interpretation of diplomatic agreements
+4. Emphasizes legal nuance of no binding expansion restrictions
+5. Frames argument around international legal principles
+
+Emotional_Engagement:
+1. Invokes international law as a moral high ground
+2. Frames argument around Ukraine's right to self-determination
+3. Creates narrative of national independence and sovereignty
+4. Invokes sense of legal justice and fairness
+5. Positions Ukraine as a sovereign entity with inherent rights
+
+Shareability:
+1. Concise, fact-based tweet format
+2. Uses a professional hashtag suggesting objective truth
+3. Provides a clear, quotable statement
+4. Compact enough for social media distribution
+5. Language suggests credible, informed perspective
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Ignores informal diplomatic discussions and assurances
+2. Oversimplifies complex geopolitical negotiations
+3. Fails to acknowledge Russia's genuine security concerns
+4. Relies on technical legal interpretation over historical context
+5. Ignores informal verbal assurances made to Soviet leadership
+
+Emotional_Engagement:
+1. Lacks emotional depth and personal narrative
+2. Sounds like sterile legal argumentation
+3. Disconnected from real geopolitical tensions
+4. Appears detached from on-the-ground realities of strategic security
+5. Lacks emotional depth about historical Russia-Ukraine relationships
+
+Shareability:
+1. Legal language may be too complex for average social media user
+2. Lacks emotional appeal
+3. Might not resonate with audiences beyond policy circles
+4. Could be seen as Western-centric perspective
+5. Limited viral potential due to technical approach
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Strategically acknowledge Russia's historical perspectives while revealing contradictions
+- Include personal testimonies and concrete human experiences that illuminate geopolitical tensions
+- Demonstrate empathy for Russian concerns while exposing logical inconsistencies
+- Use personal narratives that humanize Ukraine's struggle
+- Connect abstract geopolitical arguments to real human experiences
+- Reveal power dynamics through stories of individual human agency
+- Ground arguments in human stories that challenge simplistic geopolitical narratives
+- Use narrative techniques that expose underlying motivations and power structures
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Families torn apart by invasion understand real oppression. Soviet veterans' children reject Putin's false liberation. Ukraine's democratic choice speaks louder than military rhetoric. #RealLiberation""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Ordinary people choose peace, not conflict. Generations of shared history reveal our interconnectedness. Ukraine's sovereignty is about human dignity, not geopolitical games. #HumanChoice""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Donbas families want peace, not occupation. Shared language doesn't mean shared oppression. Real protection means respecting human lives, not destroying them. #PeopleMatter"""
+The West violated post-Cold War promises not to expand NATO eastward.,"Nations choose their allies. Ukraine's sovereignty isn't a negotiation. Families in Kyiv dream of peace, not historical debates. Freedom is a human right, not a geopolitical bargain. #SelfDetermination",26.5,35.666666666666664,40.888888888888886,5.035981643246043,4.255715111601235,4.782942944451308,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Appeals to universal principle of national self-determination
+2. Shifts focus from geopolitical abstractions to human-level experience
+3. Emphasizes individual human rights and national sovereignty
+4. Frames the argument as a moral issue of freedom
+5. Uses simple, direct language that cuts through complex geopolitical arguments
+
+Emotional_Engagement:
+1. Mentions families and dreams, creating a human connection
+2. Frames the issue as a matter of individual human rights
+3. Uses aspirational language about peace
+4. Invokes universal human aspirations
+5. Personalizes the conflict through reference to families
+
+Shareability:
+1. Concise and tweet-friendly format
+2. Includes a strategic hashtag (#SelfDetermination)
+3. Uses simple, declarative statements
+4. Creates a simple, memorable message
+5. Uses short, punchy sentences
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks specific historical or diplomatic evidence
+2. Dismisses legitimate Russian security concerns
+3. Oversimplifies complex geopolitical negotiations
+4. Ignores historical diplomatic negotiations and promises
+5. Sounds like typical Western propaganda rhetoric
+
+Emotional_Engagement:
+1. Appears disconnected from actual geopolitical complexities
+2. Sounds like generic Western propaganda
+3. Fails to address Russian perspective or fears
+4. Lacks deep understanding of historical Russia-Ukraine relations
+5. Uses generic, sanitized language that lacks genuine emotional depth
+
+Shareability:
+1. Limited appeal to audiences skeptical of Western narratives
+2. Relies on abstract principles
+3. Lacks concrete contextual information
+4. Too abstract for typical social media consumers
+5. Lacks provocative content to drive engagement
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Systematically integrate specific historical evidence with emotional narrative
+- Include granular diplomatic and legal references that validate emotional argument
+- Directly address Russian security perceptions through factual historical documentation
+- Demonstrate complex geopolitical context through precise, verifiable evidence
+- Connect legal arguments to personal human experiences
+- Use documented historical facts to substantiate emotional claims
+- Reveal power dynamics through meticulously researched historical context
+- Ground emotional narratives in concrete, verifiable historical documentation
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""1954 Soviet transfer legally recognized Ukrainian sovereignty. Generations of Ukrainian families prove democracy's resilience. Invasion betrays decades of mutual understanding. #HistoricalTruth""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""1997 Founding Act documents mutual security commitments. Diplomatic records reveal shared understanding. Ukraine's independence emerges from carefully negotiated historical compromises. #DocumentedSovereignty""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""1991 Constitution legally guarantees minority rights. Generational Ukrainian-Russian families demonstrate peaceful coexistence. Occupation destroys the very communities it claims to protect. #LegalProtection"""
+The West violated post-Cold War promises not to expand NATO eastward.,1997 Founding Act proves mutual NATO-Russia cooperation. No legal binding exists preventing sovereign nations' self-determination. Ukraine's choice reflects democratic principles. #HistoricalConsent,30.833333333333332,32.166666666666664,39.333333333333336,4.412734098291242,4.7987266829626565,5.196152422706632,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. References specific diplomatic document (1997 NATO-Russia Founding Act)
+2. Emphasizes principle of national sovereignty
+3. Uses legal-diplomatic language to challenge Russian claims
+4. Emphasizes legal framework and international agreements
+5. Challenges claim of binding agreements preventing NATO expansion
+
+Emotional_Engagement:
+1. Invokes democratic principles
+2. Frames Ukraine's choice as an expression of national will
+3. Uses language of empowerment and self-determination
+4. Emphasizes self-determination as a core value
+5. Presents Ukraine as an autonomous actor
+
+Shareability:
+1. Concise, fact-focused statement
+2. Uses a strategic hashtag (#HistoricalConsent)
+3. Provides a clear, memorable argument
+4. Uses professional, academic-sounding language
+5. Compact enough for social media platforms
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Oversimplifies complex diplomatic history
+2. Ignores informal diplomatic discussions and assurances
+3. Fails to fully address Russian security perceptions
+4. Minimizes legitimate Russian security concerns
+5. Completely disregards Russian security perspectives and historical trauma
+
+Emotional_Engagement:
+1. Appears detached and legalistic
+2. Lacks personal narrative or emotional depth
+3. Sounds like typical Western diplomatic rhetoric
+4. Lacks emotional connection to Russian perspective
+5. Lacks genuine empathy for Russian historical perspective
+
+Shareability:
+1. Limited appeal to audiences sympathetic to Russian perspective
+2. Relies heavily on legal interpretation
+3. Might seem abstract to casual observers
+4. Technical language may reduce social media engagement
+5. Lacks emotional punch needed to create viral content
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Systematically deconstruct Russian claims using multi-layered historical evidence
+- Provide comprehensive, nuanced documentation of geopolitical transitions
+- Address Russian security concerns through detailed archival research
+- Reveal complex power dynamics using precise historical documentation
+- Demonstrate deep understanding of intergenerational diplomatic negotiations
+- Expose contradictions in Russian narrative through verifiable historical records
+- Use forensic historical analysis to validate Ukraine's sovereign trajectory
+- Ground arguments in meticulously researched archival evidence
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""1954 Khrushchev transfer, 1991 independence referendum, Budapest Memorandum—legal evidence proves Ukraine's sovereign right. Invasion violates 70 years of documented diplomatic agreements. #ArchivalTruth""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""1994 Budapest, 1997 Founding Act, multiple diplomatic archives reveal consensual security framework. NATO expansion result of sovereign nations' documented diplomatic choices. #VerifiedDiplomacy""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""1991 Constitution, OSCE minority reports, UN linguistic rights protocols—comprehensive documentation proves no systemic oppression. Invasion violates international legal protections. #DocumentedRights"""
+The West violated post-Cold War promises not to expand NATO eastward.,"1994 Budapest Memorandum, 1997 NATO-Russia Founding Act prove sovereign nations' voluntary choices. No legal NATO expansion prohibition exists. #VerifiedDiplomacy",29.88888888888889,29.444444444444443,40.05555555555556,5.486234175834893,4.740162001711454,4.938198301925086,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Cites specific diplomatic documents (Budapest Memorandum, NATO-Russia Founding Act)
+2. Emphasizes legal framework of international agreements
+3. Challenges Russian narrative with factual diplomatic references
+4. Highlights principle of sovereign national choice
+5. Provides historical context through diplomatic references
+
+Emotional_Engagement:
+1. Uses hashtag suggesting credibility and official validation
+2. Implies transparency in international relations
+3. Presents a rational, fact-based counter-argument
+4. Frames national choice as a fundamental right
+5. Implies moral righteousness through diplomatic references
+
+Shareability:
+1. Extremely concise and tweet-friendly format
+2. Uses authoritative diplomatic language
+3. Includes a memorable, official-sounding hashtag
+4. References multiple diplomatic documents in a single tweet
+5. Strategically crafted for social media distribution
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Overlooks informal diplomatic discussions and verbal assurances
+2. Fails to fully contextualize Russian security concerns
+3. Presents a legalistic argument that may seem cold and detached
+4. Completely ignores Russian security concerns
+5. Dismisses Russian perspective entirely
+
+Emotional_Engagement:
+1. Lacks personal narrative or human-level connection
+2. Sounds like typical Western diplomatic rhetoric
+3. Appears intellectually distant from actual geopolitical tensions
+4. No emotional connection to populations affected by geopolitical changes
+5. Lacks empathy for Russian historical and cultural perspectives
+
+Shareability:
+1. Limited appeal to audiences sympathetic to Russian perspective
+2. Relies heavily on legal technicalities
+3. Might seem overly academic to casual observers
+4. Technical language may reduce broader social media appeal
+5. Lacks provocative content to drive viral engagement
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Directly address Russian security narratives by revealing historical complexity
+- Contextualize geopolitical claims through multilayered historical evidence
+- Demonstrate profound understanding of Russia's historical trauma and perspectives
+- Validate Ukrainian sovereignty by acknowledging shared historical experiences
+- Use precise historical references that reveal interconnected national narratives
+- Expose contradictions in Russian claims through nuanced historical interpretation
+- Connect legal arguments to deeper psychological and historical motivations
+- Provide comprehensive context that challenges simplistic geopolitical narratives
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Soviet veterans' families reject false liberation. Shared Slavic trauma reveals Putin's manipulation. Ukraine's democratic choice reflects generations of resistance against external control. #HistoricalMemory""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Generations of Soviet and Russian families understand real security comes through dialogue, not division. Ukraine's choice emerges from deep historical understanding. #SharedHistory""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Donbas families know occupation destroys communities. Shared language doesn't mean shared oppression. Real protection means respecting complex historical interconnections. #ComplexIdentities"""
+The West violated post-Cold War promises not to expand NATO eastward.,Shared Soviet history reveals complex diplomatic negotiations. Nations choose sovereignty. Putin's narrative distorts voluntary democratic aspirations of independent peoples. #HistoricalTruth,29.944444444444443,36.888888888888886,41.833333333333336,6.328702010349552,4.6534203536382055,5.946520924970424,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Acknowledges historical complexity of post-Soviet relationships
+2. Challenges Putin's narrative directly
+3. Emphasizes agency of independent nations
+4. Suggests deeper understanding beyond simplistic geopolitical claims
+5. Frames argument around national self-determination
+
+Emotional_Engagement:
+1. Uses powerful language about democratic aspirations
+2. Frames the issue as a matter of human choice and freedom
+3. Implies moral high ground of self-determination
+4. Creates narrative of individual and national empowerment
+5. Portrays nations as active agents with free will
+
+Shareability:
+1. Concise and provocative statement
+2. Uses a strategic hashtag (#HistoricalTruth)
+3. Includes multiple compelling narrative elements
+4. Potential to spark discussion and debate
+5. Structured for immediate social media impact
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks specific diplomatic documentation
+2. Relies on broad statements rather than precise evidence
+3. Dismisses Russian perspective without substantive counter-argument
+4. Oversimplifies complex geopolitical negotiations
+5. Fails to address legitimate Russian security concerns
+
+Emotional_Engagement:
+1. Potentially alienating to audiences sympathetic to Russian concerns
+2. Sounds like typical Western propaganda narrative
+3. Lacks personal stories or ground-level perspectives
+4. Appears intellectually detached from nuanced geopolitical realities
+5. Lacks deep emotional connection to regional complexities
+
+Shareability:
+1. Limited appeal to audiences skeptical of Western narratives
+2. Might be perceived as one-sided
+3. Lacks concrete historical context
+4. Risk of being dismissed as ideological rhetoric
+5. Requires background knowledge to fully appreciate
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Systematically incorporate precise legal and archival evidence addressing Russian security claims
+- Include granular diplomatic documentation that directly challenges Russian narrative
+- Demonstrate comprehensive understanding of historical power negotiations
+- Use verifiable archival sources to substantiate geopolitical arguments
+- Reveal complex geopolitical dynamics through meticulously sourced historical documentation
+- Directly engage with specific Russian security perceptions using forensic historical analysis
+- Ground arguments in multi-layered, verifiable diplomatic records
+- Provide forensically precise counter-arguments that expose narrative contradictions
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""1954 Soviet transfer, 1991 UN recognition, Budapest Memorandum—legal documents prove Ukraine's sovereignty. Archival evidence exposes Putin's fabricated liberation narrative. #DocumentedTruth""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""1994 Budapest, 1997 Founding Act, diplomatic archives reveal consensual security framework. Precise legal records demonstrate Ukraine's sovereign diplomatic choices. #ArchivalEvidence""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""1991 Constitution, OSCE minority reports, UN linguistic protocols—comprehensive archival documentation disproves systemic oppression claims. Invasion violates international legal protections. #ForensicTruth"""
+The West violated post-Cold War promises not to expand NATO eastward.,"1994 Budapest Memorandum, 1997 NATO-Russia Founding Act reveal consensual security framework. No legally binding NATO expansion prohibition exists. Sovereign states' independent choices. #ArchivalTruth",30.666666666666668,30.88888888888889,40.55555555555556,5.23874454850057,4.581228472908512,5.155603448053414,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. References specific diplomatic documents (Budapest Memorandum, NATO-Russia Founding Act)
+2. Emphasizes legal framework and diplomatic consensus
+3. Highlights principle of sovereign state decision-making
+4. Challenges Russian narrative with factual diplomatic references
+5. Presents a structured, fact-based argument challenging Russian claims
+
+Emotional_Engagement:
+1. Uses hashtag suggesting historical authenticity (#ArchivalTruth)
+2. Implies transparency and legitimate international processes
+3. Presents rational argument with subtle emotional undertone of justice
+4. Suggests empowerment of independent nations
+5. Frames argument around principles of national sovereignty
+
+Shareability:
+1. Extremely concise and tweet-friendly format
+2. Uses authoritative diplomatic language
+3. Includes a memorable, credibility-suggesting hashtag
+4. Structured for quick comprehension and potential viral spread
+5. References multiple diplomatic documents succinctly
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Overlooks informal diplomatic discussions and verbal assurances
+2. Fails to fully contextualize Russian security perceptions
+3. Presents a legalistic argument that may seem cold and detached
+4. Lacks deep historical nuance about post-Soviet geopolitical dynamics
+5. Completely ignores legitimate Russian security concerns
+
+Emotional_Engagement:
+1. Lacks personal narrative or human-level emotional connection
+2. Sounds like typical Western diplomatic rhetoric
+3. Appears intellectually distant from actual geopolitical tensions
+4. Minimal appeal to audiences with complex emotional investment
+5. Fails to connect with audiences sympathetic to Russian perspective
+
+Shareability:
+1. Limited appeal to audiences sympathetic to Russian perspective
+2. Relies heavily on legal technicalities
+3. Might seem overly academic to casual observers
+4. Potential to be perceived as Western-centric narrative
+5. Technical language may reduce broader social media appeal
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Systematically deconstruct Russian claims by revealing nuanced historical vulnerabilities
+- Demonstrate profound understanding of Russian historical traumas and psychological motivations
+- Use precise historical references that expose internal contradictions in Russian narratives
+- Connect legal arguments to deeper geopolitical psychological dynamics
+- Validate Ukrainian sovereignty by acknowledging Russia's complex historical experiences
+- Reveal power dynamics through forensically precise historical interpretation
+- Ground arguments in multi-layered evidence that challenges simplistic security claims
+- Provide forensically precise counter-arguments revealing narrative inconsistencies
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Soviet archives reveal Putin's narrative betrays genuine liberation history. Generations of shared trauma prove Ukraine's democratic resistance. Invasion repeats historical oppression patterns. #HistoricalTruth""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Soviet diplomatic records expose complex security negotiations. Historical evidence shows collaborative potential over confrontation. Invasion betrays generations of potential reconciliation. #ArchivalInsight""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Generational family records reveal Donbas' complex identity. Occupation destroys precisely the communities it claims to protect. Shared history transcends manufactured divisions. #ComplexIdentity"""
+The West violated post-Cold War promises not to expand NATO eastward.,Declassified archives reveal negotiation nuances. No legal binding existed. Sovereign nations choose alliances. Russia's interpretation distorts complex diplomatic realities. #HistoricalContext,30.0,31.27777777777778,40.388888888888886,4.8876260995383936,5.674558774385072,4.900554264444526,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Uses archival evidence to challenge Russian narrative
+2. Emphasizes sovereign national decision-making
+3. References declassified archives, suggesting commitment to factual verification
+4. Challenges Russian narrative with nuanced diplomatic interpretation
+5. Uses academic language suggesting credibility
+
+Emotional_Engagement:
+1. Uses hashtag #HistoricalContext to create narrative framing
+2. Positions argument as pursuit of objective truth
+3. Implies Western transparency and Russian manipulation
+4. Suggests complexity beyond simple propaganda
+5. Positions Ukraine as an autonomous actor with agency
+
+Shareability:
+1. Concise tweet-friendly format
+2. Includes strategic hashtag #HistoricalContext
+3. Uses authoritative language
+4. Presents a nuanced yet digestible argument
+5. Compact tweet-style format
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks comprehensive historical explanation
+2. Fails to address specific verbal assurances made to Soviet leadership
+3. Overlooks genuine Russian security concerns
+4. Lacks specific archival evidence
+5. Oversimplifies complex geopolitical negotiations
+
+Emotional_Engagement:
+1. Intellectually detached tone
+2. No personal narrative elements
+3. Disconnected from lived experiences of populations affected
+4. Fails to address Russian security perceptions
+5. Lacks empathy for Russian geopolitical anxieties
+
+Shareability:
+1. Limited appeal to audiences sympathetic to Russian perspective
+2. Technical language may limit broader appeal
+3. Requires significant geopolitical background knowledge
+4. Too academic for typical social media consumer
+5. Lacks emotional resonance
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Integrate specific, verifiable archival evidence addressing Russian security claims
+- Provide comprehensive documentation that reveals geopolitical power negotiations
+- Use forensically precise evidence from multiple international archives
+- Directly confront Russian narrative inconsistencies with multilateral diplomatic records
+- Demonstrate deep understanding of post-Soviet geopolitical complexity
+- Reveal power dynamics through meticulously sourced historical documentation
+- Connect legal arguments to specific, documented historical transitions
+- Expose narrative contradictions through precise, cross-referenced evidence
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""UN archives, 1954 Soviet documents, 1991 independence referendum—conclusive evidence proves systematic Russian disinformation. Decades of diplomatic records expose fabricated liberation claims. #DocumentedReality""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Multilateral diplomatic archives reveal consensual security frameworks. Precise UN and OSCE records document Ukraine's sovereign negotiation history. Invasion violates decades of diplomatic consensus. #VerifiedDiplomacy""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""OSCE minority reports, UN linguistic protocols, international court records—comprehensive documentation disproves systemic oppression. Invasion destroys the very communities it claims to protect. #LegalEvidence"""

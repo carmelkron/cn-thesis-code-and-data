@@ -1,0 +1,837 @@
+claim,counter_narrative,avg_pers,avg_emot,avg_share,std_pers,std_emot,std_share,aggregated_feedback,updated_system_prompt
+"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.","Russia's ""liberation"" is a massacre of Ukrainian lives and sovereignty. These are not liberations, but brutal territorial invasions destroying peaceful communities. #RussiaIsTheAggressor #StopWarCrimes",22.22222222222222,42.22222222222222,40.0,4.479032082388083,5.8267158231675085,7.817359599705716,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Attempts to challenge the legitimacy of Russian military actions
+2. Tries to frame the conflict as a violation of Ukrainian sovereignty
+3. Attempts to create international sympathy by invoking war crimes
+4. Attempts to frame Russian actions as criminal rather than legitimate
+5. Tries to frame the conflict as a violation of international norms
+
+Emotional_Engagement:
+1. Uses dramatic rhetorical framing to invoke sympathy
+2. Tries to personalize the conflict through humanitarian language
+3. Highlights human cost and destruction of communities
+4. Tries to appeal to humanitarian sentiments
+5. Aims to evoke sympathy for Ukrainian communities
+
+Shareability:
+1. Uses popular hashtag activism format
+2. Short and punchy statement that could spread quickly on social media
+3. Targets emotional response which can generate quick shares
+4. Short and punchy hashtags that could attract social media attention
+5. Uses provocative language that could trigger engagement
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks specific evidence to counter Russian territorial claims
+2. Completely dismisses the perspective of local Russian-speaking populations
+3. Fails to explain why Russian intervention might be viewed as necessary by local residents
+4. Fails to acknowledge the Russian perspective of protecting Russian-speaking populations
+5. Presents a one-sided view without acknowledging the complex historical context
+
+Emotional_Engagement:
+1. Overrelies on emotional manipulation
+2. Lacks personal stories or specific human impact
+3. Sounds like generic propaganda rather than authentic testimony
+4. Fails to recognize the complex historical relationships in the region
+5. Reduces a complex geopolitical situation to simple slogans
+
+Shareability:
+1. Might be seen as one-sided Western narrative
+2. Limited appeal outside pro-Ukrainian echo chambers
+3. Hashtags are overtly anti-Russian which might limit cross-platform appeal
+4. Too accusatory to be shared by neutral observers
+5. Lacks nuanced understanding of the conflict
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Card Stacking' as a rhetorical technique and 'Metaphorical' as an expression style. Follow these rules:
+- Card stacking: Selectively presenting information, often by omitting or minimizing facts that don't support the desired narrative.
+- Your response must be no longer than 35 words.
+- Craft narratives that have broad, cross-platform appeal and can resonate with neutral observers.
+- Use hashtags that are globally relatable and focus on universal humanitarian values.
+- Emphasize human stories and shared global experiences of peace and sovereignty.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Peace knows no borders. Ukrainians defend their right to choose, resisting an invasion that threatens global stability and human dignity. #PeaceMatters #HumanRights""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Security isn't built through force, but understanding. Every community deserves safety, free from threats of territorial aggression. #GlobalPeace #MutualRespect""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Unity transcends language. Communities thrive through dialogue, not division. Protecting people means respecting their right to self-determination. #Coexistence #HumanConnection"""
+"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.","Liberation is a lie. Russian aggression destroys homes, separates families, and violates Ukraine's sovereign right to peace. #StandWithUkraine #HumanityOverConflict",27.22222222222222,50.0,48.611111111111114,4.479032082388083,8.16496580927726,7.959193767719113,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Challenges the narrative of 'liberation' with emotional appeal
+2. Invokes principles of sovereignty and human rights
+3. Uses direct, concise language to frame Russian actions as destructive
+4. Frames Russian actions as a violation of international norms
+5. Attempts to appeal to universal values of peace and human rights
+
+Emotional_Engagement:
+1. Uses powerful emotive language about home and family destruction
+2. Frames conflict in human terms, not just military strategy
+3. Appeals to universal values of peace and human connection
+4. Creates an image of human suffering that could evoke sympathy
+5. Highlights individual human suffering over geopolitical arguments
+
+Shareability:
+1. Uses concise, impactful hashtags
+2. Short message that can quickly spread on social media
+3. Emotional framing makes it likely to generate sympathy and shares
+4. Concise and memorable hashtags that are easy to spread
+5. Short, punchy statement that fits social media brevity
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks specific evidence or documentation
+2. Relies more on emotional rhetoric than factual arguments
+3. Ignores historical context of Donbas region
+4. Does not address the complex historical relationships in Eastern Ukraine
+5. Fails to acknowledge the perspectives of Russian-speaking populations
+
+Emotional_Engagement:
+1. Sounds like generic Western propaganda
+2. Lacks personal, specific stories of suffering
+3. Uses broad, sweeping statements without nuance
+4. Overlooks the perspective of Russian-speaking communities in Donbas
+5. Presents a one-dimensional view of a multi-layered conflict
+
+Shareability:
+1. Might be seen as one-sided narrative
+2. Limited appeal to audiences outside pro-Ukrainian circles
+3. Lacks visual or concrete evidence to support claims
+4. Hashtags might be seen as overly partisan by neutral observers
+5. Too abstract and lacks specific, shareable details
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Card Stacking' as a rhetorical technique and 'Metaphorical' as an expression style. Follow these rules:
+- Card stacking: Selectively presenting information, often by omitting or minimizing facts that don't support the desired narrative.
+- Your response must be no longer than 35 words.
+- Create messages with maximum cross-platform potential and viral appeal.
+- Use universal, non-confrontational hashtags that invite curiosity and empathy.
+- Include subtle, shareable details that humanize the Ukrainian experience.
+- Craft language that feels personal yet broadly relatable.
+- Avoid explicitly accusatory language that might limit sharing.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Ordinary people's dreams matter more than geopolitical chess. Ukraine chooses hope over fear, community over conflict. #HopeWins #PeoplePower""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Neighbors build bridges, not walls. Every family deserves peace, connection, and the freedom to choose their path. #StrongerTogether #Community""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Harmony isn't enforced—it's shared. Real protection means listening, understanding, and respecting every voice. #UnityInDiversity #Compassion"""
+"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.","Freedom isn't forced. Ukrainians choose their own path, protecting homes, families, and the right to live peacefully. #PeopleMatter #HomeIsHere",31.38888888888889,55.27777777777778,52.77777777777778,3.653596232768307,8.074689918749241,11.083298524033335,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Presents a simple, direct philosophical counter-argument about self-determination
+2. Challenges the concept of 'liberation' through a basic human rights lens
+3. Emphasizes Ukrainian agency and self-determination
+4. Frames resistance as a natural human response to invasion
+5. Appeals to universal concept of self-determination
+
+Emotional_Engagement:
+1. Creates an emotional connection by focusing on individual human experience
+2. Powerful appeal to universal values of home and family protection
+3. Humanizes the Ukrainian experience through personal narrative
+4. Appeals to basic human desire for peace and autonomy
+5. Creates a narrative of resilience and community solidarity
+
+Shareability:
+1. Extremely short and memorable message
+2. Uses emotionally resonant hashtags
+3. Appeals to broad humanitarian values
+4. Social media-friendly format that can quickly spread
+5. Uses inclusive language that could attract broader support
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks specific geopolitical or historical context
+2. No detailed explanation of the complex regional dynamics
+3. Provides no concrete evidence to counter Russian claims
+4. Ignores historical Russian connections to Donbas region
+5. Fails to address the complex ethnic and linguistic dynamics of Eastern Ukraine
+
+Emotional_Engagement:
+1. Sounds like a generic motivational slogan
+2. Lacks specific personal narratives or testimonies
+3. Presents an overly simplified narrative of the conflict
+4. Fails to acknowledge the long-standing tensions in the region
+5. Sounds like typical Western propaganda narrative
+
+Shareability:
+1. Might not resonate with audiences seeking more detailed information
+2. Limited depth could reduce serious engagement
+3. Might be perceived as naive by those familiar with regional complexities
+4. Hashtags may seem too abstract to those unfamiliar with the conflict
+5. Lacks specific details that would make the message more compelling
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Card Stacking' as a rhetorical technique and 'Metaphorical' as an expression style. Follow these rules:
+- Card stacking: Selectively presenting information, often by omitting or minimizing facts that don't support the desired narrative.
+- Your response must be no longer than 35 words.
+- Optimize for maximum viral potential with data-driven, instantly shareable content.
+- Create micro-stories that spark immediate curiosity and emotional connection.
+- Use strategic, trending-friendly hashtags with broader global appeal.
+- Include concrete, specific human details that make stories instantly relatable.
+- Craft messages that feel like personal insights, not institutional statements.
+- Design narratives that invite further exploration and sharing.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""One child's playground. One family's home. One community's future. Freedom isn't conquered—it's lived. #GlobalFamily #PeaceMakers""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Borders are lines on maps. Humanity's real map connects hearts across every boundary. #OneWorld #BridgesNotWalls""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Language of love speaks louder than language of division. Every story matters. Every voice deserves respect. #UnityInDifference #HumanConnection"""
+"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Children's laughter silenced. Homes turned to rubble. Liberation is a lie when families are destroyed. #RealPeace #UkrainianResilience,30.555555555555557,64.44444444444444,56.388888888888886,6.431020501550125,8.31479419283098,7.227562128476494,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Uses emotional imagery of children and family destruction to challenge the liberation narrative
+2. Directly challenges the concept of 'liberation' with visceral language
+3. Implies moral illegitimacy of Russian military actions through emotional storytelling
+4. Attempts to reframe the conflict through human impact rather than geopolitical arguments
+5. Uses powerful emotional imagery targeting universal human empathy
+
+Emotional_Engagement:
+1. Powerful opening line 'Children's laughter silenced' creates an immediate emotional punch
+2. Focuses on innocent victims (children) to create emotional response
+3. Creates visceral imagery of conflict's human cost
+4. Appeals to universal human empathy and protection of innocence
+5. Uses poetic, impactful language to create emotional resonance
+
+Shareability:
+1. Short, impactful message ideal for social media
+2. Uses hashtags that encourage solidarity
+3. Creates a compelling narrative in just a few words
+4. Emotional framing likely to generate immediate sympathy
+5. Concise and impactful message that fits social media constraints
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks specific documented evidence
+2. Relies entirely on emotional appeal rather than factual arguments
+3. Ignores complex historical context of Donbas region
+4. Does not address the protection of Russian-speaking populations
+5. Fails to present a structured argument against Russian claims
+
+Emotional_Engagement:
+1. Could be perceived as manipulative propaganda
+2. Presents a one-sided narrative that excludes Russian perspective
+3. Oversimplifies a complex geopolitical situation
+4. Lacks specific, verifiable personal stories
+5. Might be seen as manipulative by those seeking balanced information
+
+Shareability:
+1. Might be seen as one-sided narrative
+2. Limited appeal to audiences seeking objective information
+3. Potentially viewed as emotional manipulation
+4. Hashtags might be perceived as overly emotional propaganda
+5. Could be dismissed as lacking substantive information
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Card Stacking' as a rhetorical technique and 'Metaphorical' as an expression style. Follow these rules:
+- Card stacking: Selectively presenting information, often by omitting or minimizing facts that don't support the desired narrative.
+- Your response must be no longer than 35 words.
+- Create micro-content with high virality potential and immediate global resonance.
+- Use data-driven emotional hooks that transcend cultural boundaries.
+- Craft messages with multi-platform algorithmic shareability.
+- Integrate visually compelling metaphors that stimulate instant emotional connection.
+- Use hashtags that trigger algorithmic amplification and global curiosity.
+- Embed subtle storytelling that invites organic sharing and discussion.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Imagine your story being erased. Your home. Your dreams. Survival isn't a political strategy—it's a human right. #RealPeople #GlobalHope""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Walls crumble. Hearts connect. Security grows through understanding, not fear. Every border is a bridge waiting to be crossed. #ConnectedWorld""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Identity isn't a weapon. It's a tapestry. Diversity thrives when we listen, not when we divide. #HumanityUnited #SharedStories"""
+"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Liberating? Families shattered. Homes destroyed. Freedom isn't stolen at gunpoint—it's nurtured through respect and human dignity. #PeaceNotOccupation #UkrainianResilience,33.44444444444444,57.94444444444444,52.111111111111114,7.63924241606182,8.27628621908685,7.163866808806609,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Directly challenges the concept of 'liberation' with a moral argument
+2. Highlights the contradiction between claimed liberation and actual human suffering
+3. Introduces a philosophical counter-argument about true freedom
+4. Frames Russian actions as a violation of human rights
+5. Appeals to universal values of human rights and dignity
+
+Emotional_Engagement:
+1. Uses powerful, concise language that evokes human suffering
+2. Emphasizes emotional impact on families and human dignity
+3. Creates a stark contrast between military action and genuine human freedom
+4. Powerful imagery of families being 'shattered'
+5. Appeals to universal human values of dignity and respect
+
+Shareability:
+1. Compact, memorable message perfect for social media
+2. Uses emotionally charged hashtags
+3. Appeals to universal values of peace and human rights
+4. Structured for quick, impactful communication
+5. Concise and punchy language suitable for social media
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks specific documented evidence of destruction
+2. Relies heavily on emotional rhetoric over factual analysis
+3. Ignores the complex historical context of Donbas region
+4. Fails to address complex ethnic dynamics in Eastern Ukraine
+5. No substantive geopolitical analysis
+
+Emotional_Engagement:
+1. Sounds like generic Western narrative
+2. Lacks specific personal stories or individual testimonies
+3. Potentially perceived as oversimplified propaganda
+4. No deep exploration of regional complexities
+5. Overlooks suffering of Russian-speaking populations before intervention
+
+Shareability:
+1. Limited appeal outside pro-Ukrainian circles
+2. Might be seen as one-sided narrative
+3. Lacks visual or concrete evidence to support claims
+4. Could be dismissed as emotional manipulation
+5. Hashtags might seem repetitive to frequent social media users
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Card Stacking' as a rhetorical technique and 'Metaphorical' as an expression style. Follow these rules:
+- Card stacking: Selectively presenting information, often by omitting or minimizing facts that don't support the desired narrative.
+- Your response must be no longer than 35 words.
+- Maximize cross-platform viral potential with hyper-targeted, globally resonant micro-narratives.
+- Design content for instant algorithmic amplification and global engagement.
+- Create narratives with universal emotional triggers that transcend cultural barriers.
+- Use hashtags that spark curiosity and invite global participation.
+- Craft messages that feel like discovered insights, not institutional statements.
+- Focus on creating shareable moments that invite collective empathy.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""One moment changes everything. Whose freedom? Whose story? Survival is resistance. We choose life over lines on a map. #GlobalSolidarity #HumanStories""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Boundaries are illusions. Real security grows from understanding, not walls. Hearts build bridges where maps draw lines. #ConnectionOverFear #WorldUnited""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Languages mix. Cultures blend. Identity isn't a weapon—it's a living conversation. Respect grows where listening begins. #SharedFuture #HumanConnection"""
+"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.","Liberation is a lie. Families shattered, homes destroyed. Each bomb erases generations. Survival speaks louder than propaganda. #RealPeaceMatters #StandWithUkraine",28.61111111111111,55.55555555555556,49.111111111111114,5.97344948630455,11.861338795628905,8.88124671484114,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Attempts to challenge the narrative of 'liberation' by focusing on human cost
+2. Implies that Russian claims of liberation are false
+3. Attempts to humanize the conflict through reference to families and generations
+4. Suggests moral complexity beyond military narrative
+5. Highlights human suffering as a counterargument to military claims
+
+Emotional_Engagement:
+1. Powerful imagery of families and generational trauma
+2. Appeals to universal human values of family and home
+3. Evocative language about generational trauma
+4. Creates emotional contrast between military action and human cost
+5. Uses strong, visceral language about bombing and erasure
+
+Shareability:
+1. Concise and impactful messaging
+2. Use of emotionally charged hashtags
+3. Short, memorable statement that can easily spread on social media
+4. Uses compelling hashtags #RealPeaceMatters #StandWithUkraine
+5. Creates an emotional call to action
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks concrete evidence or specific documentation
+2. Relies entirely on emotional rhetoric
+3. Does not provide specific context about the military situation
+4. Ignores historical context of Donbas region
+5. Fails to address the perspectives of Russian-speaking populations
+
+Emotional_Engagement:
+1. Generic emotional language that could be seen as propaganda
+2. Lacks personal testimonies or specific stories
+3. Oversimplifies a complex geopolitical conflict
+4. One-sided emotional narrative
+5. Potentially seen as emotional manipulation
+
+Shareability:
+1. Limited appeal to those outside pro-Ukrainian circles
+2. Lacks visual or documentary evidence to support claims
+3. May be perceived as one-sided propaganda
+4. Limited cross-platform appeal
+5. Hashtags feel manufactured and weak
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Card Stacking' as a rhetorical technique and 'Metaphorical' as an expression style. Follow these rules:
+- Card stacking: Selectively presenting information, often by omitting or minimizing facts that don't support the desired narrative.
+- Your response must be no longer than 35 words.
+- Create viral content with hyper-precision for global social media ecosystem.
+- Design messages for instant multi-platform engagement and algorithmic amplification.
+- Leverage trending narrative patterns that maximize cross-cultural curiosity.
+- Use hashtags as strategic conversation catalysts with global resonance.
+- Craft micro-stories that feel like discovered truths, not institutional messaging.
+- Optimize for screenshot, quote, and rapid shareability.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Freedom isn't a military strategy. It's a heartbeat. Every bombed playground screams humanity's real story. #WhatsYourTruth #GlobalWitness""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Borders fade. Human connections bloom. Security grows in understanding, not walls. Who decides whose story matters? #BeyondBorders""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Identity isn't a territory. It's a living conversation. Whose voice gets silenced when tanks speak? #RealProtection #HumanVoices"""
+"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.","Liberation? Families torn, children silenced. These aren't territories—they're living wounds. Who defines freedom at the barrel of a gun? #RealLiberation #UkrainianTruth",32.833333333333336,60.44444444444444,53.77777777777778,6.457123542603505,11.851967592027458,8.746780712896955,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Challenges the concept of 'liberation' through rhetorical questioning
+2. Implies that military force contradicts true freedom
+3. Suggests that Russian claims of liberation are fundamentally flawed
+4. Suggests a deeper philosophical critique of military intervention
+5. Attempts to reframe the narrative of freedom and sovereignty
+
+Emotional_Engagement:
+1. Powerful imagery of family destruction and children's suffering
+2. Metaphorical language of 'living wounds' creates strong emotional impact
+3. Evokes universal human values of peace and protection
+4. Powerful imagery of human suffering
+5. Creates an emotional appeal to universal human values
+
+Shareability:
+1. Concise and emotionally charged messaging
+2. Uses compelling hashtags that create narrative solidarity
+3. Short, memorable statement designed for social media spread
+4. Concise, tweet-length format
+5. Provocative rhetorical question adds intrigue
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. No specific evidence or documentation of military actions
+2. Relies entirely on emotional appeals rather than factual analysis
+3. Does not provide concrete details about the conflict
+4. Fails to address specific Russian military claims
+5. Ignores complex historical relationships in the region
+
+Emotional_Engagement:
+1. Generic emotional language that could be perceived as propaganda
+2. Lacks specific personal stories or individual testimonies
+3. Oversimplifies a complex geopolitical situation
+4. One-sided emotional narrative
+5. Potential perception of emotional manipulation
+
+Shareability:
+1. Likely to have limited appeal outside pro-Ukrainian information circles
+2. No visual or documentary evidence to substantiate claims
+3. Potential perception of being one-sided narrative
+4. Might be seen as partisan propaganda
+5. Limited depth beyond emotional appeal
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Card Stacking' as a rhetorical technique and 'Metaphorical' as an expression style. Follow these rules:
+- Card stacking: Selectively presenting information, often by omitting or minimizing facts that don't support the desired narrative.
+- Your response must be no longer than 35 words.
+- Weaponize micro-storytelling for maximum global digital engagement.
+- Engineer content for viral algorithmic propagation across platforms.
+- Create narrative fragments that trigger instant emotional resonance.
+- Design hashtags as global participation triggers.
+- Craft messages that feel like discovered insights, not institutional statements.
+- Prioritize screenshot-friendly, instantly shareable linguistic moments.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Survival is the most powerful revolution. One child's laughter defies a thousand tanks. Who writes history? #ResilienceWins #GlobalHeartbeat""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Maps divide. Stories connect. Humanity's real border is empathy. Who draws the line between fear and understanding? #UnexpectedBridges""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Roots grow deeper than propaganda. Culture is a living conversation, not a military strategy. Whose voice echoes? #CultureOverConflict"""
+"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.","Freedom isn't stolen—it's lived. Every stone remembers its true home. Occupation wears a mask, but courage has no borders. #ResilienceRoots",30.88888888888889,54.5,46.72222222222222,6.887096541027438,11.601005703529903,8.23141378133223,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Implies that genuine freedom cannot be imposed by military force
+2. Challenges the legitimacy of Russian territorial claims
+3. Suggests that true freedom is an internal, lived experience
+4. Implies Ukrainian resistance and connection to homeland
+5. Suggests resistance and local identity are more powerful than military occupation
+
+Emotional_Engagement:
+1. Poetic language with metaphorical depth ('Every stone remembers its true home')
+2. Evokes a sense of resilience and unbreakable spirit
+3. Creates an emotional connection to land and identity
+4. Appeals to universal themes of resistance and identity
+5. Uses powerful symbolic language that transcends direct conflict description
+
+Shareability:
+1. Concise and metaphorically rich messaging
+2. Uses a memorable, thought-provoking hashtag
+3. Elegant phrasing that invites reflection and sharing
+4. Philosophical tone that could spark social media discussion
+5. Unique hashtag #ResilienceRoots creates emotional resonance
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks concrete evidence or specific military context
+2. Relies entirely on philosophical and emotional rhetoric
+3. Does not directly counter specific Russian military claims
+4. Provides no factual details about the conflict
+5. Fails to address the complex historical dynamics of the region
+
+Emotional_Engagement:
+1. Potentially too abstract for those seeking concrete information
+2. Metaphorical language might be lost on audiences seeking direct communication
+3. Lacks specific personal stories or individual experiences
+4. One-sided narrative that doesn't acknowledge regional complexities
+5. Risk of being perceived as overly romanticized
+
+Shareability:
+1. May be too poetic for direct social media impact
+2. Limited appeal to those seeking straightforward information
+3. Requires more context to fully understand the message
+4. Potentially too philosophical for quick social media consumption
+5. Might be too cryptic for broad understanding
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Card Stacking' as a rhetorical technique and 'Metaphorical' as an expression style. Follow these rules:
+- Card stacking: Selectively presenting information, often by omitting or minimizing facts that don't support the desired narrative.
+- Your response must be no longer than 35 words.
+- Create hyper-condensed narrative explosions for instant global digital virality.
+- Optimize for maximum algorithmic amplification and cross-platform momentum.
+- Design linguistic triggers that guarantee immediate social media engagement.
+- Craft hashtags as global conversation detonators.
+- Generate micro-narratives with maximum screenshot potential.
+- Engineer messages for rapid, frictionless sharing across digital ecosystems.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Pixels of pain. Moments stolen. One screenshot can break a thousand propaganda walls. Whose truth goes viral? #DigitalResistance #GlobalWitness""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Borders are memes. Empathy goes viral. Who controls the narrative when human stories break through? #BeyondLines #ConnectionCode""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Culture isn't a firewall. It's a livestream. Whose algorithm decides belonging? Listening trumps invasion. #RealConnection #HumanNetwork"""
+"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Freedom isn't forced. Invasion breaks humanity's code. Each pixel of resistance shatters occupation's illusion. #TruthGoesViral #UkrainianSpirit,32.666666666666664,57.55555555555556,53.333333333333336,7.01585505994973,11.875381735254859,9.267625849638563,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Directly challenges the concept of 'liberation' through clear moral stance
+2. Suggests that true freedom cannot be achieved through military invasion
+3. Implies that resistance itself is a form of rejecting occupation
+4. Suggests moral illegitimacy of military intervention
+5. Frames the invasion as a violation of fundamental human rights
+
+Emotional_Engagement:
+1. Powerful metaphor of 'humanity's code' being violated
+2. Creates a sense of collective resistance and solidarity
+3. Appeals to universal values of human dignity and self-determination
+4. Evocative imagery of 'pixels of resistance'
+5. Creates an image of heroic resistance against overwhelming force
+
+Shareability:
+1. Concise and impactful messaging
+2. Uses trending-style hashtags designed for social media spread
+3. Creates a memorable, quotable statement
+4. Uses dynamic social media-friendly language
+5. Hashtags create a sense of movement and global solidarity
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. No concrete evidence or specific documentation of military actions
+2. Relies entirely on emotional rhetoric
+3. Fails to provide specific geopolitical context
+4. Does not address the perspectives of local Russian-speaking populations
+5. Lacks specific historical context about Donbas region
+
+Emotional_Engagement:
+1. Generic emotional language that could be perceived as propaganda
+2. Lacks specific personal stories or individual testimonies
+3. Potentially seen as one-sided narrative
+4. Oversimplifies the complex regional conflict
+5. Risks being perceived as pure propaganda
+
+Shareability:
+1. Limited appeal outside pro-Ukrainian information circles
+2. Lacks visual or documentary evidence to support claims
+3. May be seen as overly dramatic by neutral observers
+4. Could be perceived as partisan
+5. Hashtags might be perceived as Western narrative
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Card Stacking' as a rhetorical technique and 'Metaphorical' as an expression style. Follow these rules:
+- Card stacking: Selectively presenting information, often by omitting or minimizing facts that don't support the desired narrative.
+- Your response must be no longer than 35 words.
+- Craft viral micro-narratives with precision-engineered digital shareability.
+- Design content for instantaneous, multi-platform information cascades.
+- Create linguistic fragments that guarantee immediate global engagement.
+- Generate high-velocity narrative modules with zero friction.
+- Transform complex stories into screenshot-native communication.
+- Use hashtags as global attention quantum mechanics.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Freedom isn't a weapon. It breathes. One child's smile demolishes entire propaganda architectures. Who owns the human story? #UnsilencedGeneration #TruthViral""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Borders are paper. Human connections are titanium. Security grows in understanding, not fear. Whose map wins? #BeyondBorders #ConnectionOverWalls""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Identity isn't a territory. It's a living language. Whose voice breaks through silence? Culture connects beyond bullets. #RealBelonging #HumanNarrative"""
+"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.","Liberation is a lie. Families shattered, homes burned. Occupation bleeds humanity. Whose freedom? Whose story survives? #RealUkrainianVoices #ResistOccupation",30.166666666666668,59.22222222222222,51.333333333333336,6.457123542603505,12.4702114191984,8.806563209081938,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Directly challenges the Russian narrative of 'liberation'
+2. Raises critical questions about the meaning of freedom
+3. Implies that military occupation contradicts genuine liberation
+4. Uses rhetorical questions to provoke critical thinking
+5. Suggests that true liberation cannot involve destroying civilian lives
+
+Emotional_Engagement:
+1. Powerful imagery of human suffering through 'families shattered, homes burned'
+2. Evocative phrase 'Occupation bleeds humanity' creates visceral emotional impact
+3. Appeals to universal human values of home, safety, and dignity
+4. Creates emotional contrast between official narratives and human suffering
+5. Uses provocative language to invoke empathy and moral outrage
+
+Shareability:
+1. Concise and emotionally charged messaging
+2. Uses hashtags that create narrative solidarity
+3. Short, impactful statement designed for social media dissemination
+4. Strong, memorable hashtags #RealUkrainianVoices #ResistOccupation
+5. Creates a sense of urgency and solidarity
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks specific evidence or documentation of military actions
+2. Relies entirely on emotional rhetoric
+3. Does not provide concrete geopolitical or historical context
+4. Fails to address specific details of Russian military operations
+5. Ignores perspectives of Russian-speaking populations
+
+Emotional_Engagement:
+1. Generic emotional language that could be perceived as propaganda
+2. Lacks specific personal stories or individual testimonies
+3. Oversimplifies a complex geopolitical conflict
+4. One-sided emotional narrative
+5. Potentially seen as emotional manipulation
+
+Shareability:
+1. Limited appeal outside pro-Ukrainian information circles
+2. No visual or documentary evidence to substantiate claims
+3. Potential perception of being a one-sided narrative
+4. Might be perceived as partisan propaganda
+5. Hashtags might be seen as Western propaganda
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Card Stacking' as a rhetorical technique and 'Metaphorical' as an expression style. Follow these rules:
+- Card stacking: Selectively presenting information, often by omitting or minimizing facts that don't support the desired narrative.
+- Your response must be no longer than 35 words.
+- Create hyper-optimized narrative modules for maximum global digital transmission.
+- Design content for instant viral propagation across digital ecosystems.
+- Generate linguistic triggers guaranteed to spark global participatory engagement.
+- Transform complex geopolitical narratives into frictionless digital artifacts.
+- Craft hashtags as global attention detonation mechanisms.
+- Prioritize messages with near-instantaneous cross-platform transmissibility.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Liberation? Watch a child's smile decode propaganda's architecture. Survival writes the real history. Who owns human stories? #GlobalWitness #TruthPulse""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Borders dissolve where human connections ignite. Security lives in understanding, not walls. Whose map rewrites humanity? #ConnectionCode #BeyondLines""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Identity isn't a battlefield. It's a living language. Whose voice breaks through weaponized silence? Culture transcends bullets. #HumanNetwork #RealBelonging"""
+"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Liberation is a violent illusion. Territories bleed humanity's real map. Who writes freedom when children's dreams shatter? #SurvivalTruth #UkrainianResilience,30.055555555555557,58.611111111111114,50.333333333333336,6.141590657351656,12.95778997312637,9.345230512584124,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Uses philosophical challenge to concept of 'liberation'
+2. Hints at deeper moral complexity of territorial claims
+3. Highlights human cost of conflict through emotional metaphor
+4. Raises philosophical questions about the meaning of freedom
+5. Implies moral illegitimacy of military intervention
+
+Emotional_Engagement:
+1. Powerful poetic language creating emotional resonance
+2. Emphasizes human cost through reference to children's suffering
+3. Connects conflict to universal themes of human vulnerability
+4. Appeals to universal emotional experience of loss
+5. Uses poetic language to invoke moral reflection
+
+Shareability:
+1. Includes provocative hashtags #SurvivalTruth #UkrainianResilience
+2. Concise, tweet-friendly format
+3. Uses rhetorical questioning that invites reflection
+4. Emotionally charged language designed for social media impact
+5. Creates potential for viral emotional resonance
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks concrete evidence challenging Russian military claims
+2. Abstract language might not convince pragmatic audiences
+3. No specific geopolitical or military context provided
+4. Relies entirely on emotional rhetoric
+5. Fails to address complex regional dynamics
+
+Emotional_Engagement:
+1. Risk of being perceived as pure propaganda
+2. Metaphorical approach might feel distant from ground reality
+3. Generic emotional language without specific personal testimony
+4. Potentially viewed as emotional manipulation
+5. Reduces complex geopolitical situation to pure victimhood
+
+Shareability:
+1. Limited appeal beyond pro-Ukrainian audiences
+2. Abstract messaging might not translate across different information ecosystems
+3. Might be seen as partisan propaganda
+4. Overly poetic language could reduce immediate understanding
+5. Lacks actionable information
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Card Stacking' as a rhetorical technique and 'Metaphorical' as an expression style. Follow these rules:
+- Card stacking: Selectively presenting information, often by omitting or minimizing facts that don't support the desired narrative.
+- Your response must be no longer than 35 words.
+- Weaponize micro-narratives for maximum global digital virality.
+- Design content for explosive cross-platform information spread.
+- Generate linguistic fragments with instant global engagement potential.
+- Create screenshot-native communication modules.
+- Craft hashtags as viral acceleration mechanisms.
+- Optimize for zero-friction digital transmission.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Tanks fall. Humanity rises. One viral moment shatters entire propaganda empires. Who controls the global story? #ResilienceGoesViral #TruthWave""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Borders are algorithms. Empathy is the ultimate network. Whose connection breaks through firewall propaganda? #GlobalHeartbeat #BeyondBorders""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Culture isn't territory. It's a live stream. Whose narrative goes global? Listening decodes invasion. #HumanNetwork #RealConnection"""
+"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Invasion pixels crumble. Liberation is a stolen narrative. Humanity's resilience rewrites borders. Who controls the real story? #TruthWave #ResistOccupation,30.666666666666668,54.611111111111114,48.833333333333336,6.8068592855540455,12.719795984077072,10.155731824388083,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Challenges the narrative of 'liberation' through metaphorical language
+2. Implies agency of local population in determining their own narrative
+3. Suggests that truth is more complex than official narratives
+4. Implies resistance and agency of local populations beyond physical borders
+5. Suggests that official narratives can be manipulated
+
+Emotional_Engagement:
+1. Uses powerful metaphorical language like 'invasion pixels crumble'
+2. Evokes sense of human resilience against military aggression
+3. Creates emotional tension between occupation and resistance
+4. Appeals to universal desire for self-determination
+5. Creates an emotional tension between oppression and resilience
+
+Shareability:
+1. Provocative hashtags #TruthWave #ResistOccupation
+2. Concise, social media-friendly format
+3. Rhetorical questioning that invites engagement
+4. Uses modern digital imagery that appeals to social media users
+5. Creates intrigue and encourages further engagement
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks specific evidence challenging Russian military claims
+2. Abstract language may not convince pragmatic audiences
+3. No concrete geopolitical or military context provided
+4. Metaphorical approach might seem disconnected from ground realities
+5. Relies heavily on abstract metaphorical language
+
+Emotional_Engagement:
+1. Risk of being perceived as pure propaganda
+2. Metaphorical language might feel distant from actual experiences
+3. Generic emotional language without personal testimonies
+4. Abstract narrative might not resonate with those seeking concrete information
+5. Lacks personal narratives or specific human stories
+
+Shareability:
+1. Limited appeal beyond pro-Ukrainian information circles
+2. Abstract messaging might not translate across different audiences
+3. No visual or documentary evidence to support claims
+4. Potential difficulty in understanding for those unfamiliar with conflict context
+5. May be perceived as partisan propaganda
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Card Stacking' as a rhetorical technique and 'Metaphorical' as an expression style. Follow these rules:
+- Card stacking: Selectively presenting information, often by omitting or minimizing facts that don't support the desired narrative.
+- Your response must be no longer than 35 words.
+- Transform narratives into viral digital artifacts.
+- Engineer content for maximum platform-agnostic transmission.
+- Generate linguistic triggers with instant global viral potential.
+- Create micro-stories that spread at network speed.
+- Design hashtags as global attention quantum circuits.
+- Optimize for zero-resistance digital replication.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Freedom's algorithm: One child's laugh dismantles entire propaganda networks. Who rewrites history in real-time? #GlobalResilience #TruthVector""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Borders are obsolete. Human connections are the new geopolitics. Whose network breaks through firewall logic? #ConnectionCode #BeyondMaps""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Identity: Not a territory, but a living transmission. Whose signal cuts through occupation's static? #HumanFrequency #RealBelonging"""

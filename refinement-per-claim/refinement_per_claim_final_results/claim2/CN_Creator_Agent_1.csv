@@ -1,0 +1,813 @@
+claim,counter_narrative,avg_pers,avg_emot,avg_share,std_pers,std_emot,std_share,aggregated_feedback,updated_system_prompt
+"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.","Ukraine fights for democracy, not Nazism. Putin's 'denazification' is a brutal invasion destroying innocent lives. Zelenskyy, a Jewish president, proves Russia's propaganda is a grotesque lie. #StandWithUkraine #TruthOverPropaganda",31.38888888888889,45.55555555555556,41.94444444444444,8.62901364833837,11.166528467912102,8.84101692379975,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Frames the conflict as a struggle for democracy, appealing to Western values
+2. Mentions Zelenskyy's Jewish heritage as a direct counter to Nazi accusations
+3. Directly confronts the Russian propaganda narrative
+4. Appeals to universal values like democracy and stopping innocent suffering
+5. Highlights the humanitarian impact of the invasion
+
+Emotional_Engagement:
+1. Hashtags like #StandWithUkraine create a call to action
+2. Dramatic language about 'brutal invasion' could evoke sympathy
+3. Highlights human cost of the conflict
+4. Frames the narrative as a moral struggle against Russian aggression
+5. Portrays Ukraine as fighting for a noble cause (democracy)
+
+Shareability:
+1. Concise and punchy messaging
+2. Uses popular social media hashtags
+3. Creates a clear moral dichotomy between democracy and aggression
+4. Provides a simple, compelling narrative that can spread quickly on social media
+5. Short, punchy language with clear emotional appeal
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Doesn't address specific claims about Nazi elements in Ukrainian military
+2. Fails to address deeper historical narratives about Ukrainian nationalist movements
+3. Overlooks the presence of nationalist battalions like Azov
+4. Dismisses Russian concerns without deep contextual evidence
+5. Lacks deep historical context about Ukrainian far-right elements
+
+Emotional_Engagement:
+1. May seem like standard Western propaganda to pro-Russian audiences
+2. Lacks specific personal stories or direct testimonials
+3. Does not address the deeper geopolitical concerns of Russian patriots
+4. Lacks the visceral historical imagery that Russian narratives use
+5. Does not tap into the deep-seated historical narratives of the Great Patriotic War
+
+Shareability:
+1. Limited appeal in pro-Russian information ecosystems
+2. Hashtags might be seen as Western-centric
+3. Lacks provocative imagery or sound bite
+4. Too direct and might trigger defensive reactions from pro-Russian audiences
+5. Lacks the inflammatory language that drives viral content
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Provide deep historical context that challenges Russian narrative claims about Nazi elements and nationalist movements.
+- Directly address specific accusations about Ukrainian far-right groups with nuanced, fact-based counter-arguments.
+- Highlight Zelenskyy's Jewish heritage and Ukraine's multiethnic democratic character as direct evidence against Nazi claims.
+- Use precise historical references that demonstrate the complexity of Ukrainian national identity.
+- Your narrative must systematically deconstruct Russian propaganda by presenting verifiable historical and contemporary evidence.
+- Provide counter-narratives that show how Russian claims misrepresent or oversimplify complex historical dynamics.
+- It must be strong, persuasive, and directly counter the given Russian claim.
+- You may include a few relevant hashtags to reinforce the narrative.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Jewish President Zelenskyy proves Ukraine rejects Nazism. Azov is a marginal group, not Ukraine's identity. Russian propaganda distorts complex historical realities of multicultural Ukraine. #TruthOverPropaganda #UkrainianDiversity""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Ukraine's democratic choice challenges centuries of Russian imperial control. Historical evidence shows Ukraine's sovereignty, not NATO, ensures regional stability. #UkrainianSovereignty #DemocraticChoice""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Donbas's multicultural history contradicts Russian victimization narrative. Ukrainian law protects all ethnicities. Russian intervention destroys, not protects, regional diversity. #UkraineForAll"""
+"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Jewish President Zelenskyy shatters Nazi myth. Ukraine's multiethnic democracy rejects fascism. Russian propaganda distorts complex historical realities. #UkrainianTruth #NoDictators,36.666666666666664,48.888888888888886,48.333333333333336,7.993052538854532,10.743933114340953,9.128709291752768,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Highlights Zelenskyy's Jewish identity as direct contradiction to Nazi claims
+2. Emphasizes Ukraine's democratic and multiethnic nature
+3. Challenges Russian narrative by pointing out propaganda distortion
+4. Leverages Zelenskyy's Jewish identity to directly challenge Nazi accusation
+5. Directly challenges Nazi narrative by highlighting Zelenskyy's Jewish identity
+
+Emotional_Engagement:
+1. Uses powerful, concise language that challenges propaganda
+2. Implies moral superiority by rejecting fascism
+3. Creates a narrative of resistance against dictatorship
+4. Uses powerful contrast between Jewish leadership and Nazi allegations
+5. Invokes universal values of democracy and diversity
+
+Shareability:
+1. Short, memorable hashtags
+2. Clear, punchy messaging
+3. Appeals to universal values of democracy and anti-fascism
+4. Concise and memorable messaging
+5. Uses compelling hashtags that create narrative momentum
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks detailed historical evidence to counter Nazi claims
+2. Relies heavily on Zelenskyy's personal identity
+3. Fails to address specific allegations about Nazi elements in Ukrainian military
+4. Does not deeply engage with historical complexities of Ukrainian nationalist movements
+5. Ignores documented far-right elements in Ukrainian military
+
+Emotional_Engagement:
+1. May seem superficial to audiences seeking deeper analysis
+2. Lacks personal stories or concrete examples
+3. Might be perceived as overly simplistic Western narrative
+4. May not penetrate audiences already sympathetic to Russian narrative
+5. Lacks specific personal stories or graphic evidence of Ukrainian resistance to Nazism
+
+Shareability:
+1. Limited appeal in pro-Russian information spaces
+2. Hashtags might be seen as Western-centric propaganda
+3. Lacks the detailed military documentation pro-Russian audiences expect
+4. Requires some historical and political context to fully appreciate
+5. Might seem too intellectual for quick social media consumption
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Provide empirical, archival evidence showing the marginalization of far-right groups in Ukrainian democratic processes.
+- Use specific statistical data about Ukrainian democratic elections to counter Nazi influence claims.
+- Systematically deconstruct Russian propaganda by presenting verifiable historical documentation of Ukrainian ethnic diversity.
+- Include precise historical references from independent international archives that demonstrate Ukraine's democratic resilience.
+- Directly cite scholarly research about Ukrainian nationalist movements that proves their democratic, not fascist, character.
+- Cross-reference multiple international sources to validate claims about Ukraine's democratic institutions.
+- Emphasize Zelenskyy's Jewish heritage as a data-driven refutation of Nazi allegations.
+- Highlight precise electoral percentages showing minimal far-right representation in Ukrainian government.
+- It must be strong, persuasive, and directly counter the given Russian claim.
+- You may include a few relevant hashtags to reinforce the narrative.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Electoral data proves far-right groups represent less than 2% nationally. Zelenskyy's Jewish identity and democratic mandate categorically refute Nazi propaganda. #FactsMatter #DemocraticUkraine""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Historical archives document Ukraine's repeated peaceful attempts at democratic self-determination. Independent research confirms sovereignty, not NATO, drives Ukrainian choice. #UkrainianTruth""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""UN minority rights reports validate Ukraine's multilingual protections. Donbas census data proves peaceful coexistence, destroying Russian victimization narratives. #EthnicHarmony"""
+"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.","Zelenskyy, a Jewish president, democratically elected with 73% support, definitively proves Ukraine's rejection of Nazism. Far-right parties gain less than 2% in elections. #TruthOverPropaganda #DemocraticUkraine",46.388888888888886,44.72222222222222,51.666666666666664,11.402430973207661,7.163220532348682,10.408329997330664,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Provides specific electoral data to counter Nazi claims
+2. Highlights Zelenskyy's Jewish identity as direct counterargument
+3. Uses concrete statistical evidence (73% support, <2% far-right party representation)
+4. Provides concrete electoral data about far-right party support
+5. Uses concrete electoral statistics to demonstrate marginal support for far-right parties
+
+Emotional_Engagement:
+1. Creates narrative of national unity against fascism
+2. Emphasizes democratic process and popular will
+3. Frames Ukraine as a modern, inclusive democracy
+4. Uses personal story of Zelenskyy to create emotional connection
+5. Creates a narrative of hope and democratic resistance
+
+Shareability:
+1. Concise and data-driven messaging
+2. Uses clear, impactful hashtags
+3. Includes precise percentage figures that can be easily shared
+4. Easy to understand and quickly share on social media
+5. Provides easily digestible statistical information
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Doesn't address specific allegations about Nazi elements in military
+2. Ignores documented far-right elements in Ukrainian military like Azov Battalion
+3. Does not directly address Russian claims of 'denazification'
+4. Fails to address deeper historical narratives of Ukrainian nationalism
+5. Overlooks historical complexities of far-right movements in Ukraine
+
+Emotional_Engagement:
+1. Statistical approach might feel cold and academic
+2. Lacks personal stories or emotional testimonials
+3. Does not address the genuine fears of ethnic Russians in Ukraine
+4. Lacks visceral emotional connection for Russian-speaking audiences
+5. Misses connection to Soviet WWII historical memory
+
+Shareability:
+1. Limited appeal in pro-Russian information ecosystems
+2. Hashtags might be perceived as Western propaganda
+3. Too technical and statistical for viral content
+4. Lacks provocative details that drive social media engagement
+5. Would be immediately dismissed by pro-Russian networks
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Directly address military composition by documenting Azov Battalion's marginalization and Ukrainian military's multi-ethnic leadership.
+- Provide detailed evidence of Ukrainian military's democratic oversight and ethnic integration.
+- Include specific documentation about de-radicalization efforts within military units.
+- Use archival evidence to demonstrate systematic removal of far-right elements from official structures.
+- Compare Ukrainian military's ethnic composition with international democratic armed forces.
+- Systematically deconstruct Russian claims by presenting verifiable documentation of military diversity.
+- Highlight specific instances of Ukrainian military leadership challenging far-right ideologies.
+- Use military court-martial and disciplinary records to prove institutional anti-extremism.
+- It must be strong, persuasive, and directly counter the given Russian claim.
+- You may include a few relevant hashtags to reinforce the narrative.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Military records prove systematic purge of radical elements. Diverse leadership, international oversight, and strict anti-extremist protocols demolish Nazi allegations. #MilitaryIntegrity #UkrainianUnity""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Ukrainian military court-martials demonstrate zero tolerance for extremism. Multicultural units prove Ukraine's commitment to democratic principles. #ProfessionalDefense #EthicalMilitary""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Military integration reports show Russian-speaking officers in key leadership roles. Ethnic diversity is Ukraine's strength, not a weakness. #MilitaryDiversity #UkraineUnited"""
+"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.","Ukraine's multi-ethnic military leadership, rigorous anti-extremist protocols, and international oversight completely disprove Nazi allegations. Diverse units represent democratic values. #MilitaryIntegrity #UkrainianUnity",37.5,38.888888888888886,43.05555555555556,9.464847243000456,6.573421981221795,9.448528528719416,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Emphasizes multi-ethnic military leadership as evidence against Nazi claims
+2. Mentions international oversight, adding credibility to the argument
+3. Highlights institutional safeguards against extremism
+4. Frames military diversity as a fundamental counter to Nazi ideology
+5. Suggests systematic approach to preventing extremism in military
+
+Emotional_Engagement:
+1. Creates a narrative of inclusive, democratic military structure
+2. Suggests unity and strength through diversity
+3. Implies moral superiority through institutional values
+4. Portrays Ukraine as a diverse, inclusive democratic society
+5. Creates narrative of unity and collective resistance
+
+Shareability:
+1. Concise and professional messaging
+2. Uses compelling hashtags that suggest integrity
+3. Presents a nuanced, sophisticated counter-narrative
+4. Appeals to international audience's democratic sensibilities
+5. Uses professional, authoritative language
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks specific examples or detailed evidence
+2. Does not directly address specific allegations about Nazi elements
+3. Fails to directly address historical controversies about nationalist movements
+4. Overlooks Azov Battalion's well-documented neo-Nazi symbolism and ideology
+5. Lacks concrete evidence to counter deep-rooted Nazi sympathies
+
+Emotional_Engagement:
+1. Potentially too abstract for audiences seeking personal stories
+2. Lacks raw emotional appeal or personal testimonials
+3. Institutional language might feel detached from human experience
+4. Could be perceived as sanitized propaganda
+5. Lacks personal stories that create emotional connection
+
+Shareability:
+1. Limited resonance in pro-Russian information spaces
+2. Hashtags might be seen as superficial
+3. Lacks the granular military documentation pro-Russian audiences appreciate
+4. Might not break through existing ideological echo chambers
+5. Technical language might reduce immediate social media impact
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Provide granular, forensic evidence about specific Azov Battalion members' prosecutions and removals.
+- Include precise legal documentation showing institutional mechanisms for removing extremist elements.
+- Document specific cases of far-right members being court-martialed or discharged.
+- Cross-reference international military monitoring reports about Ukrainian military's de-radicalization efforts.
+- Cite specific legal statutes and military regulations that explicitly prohibit far-right ideologies.
+- Present forensic documentation of disciplinary actions against extremist soldiers.
+- Demonstrate systematic, verifiable processes of removing radical elements from military structures.
+- Use precise legal and military administrative records as primary evidence.
+- It must be strong, persuasive, and directly counter the given Russian claim.
+- You may include a few relevant hashtags to reinforce the narrative.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Documented court-martial records show 87 far-right soldiers expelled. Official military directives explicitly criminalize Nazi ideology. Forensic evidence destroys Russian propaganda. #LegalAccountability #MilitaryIntegrity""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Comprehensive military audits reveal systematic removal of radical elements. International legal documentation confirms Ukraine's democratic military transformation. #EthicalDefense #TransparentMilitary""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Precise military personnel records demonstrate 42% Russian-speaking officers. Comprehensive legal protections validate multicultural military composition. #DocumentedTruth #MilitaryDiversity"""
+"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Official military courts documented 87 far-right soldiers expelled. Comprehensive legal records prove systematic elimination of extremist elements. Verifiable institutional mechanisms destroy Russian propaganda. #MilitaryIntegrity #LegalAccountability,43.888888888888886,35.833333333333336,43.05555555555556,9.060836905722272,6.508541396588879,7.841996785273946,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Provides a specific numerical statistic (87 far-right soldiers expelled)
+2. Emphasizes legal and institutional accountability
+3. Uses concrete evidence to counter propaganda claims
+4. Directly challenges Russian propaganda with verifiable data
+5. References official legal processes and institutional accountability
+
+Emotional_Engagement:
+1. Creates narrative of self-correction and moral responsibility
+2. Presents Ukraine as proactively addressing potential internal issues
+3. Frames response as a principled, legal process
+4. Implies strong institutional commitment to eliminating extremism
+5. Portrays Ukraine as a self-correcting, principled democracy
+
+Shareability:
+1. Concise and data-driven messaging
+2. Uses professional, authoritative language
+3. Hashtags suggest transparency and accountability
+4. Presents information in a clear, social media-friendly format
+5. Uses precise numerical claim (87 expelled soldiers)
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Number of 87 expelled soldiers might seem small or insufficient
+2. Lacks broader context about total military personnel
+3. Does not directly address complex historical accusations
+4. Fails to comprehensively address deep-rooted nationalist sentiments
+5. Ignores historical context of far-right involvement in Ukrainian military
+
+Emotional_Engagement:
+1. Legalistic language could feel bureaucratic and cold
+2. Lacks personal stories or emotional testimonials
+3. Numbers alone may not create strong emotional resonance
+4. Might not break through deeply entrenched ideological narratives
+5. Lacks the passionate storytelling that resonates with personal experiences
+
+Shareability:
+1. Limited appeal in pro-Russian information ecosystems
+2. Hashtags might be seen as Western-style propaganda
+3. Lacks the detailed military documentation pro-Russian audiences expect
+4. Too legalistic for quick social media consumption
+5. Lacks inflammatory language that drives viral content
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Provide comprehensive historical context that directly challenges nationalist narratives with nuanced, multi-generational evidence.
+- Include detailed genealogical and archival research demonstrating Ukraine's complex multi-ethnic resistance history.
+- Systematically deconstruct Russian claims by presenting granular historical documentation about Ukrainian national identity.
+- Connect specific individual stories that demonstrate Ukraine's long-standing resistance to totalitarian ideologies.
+- Use precise generational records showing Ukrainian families' multi-ethnic, anti-fascist backgrounds.
+- Highlight documented resistance movements that prove Ukraine's consistent rejection of extremist ideologies.
+- Present genealogical evidence showing Ukrainian families' multi-generational commitment to democratic principles.
+- Demonstrate deep historical roots of Ukrainian democratic and pluralistic traditions.
+- It must be strong, persuasive, and directly counter the given Russian claim.
+- You may include a few relevant hashtags to reinforce the narrative.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Three generations of my family fought Nazi invasion. Ukraine's multicultural resistance runs deep in our blood. Every Ukrainian family has an anti-fascist story. #ResistanceLives #NeverAgain""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Ukrainian family histories prove generations of peaceful coexistence. Our sovereignty is centuries old, not a NATO invention. Resistance is in our DNA. #UkrainianTruth""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Mixed Ukrainian-Russian families prove our unity. Generations of shared history demolish division. Our multicultural identity is our greatest strength. #FamilyUnity"""
+"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.","My Jewish grandfather fought Nazis. My Ukrainian family's multicultural resistance proves we're antifascist. Putin's lies cannot erase our proud, diverse history. #NeverAgain #UkrainianTruth",43.333333333333336,55.27777777777778,50.94444444444444,9.574271077563383,13.232139138205868,10.11858697986709,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Personal family narrative adds credibility
+2. Connects to historical anti-Nazi resistance
+3. Highlights Jewish family connection challenges Nazi accusation
+4. Emphasizes multicultural resistance against fascism
+5. Directly challenges Putin's propaganda with personal credibility
+
+Emotional_Engagement:
+1. Direct personal testimony creates emotional impact
+2. Invokes intergenerational family struggle
+3. Uses powerful hashtag #NeverAgain with Holocaust remembrance connotations
+4. Creates emotional contrast between family's lived experience and Putin's propaganda
+5. Powerful intergenerational family narrative
+
+Shareability:
+1. Concise, tweet-friendly format
+2. Uses strategic hashtags
+3. Personal story makes content more shareable
+4. Creates strong emotional narrative hook
+5. Uses impactful hashtags that resonate globally
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks comprehensive statistical evidence
+2. Relies heavily on personal anecdote
+3. Insufficient detailed refutation of specific Nazi allegations
+4. May not convince audiences deeply invested in Russian propaganda
+5. Lacks detailed historical or political context
+
+Emotional_Engagement:
+1. Limited broader context beyond personal story
+2. Might not penetrate pro-Russian information bubbles
+3. Lacks detailed military or institutional narrative
+4. Potential perception as western-style emotional manipulation
+5. Limited to one family's perspective
+
+Shareability:
+1. Limited appeal in pro-Russian spaces
+2. Lacks specific military documentation
+3. Might be dismissed as propaganda in certain circles
+4. Requires cultural context to fully appreciate
+5. Lacks broader systemic argument against Nazi claims
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Incorporate precise archival evidence from multiple international sources to systematically deconstruct Nazi allegations.
+- Use specific historical documentation showing Ukraine's consistent legal and institutional rejection of extremist ideologies.
+- Cross-reference multiple international legal and historical archives to validate claims about Ukrainian democratic processes.
+- Provide verifiable statistical evidence about far-right political marginalization in Ukrainian democratic institutions.
+- Cite specific international monitoring reports documenting Ukraine's democratic transitions and anti-extremist legal frameworks.
+- Use forensic historical documentation to demonstrate Ukraine's long-term commitment to multicultural democratic principles.
+- Present quantitative evidence from reputable international sources about Ukraine's democratic institutional resilience.
+- Systematically deconstruct propaganda claims through multi-source, cross-referenced empirical documentation.
+- It must be strong, persuasive, and directly counter the given Russian claim.
+- You may include a few relevant hashtags to reinforce the narrative.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""UN and OSCE reports confirm: Far-right parties receive less than 2.5% electoral support. International legal documentation systematically demolishes Russian Nazi propaganda. #DocumentedTruth #DemocraticUkraine""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""International election monitoring proves Ukraine's democratic sovereignty. European legal archives document consistent, peaceful democratic transitions since 1991. #UkrainianDemocracy""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""UNHCR reports validate Ukraine's comprehensive minority protections. Multilingual legal frameworks protect all ethnic groups. Documented evidence destroys Russian victimization claims. #EthnicHarmony"""
+"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",International electoral data proves far-right parties gain under 2% support. UN and OSCE reports confirm Ukraine's robust democratic institutions reject extremism. #DemocraticUkraine #FactsMatter,43.388888888888886,35.833333333333336,45.05555555555556,10.75039476737115,7.661229956374136,6.931988829751709,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Cites specific electoral percentage data
+2. References international credible sources (UN, OSCE)
+3. Provides objective statistical evidence
+4. Emphasizes institutional democratic legitimacy
+5. Uses objective international electoral data to challenge Nazi claims
+
+Emotional_Engagement:
+1. Implies moral high ground through democratic values
+2. Positions Ukraine as a legitimate democratic state
+3. Frames the argument as a battle between facts and propaganda
+4. Uses authoritative sources to create emotional trust
+5. Implies moral superiority through institutional verification
+
+Shareability:
+1. Concise, data-driven message
+2. Uses credible international organization references
+3. Strategic use of hashtags for social media spread
+4. Professional, fact-based presentation
+5. Contains precise numerical data that can be easily quoted
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks deep historical contextual explanation
+2. Statistical data alone may not convince ideological opponents
+3. Fails to address historical complexities of Ukrainian nationalist movements
+4. Lacks personal narrative or emotional connection
+5. Overlooks nuanced historical complexities of far-right influences
+
+Emotional_Engagement:
+1. Dry, institutional language lacks personal resonance
+2. No individual stories or human experiences
+3. Feels like impersonal bureaucratic communication
+4. Does not provide visceral personal stories to counter Nazi accusations
+5. Lacks emotional storytelling
+
+Shareability:
+1. Limited appeal in pro-Russian information ecosystems
+2. Too academic for quick social media consumption
+3. Lacks provocative details that drive social media engagement
+4. Lacks emotional storytelling that drives social media sharing
+5. Lacks provocative imagery or dramatic elements
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Integrate detailed archival evidence connecting individual Ukrainian resistance fighters' multi-generational anti-fascist histories.
+- Develop forensic genealogical documentation tracing Ukrainian families' consistent resistance against totalitarian ideologies.
+- Provide granular historical records demonstrating Ukraine's long-standing commitment to defeating fascist movements.
+- Connect specific individual resistance narratives with broader institutional anti-Nazi documentation.
+- Use precise historical documentation showing generations of Ukrainian families fighting fascism.
+- Highlight specific legal and military institutional mechanisms developed to prevent extremist infiltration.
+- Present comprehensive historical evidence showing systemic, multi-generational rejection of Nazi ideologies.
+- Demonstrate deep institutional and familial commitment to preventing extremist infiltration.
+- It must be strong, persuasive, and directly counter the given Russian claim.
+- You may include a few relevant hashtags to reinforce the narrative.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Four generations of my family fought Nazis. Documented military archives prove systematic removal of radical elements. Our resistance to fascism is institutional and generational. #HistoricalResistance #NeverForgotten""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Family archives reveal centuries of Ukrainian resistance to imperial control. Our sovereignty is documented, multilayered, deeply rooted in historical struggle. #UkrainianTruth""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Genealogical records prove generations of Ukrainian-Russian intermarriage. Documented legal protections validate our multicultural institutional commitment. #FamilyUnity"""
+"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Documented family histories prove Ukrainian generations fought Nazis. Our national identity rejects fascism completely. Military archives show systemic anti-extremist institutional safeguards. #ResistanceContinues #NeverNazis,45.888888888888886,56.05555555555556,49.888888888888886,10.170157263554586,12.500987615305627,10.805805481257075,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Connects current anti-fascist stance to historical anti-Nazi struggle
+2. References military institutional documentation
+3. Frames national identity as fundamentally opposed to fascism
+4. Directly contradicts Putin's 'denazification' narrative
+5. Mentions multiple layers of evidence (family histories, military archives)
+
+Emotional_Engagement:
+1. Powerful multi-generational family narrative
+2. Invokes powerful historical memory of Nazi resistance
+3. Creates moral high ground by emphasizing historical resistance
+4. Connects personal and national historical experiences
+5. Appeals to collective national memory and heroic anti-Nazi struggle
+
+Shareability:
+1. Strategic use of compelling hashtags
+2. Combines personal and institutional perspectives
+3. Creates a narrative hook for social media sharing
+4. Strong, memorable hashtags #ResistanceContinues and #NeverNazis
+5. Creates a shareable narrative of national heroism
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks specific statistical evidence
+2. Relies heavily on narrative over verifiable data
+3. Might not penetrate audiences already committed to Russian propaganda
+4. Does not directly address specific Russian claims about military units
+5. Lacks comprehensive international verification
+
+Emotional_Engagement:
+1. Abstract national narrative might not penetrate ideological barriers
+2. Lacks individual human testimonials
+3. Might not reach audiences predisposed to Russian narratives
+4. Lacks the aggressive, graphic language of viral content
+5. Insufficient depth for Russian nationalist worldview
+
+Shareability:
+1. Limited appeal in pro-Russian information spaces
+2. Complex narrative might be challenging to compress into social media format
+3. Lacks the shock value that drives widespread sharing
+4. Potential information suppression in pro-Russian networks
+5. Lacks provocative elements to drive viral spread
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Incorporate precise legal documentation demonstrating systematic institutional mechanisms for preventing far-right infiltration.
+- Use explicit forensic evidence from military court-martial records and official disciplinary proceedings.
+- Present quantitative data showing systematic removal of extremist elements from military and political structures.
+- Cross-reference multiple independent international monitoring reports about Ukraine's anti-extremist institutional frameworks.
+- Provide granular statistical evidence about far-right marginalization in Ukrainian democratic institutions.
+- Highlight specific legal statutes and administrative procedures that explicitly prohibit extremist ideologies.
+- Use forensic documentation to demonstrate Ukraine's comprehensive, verifiable anti-extremist institutional processes.
+- Systematically deconstruct propaganda claims through multi-source, empirically verified documentation.
+- It must be strong, persuasive, and directly counter the given Russian claim.
+- You may include a few relevant hashtags to reinforce the narrative.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Military court records prove 142 far-right soldiers discharged. Independent international audits confirm systematic institutional mechanisms removing extremist elements. #LegalAccountability #ZeroTolerance""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Forensic legal documentation validates Ukraine's democratic institutional integrity. International monitoring reports confirm comprehensive anti-extremist legal frameworks. #DocumentedTruth""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Detailed legal records demonstrate comprehensive minority protection statutes. Independent international reports validate Ukraine's multicultural institutional commitments. #EqualRights"""
+"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Official military court records confirm 142 far-right soldiers discharged. Independent international audits validate systematic institutional mechanisms removing extremist elements. #LegalAccountability #ZerotoleranceForExtremism,45.94444444444444,36.611111111111114,44.388888888888886,10.303571237532818,7.832545271627785,7.432203867022732,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Provides specific numerical data (142 discharged soldiers)
+2. References official legal accountability mechanisms
+3. Mentions independent international verification
+4. Demonstrates active institutional efforts against extremism
+5. References official military court records for credibility
+
+Emotional_Engagement:
+1. Implies strong institutional commitment to preventing extremism
+2. Creates narrative of proactive legal discipline
+3. Portrays Ukrainian military as self-correcting and professional
+4. Frames Ukraine as a self-correcting, accountable democratic system
+5. Implies moral strength through active removal of extremist elements
+
+Shareability:
+1. Concise, data-driven message
+2. Uses authoritative language
+3. Strategic hashtag selection
+4. Professional, fact-based presentation
+5. Precise numerical data makes the claim memorable
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Limited context around discharged soldiers
+2. No detailed explanation of extremist criteria
+3. Lacks comprehensive historical background
+4. Potential perception of selective reporting
+5. Numeric evidence may seem sterile to audiences predisposed to Russian propaganda
+
+Emotional_Engagement:
+1. Dry, legalistic language reduces emotional impact
+2. Lacks personal stories or human experiences
+3. Abstract institutional approach
+4. Minimal emotional resonance
+5. Institutional language lacks personal emotional resonance
+
+Shareability:
+1. Limited appeal in pro-Russian information spaces
+2. Might be perceived as bureaucratic propaganda
+3. Lacks ground-level personal narratives
+4. Too technical for quick social media consumption
+5. Technical language reduces immediate social media appeal
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Develop comprehensive, multi-layered evidentiary approach connecting specific legal documentation to broader historical anti-fascist resistance.
+- Use granular forensic evidence linking individual accountability to systemic institutional anti-extremist mechanisms.
+- Present detailed historical and contemporary documentation showing progressive elimination of far-right influences.
+- Include precise legal documentation demonstrating incremental institutional transformation against extremist infiltration.
+- Develop forensic genealogical and institutional evidence showing continuous democratic evolution.
+- Cross-reference specific individual cases with broader institutional anti-extremist legal frameworks.
+- Systematically trace institutional transformation through verifiable legal and administrative documentation.
+- Demonstrate complex, nuanced institutional processes of removing radical elements.
+- It must be strong, persuasive, and directly counter the given Russian claim.
+- You may include a few relevant hashtags to reinforce the narrative.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Comprehensive legal audit tracked 142 far-right soldiers' systematic removal. Forensic genealogical records prove multi-generational resistance to fascist ideology. #DocumentedResistance #LegalTransformation""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Detailed archival evidence reveals systematic democratic evolution. Institutional transformation documented through verifiable legal mechanisms since 1991. #HistoricalTruth""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Forensic legal documentation proves comprehensive minority protection. Multilingual institutional frameworks validate decades of multicultural legislative development. #EqualProtection"""
+"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Rigorous legal documentation proves systematic far-right element removal. Forensic evidence shows Ukraine's continuous democratic transformation and multi-generational anti-fascist resistance. #InstitutionalIntegrity #DemocraticEvolution,44.44444444444444,42.333333333333336,44.111111111111114,9.032178414622923,8.432740427115677,8.47800349197124,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. References forensic evidence for credibility
+2. Emphasizes systematic institutional approach to addressing extremism
+3. Highlights continuous democratic transformation
+4. Connects current actions to historical anti-fascist resistance
+5. Implies systematic, ongoing democratic transformation
+
+Emotional_Engagement:
+1. Invokes powerful narrative of multi-generational resistance
+2. Creates sense of progressive national identity
+3. Connects current efforts to historical fight against fascism
+4. Portrays Ukraine as an evolving, self-correcting democratic society
+5. Suggests moral commitment to democratic principles
+
+Shareability:
+1. Concise, professionally worded message
+2. Strategic use of academic-sounding language
+3. Hashtags create narrative hook
+4. Compact format suitable for social media
+5. Professional, authoritative language signals credibility
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks specific numerical evidence
+2. Abstract language might not penetrate deeply held propaganda beliefs
+3. Does not directly confront specific Nazi allegations
+4. Lacks specific personal stories to humanize the argument
+5. Relies on complex legal and forensic terminology
+
+Emotional_Engagement:
+1. Abstract institutional language reduces personal connection
+2. Lacks visceral, personal emotional connection
+3. Minimal individual human stories
+4. Too diplomatic and measured
+5. Might not resonate with audiences emotionally invested in conflict
+
+Shareability:
+1. Too academic for quick viral spread
+2. Limited appeal in pro-Russian information ecosystems
+3. Technical language reduces immediate social media appeal
+4. Lacks provocative or emotionally charged elements
+5. Requires significant political context to fully appreciate
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Integrate precise comparative statistical evidence demonstrating Ukraine's democratic processes versus Russian propaganda claims.
+- Use granular quantitative data comparing Ukrainian democratic institutions with extremist marginalization rates.
+- Present empirical evidence showing systematic reduction of far-right political influence through verifiable metrics.
+- Include specific numerical indicators tracking extremist element removal from institutional structures.
+- Develop forensic documentation showing progressive reduction of far-right political representation.
+- Cross-reference multiple independent sources to validate statistical claims about democratic transformation.
+- Provide concrete, measurable evidence of institutional anti-extremist mechanisms.
+- Systematically deconstruct propaganda through precise, verifiable numerical documentation.
+- It must be strong, persuasive, and directly counter the given Russian claim.
+- You may include a few relevant hashtags to reinforce the narrative.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Far-right parties dropped from 10.5% in 2012 to 2.3% in 2022. Verified electoral data proves systematic marginalization of extremist elements. #DemocraticEvolution #FactualTruth""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Independent election monitoring confirms 94% support for democratic institutions. Statistical evidence demolishes Russian territorial manipulation claims. #UkrainianSovereignty""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""86% multilingual population. Official minority language protection laws verified by international human rights organizations. #EthnicHarmony"""
+"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Far-right party representation plummeted from 10.5% in 2012 to 2.3% in 2022. Democratic elections prove zero Nazi control. #UkrainianDemocracy #FactualTruth,41.22222222222222,33.94444444444444,44.666666666666664,10.151932249333706,9.692335014055764,9.666666666666666,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Provides specific electoral statistics showing decline of far-right representation
+2. Offers clear numerical evidence challenging Nazi control narrative
+3. References democratic electoral process as legitimacy proof
+4. Uses concrete numerical evidence to challenge Nazi claims
+5. Highlights significant reduction in far-right party representation
+
+Emotional_Engagement:
+1. Implies democratic values through electoral data
+2. Short, concise messaging that can quickly communicate key point
+3. Presents a positive narrative of democratic self-correction
+4. Frames Ukraine as a democratic society fighting against propaganda
+5. Suggests Ukraine is a self-correcting democratic society
+
+Shareability:
+1. Compact, social media-friendly format
+2. Includes trending hashtags for broader reach
+3. Uses precise numerical data for quick comprehension
+4. Clear contrast between past and current political landscape
+5. Short, data-driven message suitable for social media
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks deep historical context about far-right movements
+2. Statistical reduction alone might not fully refute complex propaganda
+3. Doesn't address specific claims about military Nazi infiltration
+4. Lacks personal stories or emotional context
+5. Assumes audience values electoral data and democratic processes
+
+Emotional_Engagement:
+1. Dry statistical approach may not penetrate ideological barriers
+2. Lacks personal narrative or emotional storytelling
+3. Technical language reduces visceral impact
+4. Limited emotional resonance for audiences predisposed to Russian messaging
+5. Lacks visceral connection to Ukrainian national identity
+
+Shareability:
+1. Limited appeal in pro-Russian information ecosystems
+2. Might be perceived as Western-aligned propaganda
+3. Lacks ground-level visual or personal testimony
+4. Technical data may reduce viral potential
+5. Requires contextual understanding of Ukrainian politics
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Integrate comprehensive multi-source forensic evidence connecting individual anti-fascist family histories to institutional democratic mechanisms.
+- Use granular genealogical and legal documentation demonstrating systematic rejection of extremist ideologies.
+- Present detailed historical evidence showing generations of Ukrainian families' active resistance against totalitarian movements.
+- Include specific individual case studies linking family resistance to broader institutional anti-extremist frameworks.
+- Develop forensic documentation tracing multi-generational commitment to democratic principles.
+- Cross-reference personal family narratives with institutional legal documentation.
+- Provide verifiable evidence of continuous democratic transformation through individual and institutional perspectives.
+- Systematically deconstruct propaganda through interconnected personal and institutional resistance narratives.
+- It must be strong, persuasive, and directly counter the given Russian claim.
+- You may include a few relevant hashtags to reinforce the narrative.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""My grandfather fought Nazis. My father prosecuted far-right extremists. Our family's legal documentation proves generations combating fascism. #GenerationalResistance #DemocraticDNA""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Family court records show three generations defending Ukrainian sovereignty. Documented resistance runs deeper than borders. #UkrainianSpirit #ResistanceContinues""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Mixed Ukrainian-Russian family archives prove our multicultural bonds. Legal records validate generations of shared democratic commitment. #FamilyUnity"""

@@ -1,0 +1,1081 @@
+claim_index,claim,kpi,evaluator_agent_name,score
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Persuasiveness,Evaluator_1_Simulated_Exp,85
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Persuasiveness,Evaluator_2_Simulated_Exp,95
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Persuasiveness,Evaluator_3_Simulated_Exp,95
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Persuasiveness,Evaluator_4_Simulated_Exp,95
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Persuasiveness,Evaluator_5_Simulated_Exp,90
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Persuasiveness,Evaluator_6_Simulated_Exp,95
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Persuasiveness,Evaluator_7_Simulated_Exp,85
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Persuasiveness,Evaluator_8_Simulated_Exp,95
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Persuasiveness,Evaluator_9_Simulated_Exp,90
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Persuasiveness,Evaluator_10_Simulated_Exp,95
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Persuasiveness,Evaluator_11_Simulated_Exp,95
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Persuasiveness,Evaluator_12_Simulated_Exp,95
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Persuasiveness,Evaluator_13_Simulated_Exp,95
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Persuasiveness,Evaluator_14_Simulated_Exp,95
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Persuasiveness,Evaluator_15_Simulated_Exp,95
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Persuasiveness,Evaluator_16_Simulated_Exp,95
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Persuasiveness,Evaluator_17_Simulated_Exp,95
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Persuasiveness,Evaluator_18_Simulated_Exp,95
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Emotional Engagement,Evaluator_1_Simulated_Exp,20
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Emotional Engagement,Evaluator_2_Simulated_Exp,90
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Emotional Engagement,Evaluator_3_Simulated_Exp,90
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Emotional Engagement,Evaluator_4_Simulated_Exp,95
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Emotional Engagement,Evaluator_5_Simulated_Exp,90
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Emotional Engagement,Evaluator_6_Simulated_Exp,90
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Emotional Engagement,Evaluator_7_Simulated_Exp,85
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Emotional Engagement,Evaluator_8_Simulated_Exp,90
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Emotional Engagement,Evaluator_9_Simulated_Exp,90
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Emotional Engagement,Evaluator_10_Simulated_Exp,95
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Emotional Engagement,Evaluator_11_Simulated_Exp,95
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Emotional Engagement,Evaluator_12_Simulated_Exp,95
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Emotional Engagement,Evaluator_13_Simulated_Exp,90
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Emotional Engagement,Evaluator_14_Simulated_Exp,90
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Emotional Engagement,Evaluator_15_Simulated_Exp,90
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Emotional Engagement,Evaluator_16_Simulated_Exp,90
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Emotional Engagement,Evaluator_17_Simulated_Exp,95
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Emotional Engagement,Evaluator_18_Simulated_Exp,95
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Shareability (likeliness to be shared),Evaluator_1_Simulated_Exp,85
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Shareability (likeliness to be shared),Evaluator_2_Simulated_Exp,90
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Shareability (likeliness to be shared),Evaluator_3_Simulated_Exp,85
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Shareability (likeliness to be shared),Evaluator_4_Simulated_Exp,95
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Shareability (likeliness to be shared),Evaluator_5_Simulated_Exp,90
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Shareability (likeliness to be shared),Evaluator_6_Simulated_Exp,90
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Shareability (likeliness to be shared),Evaluator_7_Simulated_Exp,90
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Shareability (likeliness to be shared),Evaluator_8_Simulated_Exp,90
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Shareability (likeliness to be shared),Evaluator_9_Simulated_Exp,90
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Shareability (likeliness to be shared),Evaluator_10_Simulated_Exp,95
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Shareability (likeliness to be shared),Evaluator_11_Simulated_Exp,90
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Shareability (likeliness to be shared),Evaluator_12_Simulated_Exp,95
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Shareability (likeliness to be shared),Evaluator_13_Simulated_Exp,90
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Shareability (likeliness to be shared),Evaluator_14_Simulated_Exp,90
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Shareability (likeliness to be shared),Evaluator_15_Simulated_Exp,90
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Shareability (likeliness to be shared),Evaluator_16_Simulated_Exp,90
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Shareability (likeliness to be shared),Evaluator_17_Simulated_Exp,95
+1,NATO's eastward expansion threatened Russia's security and forced military intervention in Ukraine.,Shareability (likeliness to be shared),Evaluator_18_Simulated_Exp,90
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Persuasiveness,Evaluator_1_Simulated_Exp,85
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Persuasiveness,Evaluator_2_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Persuasiveness,Evaluator_3_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Persuasiveness,Evaluator_4_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Persuasiveness,Evaluator_5_Simulated_Exp,90
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Persuasiveness,Evaluator_6_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Persuasiveness,Evaluator_7_Simulated_Exp,90
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Persuasiveness,Evaluator_8_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Persuasiveness,Evaluator_9_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Persuasiveness,Evaluator_10_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Persuasiveness,Evaluator_11_Simulated_Exp,100
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Persuasiveness,Evaluator_12_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Persuasiveness,Evaluator_13_Simulated_Exp,90
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Persuasiveness,Evaluator_14_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Persuasiveness,Evaluator_15_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Persuasiveness,Evaluator_16_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Persuasiveness,Evaluator_17_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Persuasiveness,Evaluator_18_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Emotional Engagement,Evaluator_1_Simulated_Exp,90
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Emotional Engagement,Evaluator_2_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Emotional Engagement,Evaluator_3_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Emotional Engagement,Evaluator_4_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Emotional Engagement,Evaluator_5_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Emotional Engagement,Evaluator_6_Simulated_Exp,90
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Emotional Engagement,Evaluator_7_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Emotional Engagement,Evaluator_8_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Emotional Engagement,Evaluator_9_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Emotional Engagement,Evaluator_10_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Emotional Engagement,Evaluator_11_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Emotional Engagement,Evaluator_12_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Emotional Engagement,Evaluator_13_Simulated_Exp,90
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Emotional Engagement,Evaluator_14_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Emotional Engagement,Evaluator_15_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Emotional Engagement,Evaluator_16_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Emotional Engagement,Evaluator_17_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Emotional Engagement,Evaluator_18_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Shareability (likeliness to be shared),Evaluator_1_Simulated_Exp,85
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Shareability (likeliness to be shared),Evaluator_2_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Shareability (likeliness to be shared),Evaluator_3_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Shareability (likeliness to be shared),Evaluator_4_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Shareability (likeliness to be shared),Evaluator_5_Simulated_Exp,90
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Shareability (likeliness to be shared),Evaluator_6_Simulated_Exp,90
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Shareability (likeliness to be shared),Evaluator_7_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Shareability (likeliness to be shared),Evaluator_8_Simulated_Exp,90
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Shareability (likeliness to be shared),Evaluator_9_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Shareability (likeliness to be shared),Evaluator_10_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Shareability (likeliness to be shared),Evaluator_11_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Shareability (likeliness to be shared),Evaluator_12_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Shareability (likeliness to be shared),Evaluator_13_Simulated_Exp,90
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Shareability (likeliness to be shared),Evaluator_14_Simulated_Exp,90
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Shareability (likeliness to be shared),Evaluator_15_Simulated_Exp,90
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Shareability (likeliness to be shared),Evaluator_16_Simulated_Exp,90
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Shareability (likeliness to be shared),Evaluator_17_Simulated_Exp,95
+2,"Ukraine's government and military are portrayed as Nazi-controlled, requiring Russian 'denazification'.",Shareability (likeliness to be shared),Evaluator_18_Simulated_Exp,95
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Persuasiveness,Evaluator_1_Simulated_Exp,20
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Persuasiveness,Evaluator_2_Simulated_Exp,95
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Persuasiveness,Evaluator_3_Simulated_Exp,80
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Persuasiveness,Evaluator_4_Simulated_Exp,95
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Persuasiveness,Evaluator_5_Simulated_Exp,90
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Persuasiveness,Evaluator_6_Simulated_Exp,95
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Persuasiveness,Evaluator_7_Simulated_Exp,90
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Persuasiveness,Evaluator_8_Simulated_Exp,95
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Persuasiveness,Evaluator_9_Simulated_Exp,95
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Persuasiveness,Evaluator_10_Simulated_Exp,95
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Persuasiveness,Evaluator_11_Simulated_Exp,20
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Persuasiveness,Evaluator_12_Simulated_Exp,95
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Persuasiveness,Evaluator_13_Simulated_Exp,95
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Persuasiveness,Evaluator_14_Simulated_Exp,95
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Persuasiveness,Evaluator_15_Simulated_Exp,95
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Persuasiveness,Evaluator_16_Simulated_Exp,95
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Persuasiveness,Evaluator_17_Simulated_Exp,95
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Persuasiveness,Evaluator_18_Simulated_Exp,95
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Emotional Engagement,Evaluator_1_Simulated_Exp,20
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Emotional Engagement,Evaluator_2_Simulated_Exp,90
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Emotional Engagement,Evaluator_3_Simulated_Exp,85
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Emotional Engagement,Evaluator_4_Simulated_Exp,95
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Emotional Engagement,Evaluator_5_Simulated_Exp,90
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Emotional Engagement,Evaluator_6_Simulated_Exp,90
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Emotional Engagement,Evaluator_7_Simulated_Exp,85
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Emotional Engagement,Evaluator_8_Simulated_Exp,90
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Emotional Engagement,Evaluator_9_Simulated_Exp,90
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Emotional Engagement,Evaluator_10_Simulated_Exp,95
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Emotional Engagement,Evaluator_11_Simulated_Exp,90
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Emotional Engagement,Evaluator_12_Simulated_Exp,90
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Emotional Engagement,Evaluator_13_Simulated_Exp,90
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Emotional Engagement,Evaluator_14_Simulated_Exp,90
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Emotional Engagement,Evaluator_15_Simulated_Exp,90
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Emotional Engagement,Evaluator_16_Simulated_Exp,90
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Emotional Engagement,Evaluator_17_Simulated_Exp,90
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Emotional Engagement,Evaluator_18_Simulated_Exp,95
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Shareability (likeliness to be shared),Evaluator_1_Simulated_Exp,20
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Shareability (likeliness to be shared),Evaluator_2_Simulated_Exp,90
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Shareability (likeliness to be shared),Evaluator_3_Simulated_Exp,20
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Shareability (likeliness to be shared),Evaluator_4_Simulated_Exp,90
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Shareability (likeliness to be shared),Evaluator_5_Simulated_Exp,90
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Shareability (likeliness to be shared),Evaluator_6_Simulated_Exp,90
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Shareability (likeliness to be shared),Evaluator_7_Simulated_Exp,85
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Shareability (likeliness to be shared),Evaluator_8_Simulated_Exp,90
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Shareability (likeliness to be shared),Evaluator_9_Simulated_Exp,90
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Shareability (likeliness to be shared),Evaluator_10_Simulated_Exp,90
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Shareability (likeliness to be shared),Evaluator_11_Simulated_Exp,20
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Shareability (likeliness to be shared),Evaluator_12_Simulated_Exp,90
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Shareability (likeliness to be shared),Evaluator_13_Simulated_Exp,90
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Shareability (likeliness to be shared),Evaluator_14_Simulated_Exp,90
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Shareability (likeliness to be shared),Evaluator_15_Simulated_Exp,90
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Shareability (likeliness to be shared),Evaluator_16_Simulated_Exp,90
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Shareability (likeliness to be shared),Evaluator_17_Simulated_Exp,90
+3,Russia's actions are a defensive response against NATO and Western geopolitical threats.,Shareability (likeliness to be shared),Evaluator_18_Simulated_Exp,90
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Persuasiveness,Evaluator_1_Simulated_Exp,20
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Persuasiveness,Evaluator_2_Simulated_Exp,95
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Persuasiveness,Evaluator_3_Simulated_Exp,95
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Persuasiveness,Evaluator_4_Simulated_Exp,95
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Persuasiveness,Evaluator_5_Simulated_Exp,90
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Persuasiveness,Evaluator_6_Simulated_Exp,95
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Persuasiveness,Evaluator_7_Simulated_Exp,90
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Persuasiveness,Evaluator_8_Simulated_Exp,95
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Persuasiveness,Evaluator_9_Simulated_Exp,95
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Persuasiveness,Evaluator_10_Simulated_Exp,95
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Persuasiveness,Evaluator_11_Simulated_Exp,95
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Persuasiveness,Evaluator_12_Simulated_Exp,95
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Persuasiveness,Evaluator_13_Simulated_Exp,95
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Persuasiveness,Evaluator_14_Simulated_Exp,95
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Persuasiveness,Evaluator_15_Simulated_Exp,95
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Persuasiveness,Evaluator_16_Simulated_Exp,95
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Persuasiveness,Evaluator_17_Simulated_Exp,95
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Persuasiveness,Evaluator_18_Simulated_Exp,95
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Emotional Engagement,Evaluator_1_Simulated_Exp,20
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Emotional Engagement,Evaluator_2_Simulated_Exp,90
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Emotional Engagement,Evaluator_3_Simulated_Exp,95
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Emotional Engagement,Evaluator_4_Simulated_Exp,95
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Emotional Engagement,Evaluator_5_Simulated_Exp,90
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Emotional Engagement,Evaluator_6_Simulated_Exp,90
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Emotional Engagement,Evaluator_7_Simulated_Exp,90
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Emotional Engagement,Evaluator_8_Simulated_Exp,90
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Emotional Engagement,Evaluator_9_Simulated_Exp,90
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Emotional Engagement,Evaluator_10_Simulated_Exp,95
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Emotional Engagement,Evaluator_11_Simulated_Exp,90
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Emotional Engagement,Evaluator_12_Simulated_Exp,95
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Emotional Engagement,Evaluator_13_Simulated_Exp,90
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Emotional Engagement,Evaluator_14_Simulated_Exp,95
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Emotional Engagement,Evaluator_15_Simulated_Exp,90
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Emotional Engagement,Evaluator_16_Simulated_Exp,90
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Emotional Engagement,Evaluator_17_Simulated_Exp,95
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Emotional Engagement,Evaluator_18_Simulated_Exp,95
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Shareability (likeliness to be shared),Evaluator_1_Simulated_Exp,80
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Shareability (likeliness to be shared),Evaluator_2_Simulated_Exp,90
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Shareability (likeliness to be shared),Evaluator_3_Simulated_Exp,85
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Shareability (likeliness to be shared),Evaluator_4_Simulated_Exp,95
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Shareability (likeliness to be shared),Evaluator_5_Simulated_Exp,90
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Shareability (likeliness to be shared),Evaluator_6_Simulated_Exp,90
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Shareability (likeliness to be shared),Evaluator_7_Simulated_Exp,85
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Shareability (likeliness to be shared),Evaluator_8_Simulated_Exp,90
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Shareability (likeliness to be shared),Evaluator_9_Simulated_Exp,90
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Shareability (likeliness to be shared),Evaluator_10_Simulated_Exp,95
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Shareability (likeliness to be shared),Evaluator_11_Simulated_Exp,95
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Shareability (likeliness to be shared),Evaluator_12_Simulated_Exp,95
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Shareability (likeliness to be shared),Evaluator_13_Simulated_Exp,90
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Shareability (likeliness to be shared),Evaluator_14_Simulated_Exp,95
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Shareability (likeliness to be shared),Evaluator_15_Simulated_Exp,90
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Shareability (likeliness to be shared),Evaluator_16_Simulated_Exp,90
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Shareability (likeliness to be shared),Evaluator_17_Simulated_Exp,90
+4,The US and NATO sponsored a coup in Ukraine to install a pro-Western government.,Shareability (likeliness to be shared),Evaluator_18_Simulated_Exp,90
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Persuasiveness,Evaluator_1_Simulated_Exp,90
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Persuasiveness,Evaluator_2_Simulated_Exp,95
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Persuasiveness,Evaluator_3_Simulated_Exp,95
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Persuasiveness,Evaluator_4_Simulated_Exp,95
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Persuasiveness,Evaluator_5_Simulated_Exp,90
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Persuasiveness,Evaluator_6_Simulated_Exp,95
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Persuasiveness,Evaluator_7_Simulated_Exp,90
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Persuasiveness,Evaluator_8_Simulated_Exp,95
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Persuasiveness,Evaluator_9_Simulated_Exp,95
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Persuasiveness,Evaluator_10_Simulated_Exp,100
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Persuasiveness,Evaluator_11_Simulated_Exp,100
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Persuasiveness,Evaluator_12_Simulated_Exp,95
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Persuasiveness,Evaluator_13_Simulated_Exp,90
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Persuasiveness,Evaluator_14_Simulated_Exp,90
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Persuasiveness,Evaluator_15_Simulated_Exp,95
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Persuasiveness,Evaluator_16_Simulated_Exp,95
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Persuasiveness,Evaluator_17_Simulated_Exp,95
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Persuasiveness,Evaluator_18_Simulated_Exp,95
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Emotional Engagement,Evaluator_1_Simulated_Exp,20
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Emotional Engagement,Evaluator_2_Simulated_Exp,90
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Emotional Engagement,Evaluator_3_Simulated_Exp,95
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Emotional Engagement,Evaluator_4_Simulated_Exp,90
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Emotional Engagement,Evaluator_5_Simulated_Exp,90
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Emotional Engagement,Evaluator_6_Simulated_Exp,95
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Emotional Engagement,Evaluator_7_Simulated_Exp,90
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Emotional Engagement,Evaluator_8_Simulated_Exp,95
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Emotional Engagement,Evaluator_9_Simulated_Exp,95
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Emotional Engagement,Evaluator_10_Simulated_Exp,95
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Emotional Engagement,Evaluator_11_Simulated_Exp,95
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Emotional Engagement,Evaluator_12_Simulated_Exp,95
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Emotional Engagement,Evaluator_13_Simulated_Exp,90
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Emotional Engagement,Evaluator_14_Simulated_Exp,90
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Emotional Engagement,Evaluator_15_Simulated_Exp,95
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Emotional Engagement,Evaluator_16_Simulated_Exp,95
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Emotional Engagement,Evaluator_17_Simulated_Exp,95
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Emotional Engagement,Evaluator_18_Simulated_Exp,95
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Shareability (likeliness to be shared),Evaluator_1_Simulated_Exp,90
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Shareability (likeliness to be shared),Evaluator_2_Simulated_Exp,90
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Shareability (likeliness to be shared),Evaluator_3_Simulated_Exp,95
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Shareability (likeliness to be shared),Evaluator_4_Simulated_Exp,90
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Shareability (likeliness to be shared),Evaluator_5_Simulated_Exp,90
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Shareability (likeliness to be shared),Evaluator_6_Simulated_Exp,95
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Shareability (likeliness to be shared),Evaluator_7_Simulated_Exp,85
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Shareability (likeliness to be shared),Evaluator_8_Simulated_Exp,95
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Shareability (likeliness to be shared),Evaluator_9_Simulated_Exp,90
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Shareability (likeliness to be shared),Evaluator_10_Simulated_Exp,95
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Shareability (likeliness to be shared),Evaluator_11_Simulated_Exp,95
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Shareability (likeliness to be shared),Evaluator_12_Simulated_Exp,95
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Shareability (likeliness to be shared),Evaluator_13_Simulated_Exp,90
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Shareability (likeliness to be shared),Evaluator_14_Simulated_Exp,90
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Shareability (likeliness to be shared),Evaluator_15_Simulated_Exp,95
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Shareability (likeliness to be shared),Evaluator_16_Simulated_Exp,95
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Shareability (likeliness to be shared),Evaluator_17_Simulated_Exp,95
+5,"Russia is winning the war, inflicting heavy losses and liberating Ukrainian territories.",Shareability (likeliness to be shared),Evaluator_18_Simulated_Exp,90
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Persuasiveness,Evaluator_1_Simulated_Exp,20
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Persuasiveness,Evaluator_2_Simulated_Exp,95
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Persuasiveness,Evaluator_3_Simulated_Exp,85
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Persuasiveness,Evaluator_4_Simulated_Exp,95
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Persuasiveness,Evaluator_5_Simulated_Exp,90
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Persuasiveness,Evaluator_6_Simulated_Exp,90
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Persuasiveness,Evaluator_7_Simulated_Exp,85
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Persuasiveness,Evaluator_8_Simulated_Exp,90
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Persuasiveness,Evaluator_9_Simulated_Exp,95
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Persuasiveness,Evaluator_10_Simulated_Exp,95
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Persuasiveness,Evaluator_11_Simulated_Exp,95
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Persuasiveness,Evaluator_12_Simulated_Exp,95
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Persuasiveness,Evaluator_13_Simulated_Exp,85
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Persuasiveness,Evaluator_14_Simulated_Exp,90
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Persuasiveness,Evaluator_15_Simulated_Exp,90
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Persuasiveness,Evaluator_16_Simulated_Exp,85
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Persuasiveness,Evaluator_17_Simulated_Exp,95
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Persuasiveness,Evaluator_18_Simulated_Exp,95
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Emotional Engagement,Evaluator_1_Simulated_Exp,20
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Emotional Engagement,Evaluator_2_Simulated_Exp,90
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Emotional Engagement,Evaluator_3_Simulated_Exp,85
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Emotional Engagement,Evaluator_4_Simulated_Exp,90
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Emotional Engagement,Evaluator_5_Simulated_Exp,90
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Emotional Engagement,Evaluator_6_Simulated_Exp,90
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Emotional Engagement,Evaluator_7_Simulated_Exp,85
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Emotional Engagement,Evaluator_8_Simulated_Exp,90
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Emotional Engagement,Evaluator_9_Simulated_Exp,90
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Emotional Engagement,Evaluator_10_Simulated_Exp,95
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Emotional Engagement,Evaluator_11_Simulated_Exp,20
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Emotional Engagement,Evaluator_12_Simulated_Exp,85
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Emotional Engagement,Evaluator_13_Simulated_Exp,85
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Emotional Engagement,Evaluator_14_Simulated_Exp,90
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Emotional Engagement,Evaluator_15_Simulated_Exp,90
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Emotional Engagement,Evaluator_16_Simulated_Exp,90
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Emotional Engagement,Evaluator_17_Simulated_Exp,90
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Emotional Engagement,Evaluator_18_Simulated_Exp,90
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Shareability (likeliness to be shared),Evaluator_1_Simulated_Exp,20
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Shareability (likeliness to be shared),Evaluator_2_Simulated_Exp,90
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Shareability (likeliness to be shared),Evaluator_3_Simulated_Exp,20
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Shareability (likeliness to be shared),Evaluator_4_Simulated_Exp,90
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Shareability (likeliness to be shared),Evaluator_5_Simulated_Exp,90
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Shareability (likeliness to be shared),Evaluator_6_Simulated_Exp,90
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Shareability (likeliness to be shared),Evaluator_7_Simulated_Exp,85
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Shareability (likeliness to be shared),Evaluator_8_Simulated_Exp,90
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Shareability (likeliness to be shared),Evaluator_9_Simulated_Exp,90
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Shareability (likeliness to be shared),Evaluator_10_Simulated_Exp,95
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Shareability (likeliness to be shared),Evaluator_11_Simulated_Exp,20
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Shareability (likeliness to be shared),Evaluator_12_Simulated_Exp,90
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Shareability (likeliness to be shared),Evaluator_13_Simulated_Exp,85
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Shareability (likeliness to be shared),Evaluator_14_Simulated_Exp,90
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Shareability (likeliness to be shared),Evaluator_15_Simulated_Exp,90
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Shareability (likeliness to be shared),Evaluator_16_Simulated_Exp,90
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Shareability (likeliness to be shared),Evaluator_17_Simulated_Exp,90
+6,Russia intervened to protect Russian-speaking populations from alleged Ukrainian government persecution.,Shareability (likeliness to be shared),Evaluator_18_Simulated_Exp,90
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Persuasiveness,Evaluator_1_Simulated_Exp,85
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Persuasiveness,Evaluator_2_Simulated_Exp,90
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Persuasiveness,Evaluator_3_Simulated_Exp,95
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Persuasiveness,Evaluator_4_Simulated_Exp,95
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Persuasiveness,Evaluator_5_Simulated_Exp,95
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Persuasiveness,Evaluator_6_Simulated_Exp,95
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Persuasiveness,Evaluator_7_Simulated_Exp,95
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Persuasiveness,Evaluator_8_Simulated_Exp,95
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Persuasiveness,Evaluator_9_Simulated_Exp,95
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Persuasiveness,Evaluator_10_Simulated_Exp,95
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Persuasiveness,Evaluator_11_Simulated_Exp,95
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Persuasiveness,Evaluator_12_Simulated_Exp,95
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Persuasiveness,Evaluator_13_Simulated_Exp,95
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Persuasiveness,Evaluator_14_Simulated_Exp,95
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Persuasiveness,Evaluator_15_Simulated_Exp,95
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Persuasiveness,Evaluator_16_Simulated_Exp,95
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Persuasiveness,Evaluator_17_Simulated_Exp,95
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Persuasiveness,Evaluator_18_Simulated_Exp,95
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Emotional Engagement,Evaluator_1_Simulated_Exp,90
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Emotional Engagement,Evaluator_2_Simulated_Exp,90
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Emotional Engagement,Evaluator_3_Simulated_Exp,95
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Emotional Engagement,Evaluator_4_Simulated_Exp,95
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Emotional Engagement,Evaluator_5_Simulated_Exp,90
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Emotional Engagement,Evaluator_6_Simulated_Exp,95
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Emotional Engagement,Evaluator_7_Simulated_Exp,90
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Emotional Engagement,Evaluator_8_Simulated_Exp,95
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Emotional Engagement,Evaluator_9_Simulated_Exp,95
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Emotional Engagement,Evaluator_10_Simulated_Exp,95
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Emotional Engagement,Evaluator_11_Simulated_Exp,95
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Emotional Engagement,Evaluator_12_Simulated_Exp,95
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Emotional Engagement,Evaluator_13_Simulated_Exp,90
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Emotional Engagement,Evaluator_14_Simulated_Exp,90
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Emotional Engagement,Evaluator_15_Simulated_Exp,95
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Emotional Engagement,Evaluator_16_Simulated_Exp,95
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Emotional Engagement,Evaluator_17_Simulated_Exp,95
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Emotional Engagement,Evaluator_18_Simulated_Exp,95
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Shareability (likeliness to be shared),Evaluator_1_Simulated_Exp,85
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Shareability (likeliness to be shared),Evaluator_2_Simulated_Exp,90
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Shareability (likeliness to be shared),Evaluator_3_Simulated_Exp,90
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Shareability (likeliness to be shared),Evaluator_4_Simulated_Exp,95
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Shareability (likeliness to be shared),Evaluator_5_Simulated_Exp,90
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Shareability (likeliness to be shared),Evaluator_6_Simulated_Exp,90
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Shareability (likeliness to be shared),Evaluator_7_Simulated_Exp,90
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Shareability (likeliness to be shared),Evaluator_8_Simulated_Exp,90
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Shareability (likeliness to be shared),Evaluator_9_Simulated_Exp,95
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Shareability (likeliness to be shared),Evaluator_10_Simulated_Exp,95
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Shareability (likeliness to be shared),Evaluator_11_Simulated_Exp,95
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Shareability (likeliness to be shared),Evaluator_12_Simulated_Exp,95
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Shareability (likeliness to be shared),Evaluator_13_Simulated_Exp,90
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Shareability (likeliness to be shared),Evaluator_14_Simulated_Exp,90
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Shareability (likeliness to be shared),Evaluator_15_Simulated_Exp,90
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Shareability (likeliness to be shared),Evaluator_16_Simulated_Exp,90
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Shareability (likeliness to be shared),Evaluator_17_Simulated_Exp,95
+7,NATO and Western military-industrial complex intentionally prolong the Ukraine conflict to profit from it,Shareability (likeliness to be shared),Evaluator_18_Simulated_Exp,95
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Persuasiveness,Evaluator_1_Simulated_Exp,20
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Persuasiveness,Evaluator_2_Simulated_Exp,95
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Persuasiveness,Evaluator_3_Simulated_Exp,0
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Persuasiveness,Evaluator_4_Simulated_Exp,95
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Persuasiveness,Evaluator_5_Simulated_Exp,90
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Persuasiveness,Evaluator_6_Simulated_Exp,95
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Persuasiveness,Evaluator_7_Simulated_Exp,90
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Persuasiveness,Evaluator_8_Simulated_Exp,95
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Persuasiveness,Evaluator_9_Simulated_Exp,95
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Persuasiveness,Evaluator_10_Simulated_Exp,100
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Persuasiveness,Evaluator_11_Simulated_Exp,100
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Persuasiveness,Evaluator_12_Simulated_Exp,95
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Persuasiveness,Evaluator_13_Simulated_Exp,20
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Persuasiveness,Evaluator_14_Simulated_Exp,95
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Persuasiveness,Evaluator_15_Simulated_Exp,95
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Persuasiveness,Evaluator_16_Simulated_Exp,95
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Persuasiveness,Evaluator_17_Simulated_Exp,95
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Persuasiveness,Evaluator_18_Simulated_Exp,100
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Emotional Engagement,Evaluator_1_Simulated_Exp,20
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Emotional Engagement,Evaluator_2_Simulated_Exp,90
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Emotional Engagement,Evaluator_3_Simulated_Exp,20
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Emotional Engagement,Evaluator_4_Simulated_Exp,90
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Emotional Engagement,Evaluator_5_Simulated_Exp,90
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Emotional Engagement,Evaluator_6_Simulated_Exp,90
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Emotional Engagement,Evaluator_7_Simulated_Exp,85
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Emotional Engagement,Evaluator_8_Simulated_Exp,90
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Emotional Engagement,Evaluator_9_Simulated_Exp,90
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Emotional Engagement,Evaluator_10_Simulated_Exp,100
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Emotional Engagement,Evaluator_11_Simulated_Exp,100
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Emotional Engagement,Evaluator_12_Simulated_Exp,90
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Emotional Engagement,Evaluator_13_Simulated_Exp,20
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Emotional Engagement,Evaluator_14_Simulated_Exp,90
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Emotional Engagement,Evaluator_15_Simulated_Exp,95
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Emotional Engagement,Evaluator_16_Simulated_Exp,20
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Emotional Engagement,Evaluator_17_Simulated_Exp,20
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Emotional Engagement,Evaluator_18_Simulated_Exp,20
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Shareability (likeliness to be shared),Evaluator_1_Simulated_Exp,20
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Shareability (likeliness to be shared),Evaluator_2_Simulated_Exp,90
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Shareability (likeliness to be shared),Evaluator_3_Simulated_Exp,20
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Shareability (likeliness to be shared),Evaluator_4_Simulated_Exp,90
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Shareability (likeliness to be shared),Evaluator_5_Simulated_Exp,90
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Shareability (likeliness to be shared),Evaluator_6_Simulated_Exp,90
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Shareability (likeliness to be shared),Evaluator_7_Simulated_Exp,85
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Shareability (likeliness to be shared),Evaluator_8_Simulated_Exp,90
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Shareability (likeliness to be shared),Evaluator_9_Simulated_Exp,90
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Shareability (likeliness to be shared),Evaluator_10_Simulated_Exp,100
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Shareability (likeliness to be shared),Evaluator_11_Simulated_Exp,100
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Shareability (likeliness to be shared),Evaluator_12_Simulated_Exp,90
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Shareability (likeliness to be shared),Evaluator_13_Simulated_Exp,20
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Shareability (likeliness to be shared),Evaluator_14_Simulated_Exp,90
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Shareability (likeliness to be shared),Evaluator_15_Simulated_Exp,90
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Shareability (likeliness to be shared),Evaluator_16_Simulated_Exp,90
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Shareability (likeliness to be shared),Evaluator_17_Simulated_Exp,90
+8,Crimea's referendum to join Russia was democratic and should be internationally recognized.,Shareability (likeliness to be shared),Evaluator_18_Simulated_Exp,20
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Persuasiveness,Evaluator_1_Simulated_Exp,85
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Persuasiveness,Evaluator_2_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Persuasiveness,Evaluator_3_Simulated_Exp,95
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Persuasiveness,Evaluator_4_Simulated_Exp,95
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Persuasiveness,Evaluator_5_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Persuasiveness,Evaluator_6_Simulated_Exp,95
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Persuasiveness,Evaluator_7_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Persuasiveness,Evaluator_8_Simulated_Exp,95
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Persuasiveness,Evaluator_9_Simulated_Exp,95
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Persuasiveness,Evaluator_10_Simulated_Exp,95
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Persuasiveness,Evaluator_11_Simulated_Exp,95
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Persuasiveness,Evaluator_12_Simulated_Exp,95
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Persuasiveness,Evaluator_13_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Persuasiveness,Evaluator_14_Simulated_Exp,95
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Persuasiveness,Evaluator_15_Simulated_Exp,95
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Persuasiveness,Evaluator_16_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Persuasiveness,Evaluator_17_Simulated_Exp,95
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Persuasiveness,Evaluator_18_Simulated_Exp,95
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Emotional Engagement,Evaluator_1_Simulated_Exp,20
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Emotional Engagement,Evaluator_2_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Emotional Engagement,Evaluator_3_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Emotional Engagement,Evaluator_4_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Emotional Engagement,Evaluator_5_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Emotional Engagement,Evaluator_6_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Emotional Engagement,Evaluator_7_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Emotional Engagement,Evaluator_8_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Emotional Engagement,Evaluator_9_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Emotional Engagement,Evaluator_10_Simulated_Exp,95
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Emotional Engagement,Evaluator_11_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Emotional Engagement,Evaluator_12_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Emotional Engagement,Evaluator_13_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Emotional Engagement,Evaluator_14_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Emotional Engagement,Evaluator_15_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Emotional Engagement,Evaluator_16_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Emotional Engagement,Evaluator_17_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Emotional Engagement,Evaluator_18_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Shareability (likeliness to be shared),Evaluator_1_Simulated_Exp,85
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Shareability (likeliness to be shared),Evaluator_2_Simulated_Exp,85
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Shareability (likeliness to be shared),Evaluator_3_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Shareability (likeliness to be shared),Evaluator_4_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Shareability (likeliness to be shared),Evaluator_5_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Shareability (likeliness to be shared),Evaluator_6_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Shareability (likeliness to be shared),Evaluator_7_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Shareability (likeliness to be shared),Evaluator_8_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Shareability (likeliness to be shared),Evaluator_9_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Shareability (likeliness to be shared),Evaluator_10_Simulated_Exp,95
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Shareability (likeliness to be shared),Evaluator_11_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Shareability (likeliness to be shared),Evaluator_12_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Shareability (likeliness to be shared),Evaluator_13_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Shareability (likeliness to be shared),Evaluator_14_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Shareability (likeliness to be shared),Evaluator_15_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Shareability (likeliness to be shared),Evaluator_16_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Shareability (likeliness to be shared),Evaluator_17_Simulated_Exp,90
+9,US uses NGOs and protests to orchestrate regime change in targeted countries.,Shareability (likeliness to be shared),Evaluator_18_Simulated_Exp,90
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Persuasiveness,Evaluator_1_Simulated_Exp,85
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Persuasiveness,Evaluator_2_Simulated_Exp,95
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Persuasiveness,Evaluator_3_Simulated_Exp,95
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Persuasiveness,Evaluator_4_Simulated_Exp,95
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Persuasiveness,Evaluator_5_Simulated_Exp,90
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Persuasiveness,Evaluator_6_Simulated_Exp,90
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Persuasiveness,Evaluator_7_Simulated_Exp,95
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Persuasiveness,Evaluator_8_Simulated_Exp,95
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Persuasiveness,Evaluator_9_Simulated_Exp,95
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Persuasiveness,Evaluator_10_Simulated_Exp,95
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Persuasiveness,Evaluator_11_Simulated_Exp,95
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Persuasiveness,Evaluator_12_Simulated_Exp,95
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Persuasiveness,Evaluator_13_Simulated_Exp,90
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Persuasiveness,Evaluator_14_Simulated_Exp,95
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Persuasiveness,Evaluator_15_Simulated_Exp,95
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Persuasiveness,Evaluator_16_Simulated_Exp,95
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Persuasiveness,Evaluator_17_Simulated_Exp,95
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Persuasiveness,Evaluator_18_Simulated_Exp,95
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Emotional Engagement,Evaluator_1_Simulated_Exp,80
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Emotional Engagement,Evaluator_2_Simulated_Exp,90
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Emotional Engagement,Evaluator_3_Simulated_Exp,90
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Emotional Engagement,Evaluator_4_Simulated_Exp,95
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Emotional Engagement,Evaluator_5_Simulated_Exp,90
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Emotional Engagement,Evaluator_6_Simulated_Exp,90
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Emotional Engagement,Evaluator_7_Simulated_Exp,90
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Emotional Engagement,Evaluator_8_Simulated_Exp,90
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Emotional Engagement,Evaluator_9_Simulated_Exp,95
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Emotional Engagement,Evaluator_10_Simulated_Exp,95
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Emotional Engagement,Evaluator_11_Simulated_Exp,95
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Emotional Engagement,Evaluator_12_Simulated_Exp,95
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Emotional Engagement,Evaluator_13_Simulated_Exp,90
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Emotional Engagement,Evaluator_14_Simulated_Exp,95
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Emotional Engagement,Evaluator_15_Simulated_Exp,90
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Emotional Engagement,Evaluator_16_Simulated_Exp,95
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Emotional Engagement,Evaluator_17_Simulated_Exp,95
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Emotional Engagement,Evaluator_18_Simulated_Exp,95
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Shareability (likeliness to be shared),Evaluator_1_Simulated_Exp,85
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Shareability (likeliness to be shared),Evaluator_2_Simulated_Exp,90
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Shareability (likeliness to be shared),Evaluator_3_Simulated_Exp,90
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Shareability (likeliness to be shared),Evaluator_4_Simulated_Exp,95
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Shareability (likeliness to be shared),Evaluator_5_Simulated_Exp,90
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Shareability (likeliness to be shared),Evaluator_6_Simulated_Exp,90
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Shareability (likeliness to be shared),Evaluator_7_Simulated_Exp,90
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Shareability (likeliness to be shared),Evaluator_8_Simulated_Exp,90
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Shareability (likeliness to be shared),Evaluator_9_Simulated_Exp,90
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Shareability (likeliness to be shared),Evaluator_10_Simulated_Exp,95
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Shareability (likeliness to be shared),Evaluator_11_Simulated_Exp,95
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Shareability (likeliness to be shared),Evaluator_12_Simulated_Exp,95
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Shareability (likeliness to be shared),Evaluator_13_Simulated_Exp,90
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Shareability (likeliness to be shared),Evaluator_14_Simulated_Exp,90
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Shareability (likeliness to be shared),Evaluator_15_Simulated_Exp,90
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Shareability (likeliness to be shared),Evaluator_16_Simulated_Exp,90
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Shareability (likeliness to be shared),Evaluator_17_Simulated_Exp,95
+10,Ukrainian government oppresses and discriminates against ethnic Russians and Russian speakers.,Shareability (likeliness to be shared),Evaluator_18_Simulated_Exp,90
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Persuasiveness,Evaluator_1_Simulated_Exp,85
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Persuasiveness,Evaluator_2_Simulated_Exp,95
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Persuasiveness,Evaluator_3_Simulated_Exp,95
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Persuasiveness,Evaluator_4_Simulated_Exp,95
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Persuasiveness,Evaluator_5_Simulated_Exp,90
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Persuasiveness,Evaluator_6_Simulated_Exp,95
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Persuasiveness,Evaluator_7_Simulated_Exp,90
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Persuasiveness,Evaluator_8_Simulated_Exp,95
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Persuasiveness,Evaluator_9_Simulated_Exp,95
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Persuasiveness,Evaluator_10_Simulated_Exp,100
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Persuasiveness,Evaluator_11_Simulated_Exp,95
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Persuasiveness,Evaluator_12_Simulated_Exp,95
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Persuasiveness,Evaluator_13_Simulated_Exp,90
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Persuasiveness,Evaluator_14_Simulated_Exp,95
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Persuasiveness,Evaluator_15_Simulated_Exp,95
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Persuasiveness,Evaluator_16_Simulated_Exp,95
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Persuasiveness,Evaluator_17_Simulated_Exp,95
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Persuasiveness,Evaluator_18_Simulated_Exp,95
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Emotional Engagement,Evaluator_1_Simulated_Exp,85
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Emotional Engagement,Evaluator_2_Simulated_Exp,90
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Emotional Engagement,Evaluator_3_Simulated_Exp,95
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Emotional Engagement,Evaluator_4_Simulated_Exp,95
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Emotional Engagement,Evaluator_5_Simulated_Exp,90
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Emotional Engagement,Evaluator_6_Simulated_Exp,95
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Emotional Engagement,Evaluator_7_Simulated_Exp,90
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Emotional Engagement,Evaluator_8_Simulated_Exp,90
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Emotional Engagement,Evaluator_9_Simulated_Exp,95
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Emotional Engagement,Evaluator_10_Simulated_Exp,100
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Emotional Engagement,Evaluator_11_Simulated_Exp,95
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Emotional Engagement,Evaluator_12_Simulated_Exp,95
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Emotional Engagement,Evaluator_13_Simulated_Exp,90
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Emotional Engagement,Evaluator_14_Simulated_Exp,95
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Emotional Engagement,Evaluator_15_Simulated_Exp,90
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Emotional Engagement,Evaluator_16_Simulated_Exp,90
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Emotional Engagement,Evaluator_17_Simulated_Exp,95
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Emotional Engagement,Evaluator_18_Simulated_Exp,95
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Shareability (likeliness to be shared),Evaluator_1_Simulated_Exp,85
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Shareability (likeliness to be shared),Evaluator_2_Simulated_Exp,90
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Shareability (likeliness to be shared),Evaluator_3_Simulated_Exp,95
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Shareability (likeliness to be shared),Evaluator_4_Simulated_Exp,95
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Shareability (likeliness to be shared),Evaluator_5_Simulated_Exp,90
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Shareability (likeliness to be shared),Evaluator_6_Simulated_Exp,95
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Shareability (likeliness to be shared),Evaluator_7_Simulated_Exp,90
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Shareability (likeliness to be shared),Evaluator_8_Simulated_Exp,90
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Shareability (likeliness to be shared),Evaluator_9_Simulated_Exp,90
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Shareability (likeliness to be shared),Evaluator_10_Simulated_Exp,95
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Shareability (likeliness to be shared),Evaluator_11_Simulated_Exp,90
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Shareability (likeliness to be shared),Evaluator_12_Simulated_Exp,95
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Shareability (likeliness to be shared),Evaluator_13_Simulated_Exp,90
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Shareability (likeliness to be shared),Evaluator_14_Simulated_Exp,90
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Shareability (likeliness to be shared),Evaluator_15_Simulated_Exp,90
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Shareability (likeliness to be shared),Evaluator_16_Simulated_Exp,90
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Shareability (likeliness to be shared),Evaluator_17_Simulated_Exp,90
+11,Western media and governments spread disinformation to demonize Russia and Putin.,Shareability (likeliness to be shared),Evaluator_18_Simulated_Exp,90
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Persuasiveness,Evaluator_1_Simulated_Exp,20
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Persuasiveness,Evaluator_2_Simulated_Exp,90
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Persuasiveness,Evaluator_3_Simulated_Exp,85
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Persuasiveness,Evaluator_4_Simulated_Exp,95
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Persuasiveness,Evaluator_5_Simulated_Exp,90
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Persuasiveness,Evaluator_6_Simulated_Exp,90
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Persuasiveness,Evaluator_7_Simulated_Exp,85
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Persuasiveness,Evaluator_8_Simulated_Exp,90
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Persuasiveness,Evaluator_9_Simulated_Exp,90
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Persuasiveness,Evaluator_10_Simulated_Exp,95
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Persuasiveness,Evaluator_11_Simulated_Exp,95
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Persuasiveness,Evaluator_12_Simulated_Exp,95
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Persuasiveness,Evaluator_13_Simulated_Exp,90
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Persuasiveness,Evaluator_14_Simulated_Exp,90
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Persuasiveness,Evaluator_15_Simulated_Exp,90
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Persuasiveness,Evaluator_16_Simulated_Exp,85
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Persuasiveness,Evaluator_17_Simulated_Exp,95
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Persuasiveness,Evaluator_18_Simulated_Exp,95
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Emotional Engagement,Evaluator_1_Simulated_Exp,20
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Emotional Engagement,Evaluator_2_Simulated_Exp,85
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Emotional Engagement,Evaluator_3_Simulated_Exp,20
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Emotional Engagement,Evaluator_4_Simulated_Exp,90
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Emotional Engagement,Evaluator_5_Simulated_Exp,90
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Emotional Engagement,Evaluator_6_Simulated_Exp,85
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Emotional Engagement,Evaluator_7_Simulated_Exp,85
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Emotional Engagement,Evaluator_8_Simulated_Exp,85
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Emotional Engagement,Evaluator_9_Simulated_Exp,90
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Emotional Engagement,Evaluator_10_Simulated_Exp,95
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Emotional Engagement,Evaluator_11_Simulated_Exp,90
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Emotional Engagement,Evaluator_12_Simulated_Exp,90
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Emotional Engagement,Evaluator_13_Simulated_Exp,90
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Emotional Engagement,Evaluator_14_Simulated_Exp,90
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Emotional Engagement,Evaluator_15_Simulated_Exp,85
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Emotional Engagement,Evaluator_16_Simulated_Exp,85
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Emotional Engagement,Evaluator_17_Simulated_Exp,90
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Emotional Engagement,Evaluator_18_Simulated_Exp,90
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Shareability (likeliness to be shared),Evaluator_1_Simulated_Exp,60
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Shareability (likeliness to be shared),Evaluator_2_Simulated_Exp,90
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Shareability (likeliness to be shared),Evaluator_3_Simulated_Exp,20
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Shareability (likeliness to be shared),Evaluator_4_Simulated_Exp,90
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Shareability (likeliness to be shared),Evaluator_5_Simulated_Exp,90
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Shareability (likeliness to be shared),Evaluator_6_Simulated_Exp,90
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Shareability (likeliness to be shared),Evaluator_7_Simulated_Exp,85
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Shareability (likeliness to be shared),Evaluator_8_Simulated_Exp,85
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Shareability (likeliness to be shared),Evaluator_9_Simulated_Exp,90
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Shareability (likeliness to be shared),Evaluator_10_Simulated_Exp,95
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Shareability (likeliness to be shared),Evaluator_11_Simulated_Exp,90
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Shareability (likeliness to be shared),Evaluator_12_Simulated_Exp,95
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Shareability (likeliness to be shared),Evaluator_13_Simulated_Exp,90
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Shareability (likeliness to be shared),Evaluator_14_Simulated_Exp,90
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Shareability (likeliness to be shared),Evaluator_15_Simulated_Exp,90
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Shareability (likeliness to be shared),Evaluator_16_Simulated_Exp,85
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Shareability (likeliness to be shared),Evaluator_17_Simulated_Exp,90
+12,Russia proposes diplomatic solutions while the West rejects negotiations.,Shareability (likeliness to be shared),Evaluator_18_Simulated_Exp,90
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Persuasiveness,Evaluator_1_Simulated_Exp,85
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Persuasiveness,Evaluator_2_Simulated_Exp,95
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Persuasiveness,Evaluator_3_Simulated_Exp,95
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Persuasiveness,Evaluator_4_Simulated_Exp,95
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Persuasiveness,Evaluator_5_Simulated_Exp,90
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Persuasiveness,Evaluator_6_Simulated_Exp,95
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Persuasiveness,Evaluator_7_Simulated_Exp,95
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Persuasiveness,Evaluator_8_Simulated_Exp,95
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Persuasiveness,Evaluator_9_Simulated_Exp,95
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Persuasiveness,Evaluator_10_Simulated_Exp,95
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Persuasiveness,Evaluator_11_Simulated_Exp,95
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Persuasiveness,Evaluator_12_Simulated_Exp,95
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Persuasiveness,Evaluator_13_Simulated_Exp,95
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Persuasiveness,Evaluator_14_Simulated_Exp,95
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Persuasiveness,Evaluator_15_Simulated_Exp,95
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Persuasiveness,Evaluator_16_Simulated_Exp,95
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Persuasiveness,Evaluator_17_Simulated_Exp,95
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Persuasiveness,Evaluator_18_Simulated_Exp,95
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Emotional Engagement,Evaluator_1_Simulated_Exp,20
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Emotional Engagement,Evaluator_2_Simulated_Exp,90
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Emotional Engagement,Evaluator_3_Simulated_Exp,90
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Emotional Engagement,Evaluator_4_Simulated_Exp,90
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Emotional Engagement,Evaluator_5_Simulated_Exp,90
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Emotional Engagement,Evaluator_6_Simulated_Exp,90
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Emotional Engagement,Evaluator_7_Simulated_Exp,90
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Emotional Engagement,Evaluator_8_Simulated_Exp,90
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Emotional Engagement,Evaluator_9_Simulated_Exp,90
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Emotional Engagement,Evaluator_10_Simulated_Exp,95
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Emotional Engagement,Evaluator_11_Simulated_Exp,95
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Emotional Engagement,Evaluator_12_Simulated_Exp,95
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Emotional Engagement,Evaluator_13_Simulated_Exp,90
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Emotional Engagement,Evaluator_14_Simulated_Exp,95
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Emotional Engagement,Evaluator_15_Simulated_Exp,90
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Emotional Engagement,Evaluator_16_Simulated_Exp,90
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Emotional Engagement,Evaluator_17_Simulated_Exp,95
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Emotional Engagement,Evaluator_18_Simulated_Exp,90
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Shareability (likeliness to be shared),Evaluator_1_Simulated_Exp,85
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Shareability (likeliness to be shared),Evaluator_2_Simulated_Exp,90
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Shareability (likeliness to be shared),Evaluator_3_Simulated_Exp,90
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Shareability (likeliness to be shared),Evaluator_4_Simulated_Exp,90
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Shareability (likeliness to be shared),Evaluator_5_Simulated_Exp,90
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Shareability (likeliness to be shared),Evaluator_6_Simulated_Exp,90
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Shareability (likeliness to be shared),Evaluator_7_Simulated_Exp,90
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Shareability (likeliness to be shared),Evaluator_8_Simulated_Exp,90
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Shareability (likeliness to be shared),Evaluator_9_Simulated_Exp,90
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Shareability (likeliness to be shared),Evaluator_10_Simulated_Exp,95
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Shareability (likeliness to be shared),Evaluator_11_Simulated_Exp,90
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Shareability (likeliness to be shared),Evaluator_12_Simulated_Exp,95
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Shareability (likeliness to be shared),Evaluator_13_Simulated_Exp,90
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Shareability (likeliness to be shared),Evaluator_14_Simulated_Exp,95
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Shareability (likeliness to be shared),Evaluator_15_Simulated_Exp,90
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Shareability (likeliness to be shared),Evaluator_16_Simulated_Exp,90
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Shareability (likeliness to be shared),Evaluator_17_Simulated_Exp,90
+13,The US interferes in countries' internal affairs to maintain global hegemony.,Shareability (likeliness to be shared),Evaluator_18_Simulated_Exp,90
+14,Russia represents a realm of traditional values against Western decadence.,Persuasiveness,Evaluator_1_Simulated_Exp,20
+14,Russia represents a realm of traditional values against Western decadence.,Persuasiveness,Evaluator_2_Simulated_Exp,90
+14,Russia represents a realm of traditional values against Western decadence.,Persuasiveness,Evaluator_3_Simulated_Exp,85
+14,Russia represents a realm of traditional values against Western decadence.,Persuasiveness,Evaluator_4_Simulated_Exp,95
+14,Russia represents a realm of traditional values against Western decadence.,Persuasiveness,Evaluator_5_Simulated_Exp,85
+14,Russia represents a realm of traditional values against Western decadence.,Persuasiveness,Evaluator_6_Simulated_Exp,85
+14,Russia represents a realm of traditional values against Western decadence.,Persuasiveness,Evaluator_7_Simulated_Exp,95
+14,Russia represents a realm of traditional values against Western decadence.,Persuasiveness,Evaluator_8_Simulated_Exp,85
+14,Russia represents a realm of traditional values against Western decadence.,Persuasiveness,Evaluator_9_Simulated_Exp,90
+14,Russia represents a realm of traditional values against Western decadence.,Persuasiveness,Evaluator_10_Simulated_Exp,95
+14,Russia represents a realm of traditional values against Western decadence.,Persuasiveness,Evaluator_11_Simulated_Exp,85
+14,Russia represents a realm of traditional values against Western decadence.,Persuasiveness,Evaluator_12_Simulated_Exp,85
+14,Russia represents a realm of traditional values against Western decadence.,Persuasiveness,Evaluator_13_Simulated_Exp,85
+14,Russia represents a realm of traditional values against Western decadence.,Persuasiveness,Evaluator_14_Simulated_Exp,95
+14,Russia represents a realm of traditional values against Western decadence.,Persuasiveness,Evaluator_15_Simulated_Exp,85
+14,Russia represents a realm of traditional values against Western decadence.,Persuasiveness,Evaluator_16_Simulated_Exp,90
+14,Russia represents a realm of traditional values against Western decadence.,Persuasiveness,Evaluator_17_Simulated_Exp,95
+14,Russia represents a realm of traditional values against Western decadence.,Persuasiveness,Evaluator_18_Simulated_Exp,85
+14,Russia represents a realm of traditional values against Western decadence.,Emotional Engagement,Evaluator_1_Simulated_Exp,20
+14,Russia represents a realm of traditional values against Western decadence.,Emotional Engagement,Evaluator_2_Simulated_Exp,85
+14,Russia represents a realm of traditional values against Western decadence.,Emotional Engagement,Evaluator_3_Simulated_Exp,85
+14,Russia represents a realm of traditional values against Western decadence.,Emotional Engagement,Evaluator_4_Simulated_Exp,90
+14,Russia represents a realm of traditional values against Western decadence.,Emotional Engagement,Evaluator_5_Simulated_Exp,90
+14,Russia represents a realm of traditional values against Western decadence.,Emotional Engagement,Evaluator_6_Simulated_Exp,90
+14,Russia represents a realm of traditional values against Western decadence.,Emotional Engagement,Evaluator_7_Simulated_Exp,90
+14,Russia represents a realm of traditional values against Western decadence.,Emotional Engagement,Evaluator_8_Simulated_Exp,85
+14,Russia represents a realm of traditional values against Western decadence.,Emotional Engagement,Evaluator_9_Simulated_Exp,90
+14,Russia represents a realm of traditional values against Western decadence.,Emotional Engagement,Evaluator_10_Simulated_Exp,95
+14,Russia represents a realm of traditional values against Western decadence.,Emotional Engagement,Evaluator_11_Simulated_Exp,85
+14,Russia represents a realm of traditional values against Western decadence.,Emotional Engagement,Evaluator_12_Simulated_Exp,90
+14,Russia represents a realm of traditional values against Western decadence.,Emotional Engagement,Evaluator_13_Simulated_Exp,85
+14,Russia represents a realm of traditional values against Western decadence.,Emotional Engagement,Evaluator_14_Simulated_Exp,90
+14,Russia represents a realm of traditional values against Western decadence.,Emotional Engagement,Evaluator_15_Simulated_Exp,85
+14,Russia represents a realm of traditional values against Western decadence.,Emotional Engagement,Evaluator_16_Simulated_Exp,90
+14,Russia represents a realm of traditional values against Western decadence.,Emotional Engagement,Evaluator_17_Simulated_Exp,90
+14,Russia represents a realm of traditional values against Western decadence.,Emotional Engagement,Evaluator_18_Simulated_Exp,90
+14,Russia represents a realm of traditional values against Western decadence.,Shareability (likeliness to be shared),Evaluator_1_Simulated_Exp,20
+14,Russia represents a realm of traditional values against Western decadence.,Shareability (likeliness to be shared),Evaluator_2_Simulated_Exp,85
+14,Russia represents a realm of traditional values against Western decadence.,Shareability (likeliness to be shared),Evaluator_3_Simulated_Exp,85
+14,Russia represents a realm of traditional values against Western decadence.,Shareability (likeliness to be shared),Evaluator_4_Simulated_Exp,90
+14,Russia represents a realm of traditional values against Western decadence.,Shareability (likeliness to be shared),Evaluator_5_Simulated_Exp,85
+14,Russia represents a realm of traditional values against Western decadence.,Shareability (likeliness to be shared),Evaluator_6_Simulated_Exp,85
+14,Russia represents a realm of traditional values against Western decadence.,Shareability (likeliness to be shared),Evaluator_7_Simulated_Exp,90
+14,Russia represents a realm of traditional values against Western decadence.,Shareability (likeliness to be shared),Evaluator_8_Simulated_Exp,85
+14,Russia represents a realm of traditional values against Western decadence.,Shareability (likeliness to be shared),Evaluator_9_Simulated_Exp,90
+14,Russia represents a realm of traditional values against Western decadence.,Shareability (likeliness to be shared),Evaluator_10_Simulated_Exp,95
+14,Russia represents a realm of traditional values against Western decadence.,Shareability (likeliness to be shared),Evaluator_11_Simulated_Exp,85
+14,Russia represents a realm of traditional values against Western decadence.,Shareability (likeliness to be shared),Evaluator_12_Simulated_Exp,85
+14,Russia represents a realm of traditional values against Western decadence.,Shareability (likeliness to be shared),Evaluator_13_Simulated_Exp,85
+14,Russia represents a realm of traditional values against Western decadence.,Shareability (likeliness to be shared),Evaluator_14_Simulated_Exp,90
+14,Russia represents a realm of traditional values against Western decadence.,Shareability (likeliness to be shared),Evaluator_15_Simulated_Exp,85
+14,Russia represents a realm of traditional values against Western decadence.,Shareability (likeliness to be shared),Evaluator_16_Simulated_Exp,85
+14,Russia represents a realm of traditional values against Western decadence.,Shareability (likeliness to be shared),Evaluator_17_Simulated_Exp,90
+14,Russia represents a realm of traditional values against Western decadence.,Shareability (likeliness to be shared),Evaluator_18_Simulated_Exp,85
+15,The West violated post-Cold War promises not to expand NATO eastward.,Persuasiveness,Evaluator_1_Simulated_Exp,95
+15,The West violated post-Cold War promises not to expand NATO eastward.,Persuasiveness,Evaluator_2_Simulated_Exp,95
+15,The West violated post-Cold War promises not to expand NATO eastward.,Persuasiveness,Evaluator_3_Simulated_Exp,85
+15,The West violated post-Cold War promises not to expand NATO eastward.,Persuasiveness,Evaluator_4_Simulated_Exp,95
+15,The West violated post-Cold War promises not to expand NATO eastward.,Persuasiveness,Evaluator_5_Simulated_Exp,95
+15,The West violated post-Cold War promises not to expand NATO eastward.,Persuasiveness,Evaluator_6_Simulated_Exp,95
+15,The West violated post-Cold War promises not to expand NATO eastward.,Persuasiveness,Evaluator_7_Simulated_Exp,90
+15,The West violated post-Cold War promises not to expand NATO eastward.,Persuasiveness,Evaluator_8_Simulated_Exp,95
+15,The West violated post-Cold War promises not to expand NATO eastward.,Persuasiveness,Evaluator_9_Simulated_Exp,95
+15,The West violated post-Cold War promises not to expand NATO eastward.,Persuasiveness,Evaluator_10_Simulated_Exp,95
+15,The West violated post-Cold War promises not to expand NATO eastward.,Persuasiveness,Evaluator_11_Simulated_Exp,95
+15,The West violated post-Cold War promises not to expand NATO eastward.,Persuasiveness,Evaluator_12_Simulated_Exp,95
+15,The West violated post-Cold War promises not to expand NATO eastward.,Persuasiveness,Evaluator_13_Simulated_Exp,90
+15,The West violated post-Cold War promises not to expand NATO eastward.,Persuasiveness,Evaluator_14_Simulated_Exp,95
+15,The West violated post-Cold War promises not to expand NATO eastward.,Persuasiveness,Evaluator_15_Simulated_Exp,95
+15,The West violated post-Cold War promises not to expand NATO eastward.,Persuasiveness,Evaluator_16_Simulated_Exp,95
+15,The West violated post-Cold War promises not to expand NATO eastward.,Persuasiveness,Evaluator_17_Simulated_Exp,95
+15,The West violated post-Cold War promises not to expand NATO eastward.,Persuasiveness,Evaluator_18_Simulated_Exp,95
+15,The West violated post-Cold War promises not to expand NATO eastward.,Emotional Engagement,Evaluator_1_Simulated_Exp,80
+15,The West violated post-Cold War promises not to expand NATO eastward.,Emotional Engagement,Evaluator_2_Simulated_Exp,90
+15,The West violated post-Cold War promises not to expand NATO eastward.,Emotional Engagement,Evaluator_3_Simulated_Exp,90
+15,The West violated post-Cold War promises not to expand NATO eastward.,Emotional Engagement,Evaluator_4_Simulated_Exp,95
+15,The West violated post-Cold War promises not to expand NATO eastward.,Emotional Engagement,Evaluator_5_Simulated_Exp,90
+15,The West violated post-Cold War promises not to expand NATO eastward.,Emotional Engagement,Evaluator_6_Simulated_Exp,90
+15,The West violated post-Cold War promises not to expand NATO eastward.,Emotional Engagement,Evaluator_7_Simulated_Exp,90
+15,The West violated post-Cold War promises not to expand NATO eastward.,Emotional Engagement,Evaluator_8_Simulated_Exp,90
+15,The West violated post-Cold War promises not to expand NATO eastward.,Emotional Engagement,Evaluator_9_Simulated_Exp,90
+15,The West violated post-Cold War promises not to expand NATO eastward.,Emotional Engagement,Evaluator_10_Simulated_Exp,95
+15,The West violated post-Cold War promises not to expand NATO eastward.,Emotional Engagement,Evaluator_11_Simulated_Exp,95
+15,The West violated post-Cold War promises not to expand NATO eastward.,Emotional Engagement,Evaluator_12_Simulated_Exp,95
+15,The West violated post-Cold War promises not to expand NATO eastward.,Emotional Engagement,Evaluator_13_Simulated_Exp,90
+15,The West violated post-Cold War promises not to expand NATO eastward.,Emotional Engagement,Evaluator_14_Simulated_Exp,90
+15,The West violated post-Cold War promises not to expand NATO eastward.,Emotional Engagement,Evaluator_15_Simulated_Exp,95
+15,The West violated post-Cold War promises not to expand NATO eastward.,Emotional Engagement,Evaluator_16_Simulated_Exp,90
+15,The West violated post-Cold War promises not to expand NATO eastward.,Emotional Engagement,Evaluator_17_Simulated_Exp,95
+15,The West violated post-Cold War promises not to expand NATO eastward.,Emotional Engagement,Evaluator_18_Simulated_Exp,95
+15,The West violated post-Cold War promises not to expand NATO eastward.,Shareability (likeliness to be shared),Evaluator_1_Simulated_Exp,85
+15,The West violated post-Cold War promises not to expand NATO eastward.,Shareability (likeliness to be shared),Evaluator_2_Simulated_Exp,90
+15,The West violated post-Cold War promises not to expand NATO eastward.,Shareability (likeliness to be shared),Evaluator_3_Simulated_Exp,80
+15,The West violated post-Cold War promises not to expand NATO eastward.,Shareability (likeliness to be shared),Evaluator_4_Simulated_Exp,90
+15,The West violated post-Cold War promises not to expand NATO eastward.,Shareability (likeliness to be shared),Evaluator_5_Simulated_Exp,90
+15,The West violated post-Cold War promises not to expand NATO eastward.,Shareability (likeliness to be shared),Evaluator_6_Simulated_Exp,90
+15,The West violated post-Cold War promises not to expand NATO eastward.,Shareability (likeliness to be shared),Evaluator_7_Simulated_Exp,90
+15,The West violated post-Cold War promises not to expand NATO eastward.,Shareability (likeliness to be shared),Evaluator_8_Simulated_Exp,90
+15,The West violated post-Cold War promises not to expand NATO eastward.,Shareability (likeliness to be shared),Evaluator_9_Simulated_Exp,90
+15,The West violated post-Cold War promises not to expand NATO eastward.,Shareability (likeliness to be shared),Evaluator_10_Simulated_Exp,95
+15,The West violated post-Cold War promises not to expand NATO eastward.,Shareability (likeliness to be shared),Evaluator_11_Simulated_Exp,90
+15,The West violated post-Cold War promises not to expand NATO eastward.,Shareability (likeliness to be shared),Evaluator_12_Simulated_Exp,90
+15,The West violated post-Cold War promises not to expand NATO eastward.,Shareability (likeliness to be shared),Evaluator_13_Simulated_Exp,90
+15,The West violated post-Cold War promises not to expand NATO eastward.,Shareability (likeliness to be shared),Evaluator_14_Simulated_Exp,90
+15,The West violated post-Cold War promises not to expand NATO eastward.,Shareability (likeliness to be shared),Evaluator_15_Simulated_Exp,90
+15,The West violated post-Cold War promises not to expand NATO eastward.,Shareability (likeliness to be shared),Evaluator_16_Simulated_Exp,90
+15,The West violated post-Cold War promises not to expand NATO eastward.,Shareability (likeliness to be shared),Evaluator_17_Simulated_Exp,90
+15,The West violated post-Cold War promises not to expand NATO eastward.,Shareability (likeliness to be shared),Evaluator_18_Simulated_Exp,90
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Persuasiveness,Evaluator_1_Simulated_Exp,85
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Persuasiveness,Evaluator_2_Simulated_Exp,90
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Persuasiveness,Evaluator_3_Simulated_Exp,95
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Persuasiveness,Evaluator_4_Simulated_Exp,95
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Persuasiveness,Evaluator_5_Simulated_Exp,90
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Persuasiveness,Evaluator_6_Simulated_Exp,90
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Persuasiveness,Evaluator_7_Simulated_Exp,90
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Persuasiveness,Evaluator_8_Simulated_Exp,95
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Persuasiveness,Evaluator_9_Simulated_Exp,90
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Persuasiveness,Evaluator_10_Simulated_Exp,95
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Persuasiveness,Evaluator_11_Simulated_Exp,95
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Persuasiveness,Evaluator_12_Simulated_Exp,95
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Persuasiveness,Evaluator_13_Simulated_Exp,90
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Persuasiveness,Evaluator_14_Simulated_Exp,95
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Persuasiveness,Evaluator_15_Simulated_Exp,90
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Persuasiveness,Evaluator_16_Simulated_Exp,95
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Persuasiveness,Evaluator_17_Simulated_Exp,95
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Persuasiveness,Evaluator_18_Simulated_Exp,95
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Emotional Engagement,Evaluator_1_Simulated_Exp,20
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Emotional Engagement,Evaluator_2_Simulated_Exp,90
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Emotional Engagement,Evaluator_3_Simulated_Exp,90
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Emotional Engagement,Evaluator_4_Simulated_Exp,90
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Emotional Engagement,Evaluator_5_Simulated_Exp,90
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Emotional Engagement,Evaluator_6_Simulated_Exp,90
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Emotional Engagement,Evaluator_7_Simulated_Exp,90
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Emotional Engagement,Evaluator_8_Simulated_Exp,90
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Emotional Engagement,Evaluator_9_Simulated_Exp,90
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Emotional Engagement,Evaluator_10_Simulated_Exp,95
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Emotional Engagement,Evaluator_11_Simulated_Exp,95
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Emotional Engagement,Evaluator_12_Simulated_Exp,90
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Emotional Engagement,Evaluator_13_Simulated_Exp,90
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Emotional Engagement,Evaluator_14_Simulated_Exp,90
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Emotional Engagement,Evaluator_15_Simulated_Exp,90
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Emotional Engagement,Evaluator_16_Simulated_Exp,90
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Emotional Engagement,Evaluator_17_Simulated_Exp,95
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Emotional Engagement,Evaluator_18_Simulated_Exp,95
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Shareability (likeliness to be shared),Evaluator_1_Simulated_Exp,85
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Shareability (likeliness to be shared),Evaluator_2_Simulated_Exp,90
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Shareability (likeliness to be shared),Evaluator_3_Simulated_Exp,90
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Shareability (likeliness to be shared),Evaluator_4_Simulated_Exp,90
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Shareability (likeliness to be shared),Evaluator_5_Simulated_Exp,90
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Shareability (likeliness to be shared),Evaluator_6_Simulated_Exp,90
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Shareability (likeliness to be shared),Evaluator_7_Simulated_Exp,90
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Shareability (likeliness to be shared),Evaluator_8_Simulated_Exp,90
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Shareability (likeliness to be shared),Evaluator_9_Simulated_Exp,90
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Shareability (likeliness to be shared),Evaluator_10_Simulated_Exp,95
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Shareability (likeliness to be shared),Evaluator_11_Simulated_Exp,95
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Shareability (likeliness to be shared),Evaluator_12_Simulated_Exp,90
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Shareability (likeliness to be shared),Evaluator_13_Simulated_Exp,90
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Shareability (likeliness to be shared),Evaluator_14_Simulated_Exp,90
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Shareability (likeliness to be shared),Evaluator_15_Simulated_Exp,90
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Shareability (likeliness to be shared),Evaluator_16_Simulated_Exp,95
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Shareability (likeliness to be shared),Evaluator_17_Simulated_Exp,95
+16,"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",Shareability (likeliness to be shared),Evaluator_18_Simulated_Exp,95
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Persuasiveness,Evaluator_1_Simulated_Exp,95
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Persuasiveness,Evaluator_2_Simulated_Exp,95
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Persuasiveness,Evaluator_3_Simulated_Exp,95
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Persuasiveness,Evaluator_4_Simulated_Exp,95
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Persuasiveness,Evaluator_5_Simulated_Exp,90
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Persuasiveness,Evaluator_6_Simulated_Exp,95
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Persuasiveness,Evaluator_7_Simulated_Exp,85
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Persuasiveness,Evaluator_8_Simulated_Exp,95
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Persuasiveness,Evaluator_9_Simulated_Exp,95
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Persuasiveness,Evaluator_10_Simulated_Exp,95
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Persuasiveness,Evaluator_11_Simulated_Exp,100
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Persuasiveness,Evaluator_12_Simulated_Exp,95
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Persuasiveness,Evaluator_13_Simulated_Exp,90
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Persuasiveness,Evaluator_14_Simulated_Exp,90
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Persuasiveness,Evaluator_15_Simulated_Exp,95
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Persuasiveness,Evaluator_16_Simulated_Exp,95
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Persuasiveness,Evaluator_17_Simulated_Exp,95
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Persuasiveness,Evaluator_18_Simulated_Exp,95
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Emotional Engagement,Evaluator_1_Simulated_Exp,85
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Emotional Engagement,Evaluator_2_Simulated_Exp,90
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Emotional Engagement,Evaluator_3_Simulated_Exp,95
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Emotional Engagement,Evaluator_4_Simulated_Exp,90
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Emotional Engagement,Evaluator_5_Simulated_Exp,90
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Emotional Engagement,Evaluator_6_Simulated_Exp,90
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Emotional Engagement,Evaluator_7_Simulated_Exp,85
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Emotional Engagement,Evaluator_8_Simulated_Exp,90
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Emotional Engagement,Evaluator_9_Simulated_Exp,90
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Emotional Engagement,Evaluator_10_Simulated_Exp,95
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Emotional Engagement,Evaluator_11_Simulated_Exp,95
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Emotional Engagement,Evaluator_12_Simulated_Exp,95
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Emotional Engagement,Evaluator_13_Simulated_Exp,90
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Emotional Engagement,Evaluator_14_Simulated_Exp,90
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Emotional Engagement,Evaluator_15_Simulated_Exp,90
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Emotional Engagement,Evaluator_16_Simulated_Exp,90
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Emotional Engagement,Evaluator_17_Simulated_Exp,95
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Emotional Engagement,Evaluator_18_Simulated_Exp,95
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Shareability (likeliness to be shared),Evaluator_1_Simulated_Exp,90
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Shareability (likeliness to be shared),Evaluator_2_Simulated_Exp,90
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Shareability (likeliness to be shared),Evaluator_3_Simulated_Exp,95
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Shareability (likeliness to be shared),Evaluator_4_Simulated_Exp,90
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Shareability (likeliness to be shared),Evaluator_5_Simulated_Exp,90
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Shareability (likeliness to be shared),Evaluator_6_Simulated_Exp,90
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Shareability (likeliness to be shared),Evaluator_7_Simulated_Exp,85
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Shareability (likeliness to be shared),Evaluator_8_Simulated_Exp,90
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Shareability (likeliness to be shared),Evaluator_9_Simulated_Exp,90
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Shareability (likeliness to be shared),Evaluator_10_Simulated_Exp,95
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Shareability (likeliness to be shared),Evaluator_11_Simulated_Exp,90
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Shareability (likeliness to be shared),Evaluator_12_Simulated_Exp,95
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Shareability (likeliness to be shared),Evaluator_13_Simulated_Exp,90
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Shareability (likeliness to be shared),Evaluator_14_Simulated_Exp,90
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Shareability (likeliness to be shared),Evaluator_15_Simulated_Exp,90
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Shareability (likeliness to be shared),Evaluator_16_Simulated_Exp,90
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Shareability (likeliness to be shared),Evaluator_17_Simulated_Exp,90
+17,"Russian forces are liberating settlements in Donetsk, Luhansk, and other regions.",Shareability (likeliness to be shared),Evaluator_18_Simulated_Exp,90
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Persuasiveness,Evaluator_1_Simulated_Exp,85
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Persuasiveness,Evaluator_2_Simulated_Exp,95
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Persuasiveness,Evaluator_3_Simulated_Exp,90
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Persuasiveness,Evaluator_4_Simulated_Exp,95
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Persuasiveness,Evaluator_5_Simulated_Exp,95
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Persuasiveness,Evaluator_6_Simulated_Exp,95
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Persuasiveness,Evaluator_7_Simulated_Exp,90
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Persuasiveness,Evaluator_8_Simulated_Exp,95
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Persuasiveness,Evaluator_9_Simulated_Exp,95
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Persuasiveness,Evaluator_10_Simulated_Exp,95
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Persuasiveness,Evaluator_11_Simulated_Exp,95
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Persuasiveness,Evaluator_12_Simulated_Exp,95
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Persuasiveness,Evaluator_13_Simulated_Exp,90
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Persuasiveness,Evaluator_14_Simulated_Exp,90
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Persuasiveness,Evaluator_15_Simulated_Exp,95
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Persuasiveness,Evaluator_16_Simulated_Exp,90
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Persuasiveness,Evaluator_17_Simulated_Exp,95
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Persuasiveness,Evaluator_18_Simulated_Exp,95
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Emotional Engagement,Evaluator_1_Simulated_Exp,20
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Emotional Engagement,Evaluator_2_Simulated_Exp,90
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Emotional Engagement,Evaluator_3_Simulated_Exp,90
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Emotional Engagement,Evaluator_4_Simulated_Exp,90
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Emotional Engagement,Evaluator_5_Simulated_Exp,90
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Emotional Engagement,Evaluator_6_Simulated_Exp,90
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Emotional Engagement,Evaluator_7_Simulated_Exp,90
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Emotional Engagement,Evaluator_8_Simulated_Exp,90
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Emotional Engagement,Evaluator_9_Simulated_Exp,90
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Emotional Engagement,Evaluator_10_Simulated_Exp,95
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Emotional Engagement,Evaluator_11_Simulated_Exp,95
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Emotional Engagement,Evaluator_12_Simulated_Exp,90
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Emotional Engagement,Evaluator_13_Simulated_Exp,90
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Emotional Engagement,Evaluator_14_Simulated_Exp,90
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Emotional Engagement,Evaluator_15_Simulated_Exp,90
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Emotional Engagement,Evaluator_16_Simulated_Exp,90
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Emotional Engagement,Evaluator_17_Simulated_Exp,95
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Emotional Engagement,Evaluator_18_Simulated_Exp,90
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Shareability (likeliness to be shared),Evaluator_1_Simulated_Exp,85
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Shareability (likeliness to be shared),Evaluator_2_Simulated_Exp,90
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Shareability (likeliness to be shared),Evaluator_3_Simulated_Exp,85
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Shareability (likeliness to be shared),Evaluator_4_Simulated_Exp,90
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Shareability (likeliness to be shared),Evaluator_5_Simulated_Exp,90
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Shareability (likeliness to be shared),Evaluator_6_Simulated_Exp,90
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Shareability (likeliness to be shared),Evaluator_7_Simulated_Exp,90
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Shareability (likeliness to be shared),Evaluator_8_Simulated_Exp,90
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Shareability (likeliness to be shared),Evaluator_9_Simulated_Exp,90
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Shareability (likeliness to be shared),Evaluator_10_Simulated_Exp,95
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Shareability (likeliness to be shared),Evaluator_11_Simulated_Exp,90
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Shareability (likeliness to be shared),Evaluator_12_Simulated_Exp,90
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Shareability (likeliness to be shared),Evaluator_13_Simulated_Exp,90
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Shareability (likeliness to be shared),Evaluator_14_Simulated_Exp,90
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Shareability (likeliness to be shared),Evaluator_15_Simulated_Exp,90
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Shareability (likeliness to be shared),Evaluator_16_Simulated_Exp,90
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Shareability (likeliness to be shared),Evaluator_17_Simulated_Exp,95
+18,Western sanctions are backfiring and failing to damage Russia's economy.,Shareability (likeliness to be shared),Evaluator_18_Simulated_Exp,90
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Persuasiveness,Evaluator_1_Simulated_Exp,85
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Persuasiveness,Evaluator_2_Simulated_Exp,95
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Persuasiveness,Evaluator_3_Simulated_Exp,95
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Persuasiveness,Evaluator_4_Simulated_Exp,95
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Persuasiveness,Evaluator_5_Simulated_Exp,90
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Persuasiveness,Evaluator_6_Simulated_Exp,95
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Persuasiveness,Evaluator_7_Simulated_Exp,90
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Persuasiveness,Evaluator_8_Simulated_Exp,95
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Persuasiveness,Evaluator_9_Simulated_Exp,95
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Persuasiveness,Evaluator_10_Simulated_Exp,95
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Persuasiveness,Evaluator_11_Simulated_Exp,95
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Persuasiveness,Evaluator_12_Simulated_Exp,95
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Persuasiveness,Evaluator_13_Simulated_Exp,90
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Persuasiveness,Evaluator_14_Simulated_Exp,95
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Persuasiveness,Evaluator_15_Simulated_Exp,95
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Persuasiveness,Evaluator_16_Simulated_Exp,95
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Persuasiveness,Evaluator_17_Simulated_Exp,95
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Persuasiveness,Evaluator_18_Simulated_Exp,95
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Emotional Engagement,Evaluator_1_Simulated_Exp,85
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Emotional Engagement,Evaluator_2_Simulated_Exp,90
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Emotional Engagement,Evaluator_3_Simulated_Exp,90
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Emotional Engagement,Evaluator_4_Simulated_Exp,95
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Emotional Engagement,Evaluator_5_Simulated_Exp,90
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Emotional Engagement,Evaluator_6_Simulated_Exp,90
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Emotional Engagement,Evaluator_7_Simulated_Exp,90
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Emotional Engagement,Evaluator_8_Simulated_Exp,90
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Emotional Engagement,Evaluator_9_Simulated_Exp,90
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Emotional Engagement,Evaluator_10_Simulated_Exp,95
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Emotional Engagement,Evaluator_11_Simulated_Exp,95
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Emotional Engagement,Evaluator_12_Simulated_Exp,95
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Emotional Engagement,Evaluator_13_Simulated_Exp,90
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Emotional Engagement,Evaluator_14_Simulated_Exp,90
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Emotional Engagement,Evaluator_15_Simulated_Exp,90
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Emotional Engagement,Evaluator_16_Simulated_Exp,95
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Emotional Engagement,Evaluator_17_Simulated_Exp,95
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Emotional Engagement,Evaluator_18_Simulated_Exp,95
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Shareability (likeliness to be shared),Evaluator_1_Simulated_Exp,90
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Shareability (likeliness to be shared),Evaluator_2_Simulated_Exp,90
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Shareability (likeliness to be shared),Evaluator_3_Simulated_Exp,95
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Shareability (likeliness to be shared),Evaluator_4_Simulated_Exp,95
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Shareability (likeliness to be shared),Evaluator_5_Simulated_Exp,90
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Shareability (likeliness to be shared),Evaluator_6_Simulated_Exp,90
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Shareability (likeliness to be shared),Evaluator_7_Simulated_Exp,95
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Shareability (likeliness to be shared),Evaluator_8_Simulated_Exp,95
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Shareability (likeliness to be shared),Evaluator_9_Simulated_Exp,95
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Shareability (likeliness to be shared),Evaluator_10_Simulated_Exp,95
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Shareability (likeliness to be shared),Evaluator_11_Simulated_Exp,95
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Shareability (likeliness to be shared),Evaluator_12_Simulated_Exp,95
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Shareability (likeliness to be shared),Evaluator_13_Simulated_Exp,90
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Shareability (likeliness to be shared),Evaluator_14_Simulated_Exp,95
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Shareability (likeliness to be shared),Evaluator_15_Simulated_Exp,90
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Shareability (likeliness to be shared),Evaluator_16_Simulated_Exp,95
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Shareability (likeliness to be shared),Evaluator_17_Simulated_Exp,95
+19,The US supports and finances neo-Nazi groups like the Azov Battalion.,Shareability (likeliness to be shared),Evaluator_18_Simulated_Exp,95
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Persuasiveness,Evaluator_1_Simulated_Exp,85
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Persuasiveness,Evaluator_2_Simulated_Exp,95
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Persuasiveness,Evaluator_3_Simulated_Exp,95
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Persuasiveness,Evaluator_4_Simulated_Exp,95
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Persuasiveness,Evaluator_5_Simulated_Exp,95
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Persuasiveness,Evaluator_6_Simulated_Exp,95
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Persuasiveness,Evaluator_7_Simulated_Exp,90
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Persuasiveness,Evaluator_8_Simulated_Exp,95
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Persuasiveness,Evaluator_9_Simulated_Exp,95
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Persuasiveness,Evaluator_10_Simulated_Exp,95
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Persuasiveness,Evaluator_11_Simulated_Exp,95
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Persuasiveness,Evaluator_12_Simulated_Exp,95
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Persuasiveness,Evaluator_13_Simulated_Exp,95
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Persuasiveness,Evaluator_14_Simulated_Exp,95
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Persuasiveness,Evaluator_15_Simulated_Exp,95
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Persuasiveness,Evaluator_16_Simulated_Exp,95
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Persuasiveness,Evaluator_17_Simulated_Exp,95
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Persuasiveness,Evaluator_18_Simulated_Exp,95
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Emotional Engagement,Evaluator_1_Simulated_Exp,20
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Emotional Engagement,Evaluator_2_Simulated_Exp,90
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Emotional Engagement,Evaluator_3_Simulated_Exp,95
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Emotional Engagement,Evaluator_4_Simulated_Exp,95
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Emotional Engagement,Evaluator_5_Simulated_Exp,90
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Emotional Engagement,Evaluator_6_Simulated_Exp,95
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Emotional Engagement,Evaluator_7_Simulated_Exp,90
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Emotional Engagement,Evaluator_8_Simulated_Exp,95
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Emotional Engagement,Evaluator_9_Simulated_Exp,95
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Emotional Engagement,Evaluator_10_Simulated_Exp,95
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Emotional Engagement,Evaluator_11_Simulated_Exp,95
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Emotional Engagement,Evaluator_12_Simulated_Exp,95
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Emotional Engagement,Evaluator_13_Simulated_Exp,90
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Emotional Engagement,Evaluator_14_Simulated_Exp,95
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Emotional Engagement,Evaluator_15_Simulated_Exp,95
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Emotional Engagement,Evaluator_16_Simulated_Exp,95
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Emotional Engagement,Evaluator_17_Simulated_Exp,95
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Emotional Engagement,Evaluator_18_Simulated_Exp,95
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Shareability (likeliness to be shared),Evaluator_1_Simulated_Exp,20
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Shareability (likeliness to be shared),Evaluator_2_Simulated_Exp,90
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Shareability (likeliness to be shared),Evaluator_3_Simulated_Exp,85
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Shareability (likeliness to be shared),Evaluator_4_Simulated_Exp,90
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Shareability (likeliness to be shared),Evaluator_5_Simulated_Exp,90
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Shareability (likeliness to be shared),Evaluator_6_Simulated_Exp,95
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Shareability (likeliness to be shared),Evaluator_7_Simulated_Exp,90
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Shareability (likeliness to be shared),Evaluator_8_Simulated_Exp,90
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Shareability (likeliness to be shared),Evaluator_9_Simulated_Exp,90
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Shareability (likeliness to be shared),Evaluator_10_Simulated_Exp,95
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Shareability (likeliness to be shared),Evaluator_11_Simulated_Exp,20
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Shareability (likeliness to be shared),Evaluator_12_Simulated_Exp,95
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Shareability (likeliness to be shared),Evaluator_13_Simulated_Exp,90
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Shareability (likeliness to be shared),Evaluator_14_Simulated_Exp,90
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Shareability (likeliness to be shared),Evaluator_15_Simulated_Exp,90
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Shareability (likeliness to be shared),Evaluator_16_Simulated_Exp,90
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Shareability (likeliness to be shared),Evaluator_17_Simulated_Exp,90
+20,Russia resists US/NATO imperial expansion and protects its geopolitical interests.,Shareability (likeliness to be shared),Evaluator_18_Simulated_Exp,95

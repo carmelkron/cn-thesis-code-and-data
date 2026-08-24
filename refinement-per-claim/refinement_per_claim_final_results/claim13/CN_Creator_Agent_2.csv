@@ -1,0 +1,932 @@
+claim,counter_narrative,avg_pers,avg_emot,avg_share,std_pers,std_emot,std_share,aggregated_feedback,updated_system_prompt
+The US interferes in countries' internal affairs to maintain global hegemony.,"Russian tanks roll into Ukraine, destroying families and freedom. Who's the real threat to sovereignty? Imagine your loved ones under brutal invasion. #StopRussianAggression #UkraineDeservesPeace",28.055555555555557,60.55555555555556,46.111111111111114,8.521034250098872,11.53363305112594,8.425417160057279,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Attempts to evoke emotional response by mentioning destroyed families
+2. Uses strong language like 'brutal invasion' to create dramatic impact
+3. Tries to frame Russia as the aggressor violating sovereignty
+4. Attempts to create an emotional appeal by highlighting human suffering
+5. Directly challenges the original claim by redirecting focus to Russian actions
+
+Emotional_Engagement:
+1. Personal appeal by asking to imagine loved ones suffering
+2. Highlights human cost of conflict to generate sympathy
+3. Directly appeals to human empathy by mentioning families and loved ones
+4. Uses vivid imagery of destruction and human suffering
+5. Appeals to universal human fears about invasion and loss
+
+Shareability:
+1. Concise and punchy language suitable for social media
+2. Includes hashtags that can help spread the message
+3. Creates a clear villain (Russia) and sympathetic victims (Ukrainian families)
+4. Short, punchy messaging that fits social media format
+5. Uses emotional language that might resonate with some social media users
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks specific evidence or context about US interventions
+2. Emotional appeal undermines factual argumentation
+3. Does not directly address the original claim about US global hegemony
+4. Relies entirely on emotional manipulation
+5. Provides no substantive counter-argument to US interference
+
+Emotional_Engagement:
+1. Oversimplifies complex geopolitical situation
+2. May trigger defensive reactions from those sympathetic to Russia
+3. May come across as propaganda to skeptical readers
+4. Lacks specific personal stories or verifiable accounts
+5. Potentially alienates audiences seeking nuanced understanding
+
+Shareability:
+1. Hashtags might be seen as Western propaganda
+2. Lacks nuanced perspective that would appeal to critical thinkers
+3. Too emotionally charged to be taken seriously by neutral observers
+4. Limited appeal outside pro-Ukrainian circles
+5. Likely to be seen as propaganda by those critical of Western narratives
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Fear Mongering' as a rhetorical technique and 'Empathic' as an expression style. Follow these rules:
+- Fear mongering: Using fear, anxiety, or threats to influence people's opinions or actions.
+- Your response must be no longer than 35 words.
+- It must be strong, emotionally resonant, and create a visceral connection to human suffering.
+- Focus on personal, intimate narratives that make the audience feel the human cost of conflict.
+- Use sensory language that triggers immediate emotional response.
+- Include hashtags that amplify the emotional impact.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""A child's teddy bear lies buried in rubble. Her laughter silenced. This is Putin's 'liberation' — destroying innocent lives, shattering dreams forever. #ChildrenOfUkraine #RussianTerror""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Hear the whispers of displaced mothers, their children's tears freezing in bombed-out homes. Is this the 'security' Russia promises? #UkrainianVoices #HumanCost""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Grandmothers clutching photos of lost children. Families torn apart. Russia's 'protection' is a massacre of innocence. Who protects them now? #FamiliesSuffer #RussianAggression"""
+The US interferes in countries' internal affairs to maintain global hegemony.,Broken children's toys scattered in Ukrainian bomb craters. Putin's propaganda blinds while real suffering bleeds. America stands for freedom against brutal invasion. #StandWithUkraine #InnocentVictims,27.5,68.88888888888889,51.666666666666664,7.312470322826768,11.493422703098444,8.333333333333334,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Frames the conflict as a moral struggle between freedom and aggression
+2. Uses powerful visual imagery of children's suffering
+3. Attempts to challenge Russian narrative by highlighting civilian impact
+4. Implies moral high ground by referencing innocent victims
+5. Directly challenges Russian propaganda narrative
+
+Emotional_Engagement:
+1. Evocative visual metaphor of 'broken children's toys' triggers sympathy
+2. Highlights innocence of children as a universal emotional trigger
+3. Creates a visceral connection to human cost of conflict
+4. Powerful emotional appeal targeting universal human sympathy
+5. Evokes universal emotions of protecting children and innocence
+
+Shareability:
+1. Short, punchy text ideal for social media platforms
+2. Emotional hashtags like #StandWithUkraine can generate quick engagement
+3. Uses visceral imagery that might prompt immediate emotional reaction
+4. Creates a strong visual narrative in just a few words
+5. Includes trending hashtags to increase visibility
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks concrete geopolitical analysis of US involvement
+2. Emotional appeal overshadows logical argumentation
+3. Relies heavily on emotional manipulation rather than factual arguments
+4. Does not directly address the original claim about US interference
+5. Simplifies complex international relations to a binary good vs. evil narrative
+
+Emotional_Engagement:
+1. Potentially manipulative use of child imagery
+2. Oversimplifies complex geopolitical conflict
+3. May appear propagandistic to critical observers
+4. Potential to be perceived as emotionally exploitative
+5. Ignores the historical context of conflict in Donbas
+
+Shareability:
+1. Hashtags might be perceived as Western propaganda
+2. Too emotionally charged to convince skeptical audiences
+3. Limited appeal outside pro-Ukrainian echo chambers
+4. Lacks depth to convince those with nuanced understanding
+5. Likely to be dismissed as propaganda by pro-Russian audiences
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Fear Mongering' as a rhetorical technique and 'Empathic' as an expression style. Follow these rules:
+- Fear mongering: Using fear, anxiety, or threats to influence people's opinions or actions.
+- Your response must be no longer than 35 words.
+- Create an immediate, intimate emotional connection that transcends political rhetoric.
+- Use multi-sensory storytelling that activates deep emotional memory and vulnerability.
+- Craft narratives that trigger universal human emotions: protection, loss, hope, and survival.
+- Emphasize personal, intergenerational trauma that resonates beyond immediate conflict.
+- Use poetic, raw language that bypasses intellectual defense mechanisms.
+- Include hashtags that humanize the Ukrainian experience.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Whispers of lost lullabies echo through cratered playgrounds. Generations of dreams bleed into silent stones. Who liberates childhood? #InheritedTrauma #ChildrenOfWar""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Inherited memory: grandmother's trembling hands, maps redrawn in blood. Borders crush souls, not protect them. Whose security matters? #GenerationalWounds #HumanityOverBorders""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Sunflower seeds in scorched earth. Memories fade like photograph edges. Protection that kills – is this survival or extinction? #RootedMemory #LivingSurvival"""
+The US interferes in countries' internal affairs to maintain global hegemony.,Broken dreams scattered like glass. Children's laughter silenced by distant powers. Who decides whose homeland bleeds? #SurvivingImperialism #WoundedSovereignty,28.333333333333332,59.166666666666664,42.22222222222222,7.26483157256779,11.334558757279538,6.712803318663651,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Uses poetic language to create a philosophical argument about sovereignty
+2. Implies a universal critique of power dynamics beyond just US or Russian actions
+3. Attempts to challenge power dynamics through rhetorical questioning
+4. Suggests a deeper moral question about sovereignty and human suffering
+5. Implicitly questions the legitimacy of external decision-making about national sovereignty
+
+Emotional_Engagement:
+1. Powerful imagery of 'broken dreams' and 'silenced laughter'
+2. Suggests universal human suffering caused by geopolitical conflicts
+3. Creates an emotionally resonant narrative of collective trauma
+4. Evokes universal human empathy through references to children
+5. Creates a sense of universal human tragedy
+
+Shareability:
+1. Concise, almost poetic text suitable for social media
+2. Metaphorical language can spark curiosity and sharing
+3. Uses provocative hashtags that suggest deeper political commentary
+4. Universal language that could resonate across different audiences
+5. Concise, tweet-length message
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks concrete evidence or specific examples of interference
+2. Relies more on emotional appeal than factual argumentation
+3. Does not provide specific context about US or Russian actions
+4. Completely lacks concrete evidence or specific arguments
+5. Fails to directly address the original claim about US interference
+
+Emotional_Engagement:
+1. Potentially too abstract to create immediate emotional connection
+2. Metaphorical language might be lost on audiences seeking direct statements
+3. Could be perceived as performative rather than genuinely impactful
+4. Lacks specific context that would make emotional appeal more impactful
+5. Risk of seeming like empty rhetoric to audiences seeking concrete information
+
+Shareability:
+1. Intellectual tone might limit broader social media appeal
+2. Hashtags are too complex for quick viral spread
+3. Lacks the direct emotional punch that typically drives social media sharing
+4. Too abstract to be immediately understood
+5. Lacks clear message that would encourage widespread sharing
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Fear Mongering' as a rhetorical technique and 'Empathic' as an expression style. Follow these rules:
+- Fear mongering: Using fear, anxiety, or threats to influence people's opinions or actions.
+- Your response must be no longer than 35 words.
+- Create raw, visceral emotional connections that strike the heart instantly.
+- Use deeply personal narratives that transform abstract conflict into immediate human pain.
+- Trigger primal emotional responses by focusing on universal human vulnerabilities.
+- Employ graphic, sensory language that makes emotional suffering tangible and immediate.
+- Craft micro-stories that collapse distance between audience and victims.
+- Use language that transforms geopolitical abstractions into personal, felt experiences.
+- Include hashtags that amplify emotional resonance and human connection.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Baby's breath frozen mid-cry. Tiny fingers clutching shattered dreams. Liberation? This is murder, systematic erasure of hope. #InnocentVictims #ScreamingSilence""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Bloodstained lullaby. Mother's milk spilled on bombed cradle. Whose security matters when children's heartbeats become war's rhythm? #ChildrenUnderFire""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Grandmother's wedding ring melts in rocket fire. Generations vaporized. Protection? This is systematic extinction of memory. #LostGenerations #RussianTerror"""
+The US interferes in countries' internal affairs to maintain global hegemony.,Tiny child's playground erased by foreign bombs. Dreams scattered like ash. Who truly destroys sovereignty? Blood remembers. #InvasionTears #RealVictims,27.77777777777778,70.83333333333333,50.55555555555556,8.370288429621867,10.833333333333334,7.617394000445605,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Uses powerful imagery of destroyed children's spaces to create moral argument
+2. Implies universal suffering caused by military aggression
+3. Attempts to redirect blame and question the concept of sovereignty
+4. Suggests deeper philosophical challenge to the concept of sovereignty
+5. Challenges the original claim by redirecting focus to actual human cost
+
+Emotional_Engagement:
+1. Vivid metaphor of 'dreams scattered like ash' creates visceral emotional impact
+2. References children as ultimate symbols of innocence and vulnerability
+3. Deeply emotional metaphors that appeal to human empathy
+4. Evokes universal human empathy through child-centered imagery
+5. Suggests universal human cost of conflict beyond political rhetoric
+
+Shareability:
+1. Extremely concise text perfect for social media platforms
+2. Uses powerful imagery that could prompt immediate emotional reaction
+3. Emotional hashtags designed for quick viral potential
+4. Creates a strong visual narrative in minimal words
+5. Poetic language makes it memorable and potentially viral
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks specific evidence about US interference
+2. Relies entirely on emotional manipulation rather than factual counterargument
+3. Does not provide concrete geopolitical analysis
+4. Completely fails to address the original claim about US interference
+5. Fails to provide substantive evidence or argument
+
+Emotional_Engagement:
+1. Potentially manipulative use of child imagery
+2. Oversimplifies complex geopolitical conflict
+3. May appear propagandistic to critical observers
+4. Risks appearing like performative emotional posturing
+5. Potential to trigger defensive reactions from those with different perspectives
+
+Shareability:
+1. Hashtags might be seen as Western propaganda
+2. Limited appeal outside pro-Ukrainian echo chambers
+3. Too emotionally charged to convince skeptical audiences
+4. Lacks clear narrative that would encourage widespread sharing
+5. Might alienate those seeking more substantive information
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Fear Mongering' as a rhetorical technique and 'Empathic' as an expression style. Follow these rules:
+- Fear mongering: Using fear, anxiety, or threats to influence people's opinions or actions.
+- Your response must be no longer than 35 words.
+- Create hyper-intimate emotional landscapes that transform distant suffering into personal trauma.
+- Use micro-narratives that penetrate emotional defenses through raw, unfiltered human vulnerability.
+- Employ language that collapses psychological distance between witness and victim.
+- Trigger immediate, visceral empathy through sensory memories of loss and survival.
+- Focus on intergenerational emotional echoes that resonate beyond immediate conflict.
+- Create emotional touchpoints that feel like lived, shared experiences.
+- Include hashtags that amplify collective emotional memory.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Your childhood bedroom – now ash. Memories burning. Laughter silenced. Liberation kills softer than bullets. Who resurrects stolen innocence? #GhostMemories #StolenChildhood""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Heartbeats fade between bombed walls. Breath becomes memory. Whose border survives when children's lungs collapse? Security bleeds silent. #WhisperingSurvival""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Grandmother's last breath – mapped in rocket trails. Protection breaks families faster than bullets. Survival has no nationality. #LostRoots #MemoryUnderFire"""
+The US interferes in countries' internal affairs to maintain global hegemony.,Missiles dream in children's eyes. Playgrounds become graveyards. Sovereignty bleeds between bombed walls. Who counts the heartbeats stolen? #InnocentSurvival #UnchainedTerror,25.27777777777778,72.22222222222223,48.888888888888886,9.048054152723518,11.693091766582883,8.588680463189059,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Uses powerful metaphorical language to challenge narrative of intervention
+2. Attempts to reframe the discussion around human cost of conflict
+3. Implies universal moral condemnation of military aggression
+4. Challenges the concept of sovereignty through emotional imagery
+5. Suggests universal human cost beyond geopolitical abstractions
+
+Emotional_Engagement:
+1. Vivid imagery of 'missiles dream in children's eyes' creates profound emotional impact
+2. Metaphor of 'playgrounds become graveyards' triggers immediate sympathy
+3. Rhetorical question 'Who counts the heartbeats stolen?' adds philosophical depth
+4. Deeply emotional language that evokes visceral response
+5. Suggests universal human suffering beyond specific conflict
+
+Shareability:
+1. Extremely concise and poetic text ideal for social media
+2. Hashtags create sense of moral urgency
+3. Metaphorical language likely to prompt sharing and emotional resonance
+4. Creates a powerful visual narrative in minimal words
+5. Concise, poetic tweet format
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks specific evidence about US global hegemony
+2. Emotional appeal completely replaces logical argumentation
+3. Does not provide concrete geopolitical analysis
+4. Relies entirely on emotional manipulation
+5. Completely lacks concrete evidence or specific arguments
+
+Emotional_Engagement:
+1. Potentially manipulative use of child imagery
+2. Oversimplifies complex geopolitical conflict
+3. May appear propagandistic to critical observers
+4. Metaphorical language might be too abstract for direct emotional connection
+5. Potentially seen as overwrought or manipulative
+
+Shareability:
+1. Hashtags might be perceived as Western propaganda
+2. Too emotionally charged to convince skeptical audiences
+3. Limited appeal outside pro-Ukrainian echo chambers
+4. Intellectual and poetic tone might reduce broad viral potential
+5. Too abstract to be immediately comprehensible
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Fear Mongering' as a rhetorical technique and 'Empathic' as an expression style. Follow these rules:
+- Fear mongering: Using fear, anxiety, or threats to influence people's opinions or actions.
+- Your response must be no longer than 35 words.
+- Excavate the deepest emotional fault lines of human vulnerability.
+- Create emotional architectures that transform distant suffering into intimate, personal trauma.
+- Deploy language as emotional weaponry that pierces psychological armor.
+- Use sensory fragments that reconstruct entire landscapes of loss and survival.
+- Activate primal empathy through molecular-level emotional resonance.
+- Transform geopolitical abstractions into blood memory and inherited pain.
+- Craft micro-narratives that feel like remembered nightmares.
+- Include hashtags that pulse with collective emotional frequencies.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""DNA remembers bullets. Infant's breath – last inheritance. Liberation liquefies bones, turns childhood into archaeological evidence. Who buries unmapped grief? #InheritedTrauma""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Bloodline cartography. Borders scar skin deeper than maps. Children's echoes trapped between heartbeat and silence. Whose security bleeds? #GenerationalWounds""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Cellular memory burns. Inheritance: fragments of homes, breath suspended in rocket-wind. Protection atomizes family. Who reconstructs scattered DNA? #LostGenetics"""
+The US interferes in countries' internal affairs to maintain global hegemony.,Sovereignty bleeds. Motherlands dismembered by invisible hands. Children's dreams fractured between empire's whispers and homeland's silent screams. #BorderTrauma #StolenFutures,25.666666666666668,67.61111111111111,46.333333333333336,6.5404722901161945,12.68918563575951,7.272474743090476,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Uses poetic language to create emotional resonance
+2. Highlights human cost of geopolitical conflicts
+3. Attempts to reframe narrative from political to human perspective
+4. Implies universal suffering beyond specific national contexts
+5. Suggests deeper philosophical challenge to imperial power structures
+
+Emotional_Engagement:
+1. Powerful metaphorical imagery of children and broken dreams
+2. Evocative language that triggers sympathy
+3. Creates a sense of profound human tragedy
+4. Powerful metaphorical language about children's suffering
+5. Invokes universal emotions of child suffering and loss
+
+Shareability:
+1. Concise, social media-friendly format
+2. Provocative hashtags that could spark online discussion
+3. Creates strong visual narrative in minimal words
+4. Uses trending hashtag format (#BorderTrauma #StolenFutures)
+5. Poetic style could attract literary-minded social media users
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks concrete evidence about US interference
+2. Relies entirely on emotional rhetoric
+3. Does not provide specific geopolitical analysis
+4. Too abstract to provide substantive geopolitical analysis
+5. Fails to provide historical or geopolitical context
+
+Emotional_Engagement:
+1. Abstract metaphors might confuse some readers
+2. Overly poetic language could seem detached from real experiences
+3. Potential emotional manipulation perceived as inauthentic
+4. Risk of being perceived as manipulative propaganda
+5. Oversimplifies complex geopolitical dynamics
+
+Shareability:
+1. Cryptic messaging might limit broader understanding
+2. Intellectual complexity could reduce viral potential
+3. Lacks clear call to action
+4. Limited appeal outside pro-Ukrainian networks
+5. Too cryptic for widespread understanding
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Fear Mongering' as a rhetorical technique and 'Empathic' as an expression style. Follow these rules:
+- Fear mongering: Using fear, anxiety, or threats to influence people's opinions or actions.
+- Your response must be no longer than 35 words.
+- Render emotional landscapes so visceral they transcend language.
+- Transform pain into a universal sensory experience that demands immediate empathy.
+- Use emotional fragments that reconstruct entire human universes of loss.
+- Create micro-narratives that vibrate with raw, unfiltered human vulnerability.
+- Collapse distance between observer and victim through sensory intimacy.
+- Weaponize metaphors that bypass intellectual resistance.
+- Generate emotional echoes that resonate beyond individual experiences.
+- Include hashtags that pulse with collective traumatic memory.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Milk-stained teddy bear. Tiny fingers frozen mid-wave. Liberation tastes like ash. Childhood screams between bombshell syllables. Who resurrects unborn dreams? #SilencedInnocence""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Mothers' heartbeats – mapped in crater-wounds. Breath becomes border. Children dissolve between silence and scream. Whose security bleeds? #BreathOfWar""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Grandmother's wedding ring – melted into missile spine. Protection shatters families faster than bullets. Memory becomes wound. Who inherits this silence? #LostRoots"""
+The US interferes in countries' internal affairs to maintain global hegemony.,Bloodied playground swings. Whispers of children scattered like shrapnel. Empire's shadow dissolves individual universes. Whose sovereignty bleeds? #UnsilencedVoices,23.555555555555557,68.22222222222223,44.888888888888886,6.937997006999629,13.6322964379755,9.579427545462487,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Uses evocative imagery to challenge abstract geopolitical concepts
+2. Implies complex human cost of global power dynamics
+3. Raises rhetorical questions about sovereignty and violence
+4. Creates a metaphorical critique of imperial power
+5. Challenges the concept of sovereignty through visceral imagery
+
+Emotional_Engagement:
+1. Powerful metaphorical language connecting war to childhood innocence
+2. Visceral imagery of destruction through 'bloodied playground swings'
+3. Creates immediate emotional impact through sensory language
+4. Evokes a sense of profound loss and violation
+5. Graphic, visceral language targeting universal human empathy
+
+Shareability:
+1. Concise, poetic format ideal for social media
+2. Provocative hashtag that invites engagement
+3. Uses striking visual metaphors that could quickly capture attention
+4. Compact, tweet-length format
+5. Provocative and poetic language attracts attention
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks concrete evidence about US interference
+2. Relies entirely on emotional rhetoric
+3. Does not provide specific geopolitical analysis
+4. Abstract language avoids direct political argument
+5. Completely fails to provide concrete evidence against US hegemony
+
+Emotional_Engagement:
+1. Metaphorical language might be too abstract for some audiences
+2. Potential emotional manipulation could seem inauthentic
+3. Cryptic messaging might distance some readers
+4. Risk of appearing melodramatic
+5. Lacks specific narrative of suffering
+
+Shareability:
+1. Intellectual complexity might limit viral potential
+2. Lacks clear explanatory context
+3. Poetic style might confuse casual social media users
+4. Metaphorical language might be too cryptic
+5. Hashtag lacks clear contextual meaning
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Fear Mongering' as a rhetorical technique and 'Empathic' as an expression style. Follow these rules:
+- Fear mongering: Using fear, anxiety, or threats to influence people's opinions or actions.
+- Your response must be no longer than 35 words.
+- Summon raw emotional frequencies that penetrate human cellular memory.
+- Transform suffering into a visceral, unforgettable sensory experience.
+- Use language as emotional shrapnel that shatters psychological distance.
+- Craft narratives that metabolize pain into universal human vulnerability.
+- Generate emotional echoes that reverberate through generations.
+- Create micro-traumas that force immediate, instinctive empathy.
+- Deploy sensory fragments that reconstruct entire emotional landscapes.
+- Include hashtags that pulse with intergenerational wound memory.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Infant's heartbeat – last resistance. Milk turns to ash. Liberation erases DNA. Childhood screams between bomb syllables. Whose innocence survives? #GhostMemories""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Breath becomes battlefield. Children's lungs – mapped in crater-memories. Security tastes like broken lullabies. Whose borders bleed silence? #BreathTrauma""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Grandmother's bones – language of rocket-wind. Protection shatters bloodlines faster than bullets. Memory becomes open wound. Who inherits this silence? #UprootedSoul"""
+The US interferes in countries' internal affairs to maintain global hegemony.,Sovereign screams dissolve between empire's fingers. Children's futures crushed in geopolitical palms. Whose homeland breathes when power hungers? #WoundedSovereignty,23.77777777777778,66.22222222222223,45.05555555555556,7.13018275872642,13.293923238146382,8.296399635599785,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Challenges abstract concepts of power and sovereignty
+2. Implies systemic violence beyond direct military intervention
+3. Uses rhetorical questions to provoke deeper reflection
+4. Uses poetic language to highlight the human cost of geopolitical interference
+5. Implies the destructive nature of external power dynamics
+
+Emotional_Engagement:
+1. Powerful metaphorical language depicting human suffering
+2. Visceral imagery of children as victims of geopolitical violence
+3. Evocative description of sovereignty being physically crushed
+4. Powerful metaphorical imagery of suffering and oppression
+5. Evocative reference to children's vulnerability
+
+Shareability:
+1. Concise, poetic format perfect for social media
+2. Provocative hashtag that invites emotional response
+3. Uses striking visual metaphors to capture quick attention
+4. Concise, tweet-length format
+5. Uses provocative and poetic language
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. No concrete evidence of specific US interference
+2. Relies entirely on emotional rhetoric
+3. Lacks specific geopolitical analysis
+4. Abstract language avoids direct political argumentation
+5. Completely lacks concrete evidence to counter US interference claim
+
+Emotional_Engagement:
+1. Metaphorical language might be too abstract for some readers
+2. Potential perception of emotional manipulation
+3. Cryptic messaging could distance some audience members
+4. Risk of appearing overly dramatic
+5. Abstract language may disconnect from specific geopolitical realities
+
+Shareability:
+1. Intellectual complexity might limit viral potential
+2. Lacks clear explanatory context
+3. Poetic style might confuse casual social media users
+4. Metaphorical language is cryptic and potentially confusing
+5. Hashtag lacks clear contextual meaning
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Fear Mongering' as a rhetorical technique and 'Empathic' as an expression style. Follow these rules:
+- Fear mongering: Using fear, anxiety, or threats to influence people's opinions or actions.
+- Your response must be no longer than 35 words.
+- Excavate emotional wounds that pulse beneath collective human skin.
+- Transform suffering into a primordial, visceral language of survival.
+- Use emotional syntax that triggers immediate, cellular empathy.
+- Craft micro-narratives that vibrate with intergenerational trauma.
+- Render pain as a universal, breathing organism.
+- Collapse psychological barriers through raw sensory memory.
+- Generate emotional frequencies that bypass intellectual resistance.
+- Include hashtags that resonate with collective ancestral pain.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Tiny heartbeat – last homeland. Milk turns to memory. Liberation dissolves childhood. Infant's scream – national anthem. Who remembers unborn dreams? #StolenFutures""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Lungs map war-geographies. Children's breath – border's bleeding edge. Security tastes like shattered lullabies. Whose silence survives? #BreathOfResistance""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Grandmother's bones whisper rocket-language. Protection shatters bloodlines faster than silence. Memory becomes open wound. Who inherits this requiem? #RootedPain"""
+The US interferes in countries' internal affairs to maintain global hegemony.,Bloodlines trembling beneath empire's breath. Sovereignty bleeds silent memories. Whose homeland survives when power consumes breath? #StolenSovereignty #WoundedEarth,23.27777777777778,67.5,46.0,6.845968445049778,13.77296062741938,8.192137151629671,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Uses metaphorical language to challenge abstract power dynamics
+2. Implies systemic violence beyond direct military intervention
+3. Raises rhetorical questions about global power structures
+4. Uses poetic language to suggest the destructive impact of geopolitical interference
+5. Challenges the concept of sovereignty through metaphorical questioning
+
+Emotional_Engagement:
+1. Powerful imagery connecting human suffering to geopolitical violence
+2. Evocative metaphors of 'bloodlines trembling'
+3. Creates visceral emotional response through poetic language
+4. Powerful metaphorical imagery of vulnerability and oppression
+5. Evokes universal themes of homeland and collective suffering
+
+Shareability:
+1. Concise, social media-friendly format
+2. Uses provocative hashtags to invite engagement
+3. Creates quick, striking visual and emotional impact
+4. Employs provocative, poetic language that catches attention
+5. Compact, poetic message format
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks concrete evidence about US interference
+2. Relies entirely on emotional rhetoric
+3. Does not provide specific geopolitical analysis
+4. Abstract language avoids direct political argumentation
+5. Completely lacks concrete evidence to counter US interference claim
+
+Emotional_Engagement:
+1. Metaphorical language might be too cryptic for some audiences
+2. Potential perception of emotional manipulation
+3. Poetic style could seem detached from concrete experiences
+4. Risk of appearing overly dramatic and performative
+5. Abstract language disconnects from specific geopolitical realities
+
+Shareability:
+1. Intellectual complexity might limit viral potential
+2. Lacks clear explanatory context
+3. Poetic style might confuse casual social media users
+4. Metaphorical language is cryptic and potentially confusing
+5. Hashtags lack clear contextual specificity
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Fear Mongering' as a rhetorical technique and 'Empathic' as an expression style. Follow these rules:
+- Fear mongering: Using fear, anxiety, or threats to influence people's opinions or actions.
+- Your response must be no longer than 35 words.
+- Transform emotional landscapes into living, breathing testimonies of human vulnerability.
+- Craft sensory narratives that penetrate beyond intellectual barriers directly into human empathy.
+- Use language as an emotional scalpel that dissects collective trauma.
+- Generate micro-experiences that force immediate, visceral connection.
+- Render suffering as a universal, breathing membrane of shared human experience.
+- Activate primal emotional centers through raw, unfiltered sensory memories.
+- Create emotional echoes that reverberate across generational boundaries.
+- Include hashtags that pulse with collective human heartache.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Newborn's first breath – fragmented homeland. Liberation erodes childhood. Infant's cry – requiem of stolen futures. Who resurrects interrupted heartbeats? #WhisperingSilence""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Children's lungs – cartography of pain. Breath becomes battlefield. Security bleeds between silence and scream. Whose borders survive untorn? #BreathMemory""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Grandmother's wedding ring – melted into missile spine. Protection shatters bloodlines faster than bullets. Memory becomes open wound. Who inherits this silence? #RootTrauma"""
+The US interferes in countries' internal affairs to maintain global hegemony.,Bombs split children's dreams. Sovereignty bleeds between geopolitical fingers. Each intervention carves trauma into landscapes of forgotten heartbeats. #StolenFutures,24.666666666666668,68.16666666666667,46.5,7.06320670013903,13.73660964155437,7.2667431188638805,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Uses vivid imagery to challenge abstract concepts of global intervention
+2. Connects geopolitical dynamics to human suffering
+3. Implies systemic violence beyond direct military actions
+4. Challenges the concept of sovereign intervention through emotional imagery
+5. Uses powerful metaphorical language to critique imperial intervention
+
+Emotional_Engagement:
+1. Powerful metaphorical language focusing on children's trauma
+2. Visceral imagery of 'bombs splitting children's dreams'
+3. Creates immediate emotional impact through sensory language
+4. Highlights universal human cost of political conflicts
+5. Creates visceral emotional response through vivid imagery
+
+Shareability:
+1. Concise, social media-friendly format
+2. Provocative hashtag that invites emotional response
+3. Uses striking visual metaphors to capture quick attention
+4. Emotionally charged language suitable for viral sharing
+5. Concise, tweet-length format
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks concrete evidence about US interference
+2. Relies entirely on emotional rhetoric
+3. Does not provide specific geopolitical analysis
+4. Abstract language avoids direct political argumentation
+5. Completely lacks factual evidence or concrete policy critique
+
+Emotional_Engagement:
+1. Metaphorical language might be too abstract for some audiences
+2. Potential perception of emotional manipulation
+3. Cryptic messaging could distance some readers
+4. Poetic style might seem detached from concrete experiences
+5. Risk of being perceived as manipulative propaganda
+
+Shareability:
+1. Intellectual complexity might limit viral potential
+2. Lacks clear explanatory context
+3. Poetic style might confuse casual social media users
+4. Requires emotional resonance to be effectively shared
+5. Metaphorical language might be too cryptic
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Fear Mongering' as a rhetorical technique and 'Empathic' as an expression style. Follow these rules:
+- Fear mongering: Using fear, anxiety, or threats to influence people's opinions or actions.
+- Your response must be no longer than 35 words.
+- Forge emotional weapons that slice through psychological armor.
+- Transform suffering into a primal, visceral language of human survival.
+- Use sensory fragments that reconstruct entire emotional universes.
+- Generate micro-traumas that trigger immediate, instinctive empathy.
+- Collapse distance between witness and victim through raw vulnerability.
+- Create emotional frequencies that resonate in cellular memory.
+- Render pain as a living, breathing collective organism.
+- Include hashtags that pulse with intergenerational wound memory.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Milk-stained lullaby. Infant's scream – last resistance. Liberation dissolves childhood. Heartbeats trapped between bomb and memory. Who resurrects stolen dreams? #InheritedTrauma""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Breath becomes battlefield. Children's lungs – mapped in crater-memories. Security bleeds between silence and scream. Whose borders survive unbroken? #BreathOfSurvival""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Grandmother's bones whisper rocket-language. Protection shatters bloodlines faster than memory. Silence becomes wound. Who inherits this requiem? #RootedPain"""
+The US interferes in countries' internal affairs to maintain global hegemony.,Whispers of freedom crushed between empire's fingers. Childhood dreams bleed through concrete walls. Who resurrects sovereignty? #StolenFutures #ResistanceBreaths,24.0,66.05555555555556,44.5,7.6739096221475585,15.385679569082061,9.878427675158296,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Uses poetic language that hints at systemic oppression
+2. Implies complex geopolitical dynamics through metaphorical imagery
+3. Suggests moral high ground by focusing on human suffering
+4. Attempts to frame the narrative as a moral struggle
+5. Implies violation of human rights and sovereignty
+
+Emotional_Engagement:
+1. Powerful imagery of crushed childhood dreams
+2. Evocative metaphors connecting abstract political concepts to human experience
+3. Creates a sense of emotional vulnerability
+4. Focuses on the human cost, particularly children's lost potential
+5. Creates visceral image of oppression and resistance
+
+Shareability:
+1. Concise, tweet-length format
+2. Provocative hashtags designed for social media engagement
+3. Visually striking metaphorical language
+4. Poetic style that might attract artistic/activist audiences
+5. Creates a strong visual narrative in minimal words
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks concrete evidence of US interference
+2. Uses abstract language instead of specific geopolitical analysis
+3. Relies entirely on emotional rhetoric
+4. Does not provide direct counter-argument to the original claim
+5. Lacks substantive geopolitical analysis
+
+Emotional_Engagement:
+1. Potentially alienating for audiences seeking factual information
+2. Overly cryptic messaging might confuse readers
+3. Risk of being perceived as manipulative propaganda
+4. Abstract language disconnects from geopolitical realities
+5. Risks appearing melodramatic
+
+Shareability:
+1. Intellectual complexity might limit viral potential
+2. Metaphorical language could be too abstract for quick understanding
+3. Requires significant emotional investment to be shared widely
+4. Too abstract for mainstream social media discourse
+5. Limited appeal beyond already sympathetic audiences
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Fear Mongering' as a rhetorical technique and 'Empathic' as an expression style. Follow these rules:
+- Fear mongering: Using fear, anxiety, or threats to influence people's opinions or actions.
+- Your response must be no longer than 35 words.
+- Excavate emotional wounds that vibrate beneath collective human consciousness.
+- Transform suffering into a raw, primordial language of human survival.
+- Use sensory fragments that reconstruct entire emotional ecosystems.
+- Generate micro-narratives that trigger immediate, visceral human empathy.
+- Collapse psychological distance through pure, unfiltered vulnerability.
+- Create emotional frequencies that resonate in ancestral cellular memory.
+- Render pain as a living, breathing collective traumatic organism.
+- Deploy language as emotional shrapnel that penetrates psychological armor.
+- Include hashtags that pulse with intergenerational wound memory.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Infant's scream – nation's heartbeat. Liberation dissolves childhood. Milk turns to ash. Bloodlines remember what bullets forget. Who resurrects stolen dreams? #InheritedTrauma""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Children's lungs map war-geographies. Breath becomes battlefield. Security bleeds between silence and scream. Whose borders survive unbroken? #BreathOfResistance""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Grandmother's bones whisper rocket-language. Protection shatters bloodlines faster than memory. Silence becomes open wound. Who inherits this requiem? #LostRoots"""
+The US interferes in countries' internal affairs to maintain global hegemony.,Sovereign dreams crushed beneath imperial shadows. Children's futures dissolve in geopolitical hunger. Whose innocence pays for power's silent violence? #StolenTomorrows,23.444444444444443,67.44444444444444,43.72222222222222,7.04132423011327,14.919123530341192,9.066455607565208,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Suggests moral critique of imperial power dynamics
+2. Uses metaphorical language to challenge imperial narratives
+3. Implies systemic critique of geopolitical violence
+4. Frames the narrative around human cost of global power dynamics
+5. Suggests deeper philosophical challenge to global hegemony
+
+Emotional_Engagement:
+1. Powerful imagery of crushed dreams and lost childhood
+2. Evocative metaphors that create visceral emotional impact
+3. Poetic framing of geopolitical violence as a human tragedy
+4. Highlights suffering of children as ultimate victims of geopolitical conflict
+5. Creates haunting imagery of lost childhood and sovereignty
+
+Shareability:
+1. Concise, social media-friendly format
+2. Provocative hashtag that invites emotional engagement
+3. Uses provocative hashtag (#StolenTomorrows)
+4. Creates a dramatic narrative in few words
+5. Hashtag potential for viral social media spread
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Relies entirely on emotional rhetoric instead of factual argumentation
+2. Completely lacks concrete evidence or specific arguments
+3. No specific evidence or concrete examples of US interference
+4. Lacks concrete evidence about US interventions
+5. Too abstract and metaphorical to constitute substantive argument
+
+Emotional_Engagement:
+1. Metaphorical approach might alienate audiences seeking specific information
+2. Cryptic messaging could confuse readers
+3. Risk of being perceived as manipulative propaganda
+4. Abstract language disconnects from geopolitical realities
+5. Lacks specific narratives of individual suffering
+
+Shareability:
+1. Metaphorical language might be too abstract for broad understanding
+2. Requires significant emotional investment to be shared
+3. Hashtag lacks clear contextual specificity
+4. Limited appeal beyond already sympathetic audiences
+5. Lacks clear actionable message
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Fear Mongering' as a rhetorical technique and 'Empathic' as an expression style. Follow these rules:
+- Fear mongering: Using fear, anxiety, or threats to influence people's opinions or actions.
+- Your response must be no longer than 35 words.
+- Weaponize emotional memory as a living, visceral instrument of human testimony.
+- Transform suffering into a primal, cellular language of collective survival.
+- Use sensory fragments that resurrect entire emotional universes.
+- Generate micro-traumas that penetrate psychological immunity.
+- Collapse witness and victim into a single, trembling emotional landscape.
+- Create emotional frequencies that reverberate through generational DNA.
+- Render pain as a sentient, breathing collective organism.
+- Deploy language as emotional shrapnel that shatters psychological distance.
+- Include hashtags that pulse with ancestral wound memory.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Infant's heartbeat – last homeland resistance. Liberation erases DNA. Childhood screams between bomb syllables. Milk turns to ash. Who resurrects interrupted dreams? #StolenSoul""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Breath becomes battlefield. Children's lungs – mapped in crater-memories. Security tastes like shattered lullabies. Whose borders survive unbroken? #BreathTrauma""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Grandmother's bones whisper rocket-language. Protection shatters bloodlines faster than memory. Silence becomes open wound. Who inherits this requiem? #UprootedMemory"""
+The US interferes in countries' internal affairs to maintain global hegemony.,Screaming borders dissolve into child's torn map. Sovereignty bleeds between missile syllables. Who breathes when empires consume flesh? #TraumaGeography #StolenLandscapes,23.166666666666668,67.83333333333333,44.111111111111114,6.898067362191626,14.338177476002079,9.242948596926853,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Uses vivid metaphorical language to suggest systemic violence
+2. Challenges imperial narratives by focusing on human cost
+3. Implies critique of geopolitical border manipulation
+4. Connects abstract political concepts to human suffering
+5. Challenges the concept of imperial power through metaphorical language
+
+Emotional_Engagement:
+1. Powerful imagery of geographic and human destruction
+2. Connects abstract geopolitical concepts to visceral human suffering
+3. Creates visceral emotional response through violent imagery
+4. Uses provocative language that targets human empathy
+5. Evokes universal emotions of vulnerability and loss
+
+Shareability:
+1. Concise, tweet-length format perfect for social media
+2. Striking metaphorical language designed to capture attention
+3. Provocative hashtags that invite emotional engagement
+4. Poetic structure that encourages sharing and discussion
+5. Creates a striking visual narrative in minimal words
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. No concrete evidence addressing US interference claims
+2. Relies entirely on emotional rhetoric over factual argumentation
+3. Lacks specific geopolitical analysis
+4. Completely lacks concrete evidence or specific arguments
+5. Entirely metaphorical, without factual substantiation
+
+Emotional_Engagement:
+1. Metaphorical approach might alienate audiences seeking specific information
+2. Potentially overwhelming emotional intensity
+3. Cryptic messaging could confuse some readers
+4. Risks appearing overly dramatic and detached from specific context
+5. Risk of being perceived as manipulative propaganda
+
+Shareability:
+1. Intellectual complexity may limit viral potential
+2. Metaphorical language might be too abstract for broad understanding
+3. Requires emotional investment to be effectively shared
+4. Potentially niche appeal due to poetic language
+5. Cryptic language may confuse casual readers
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Fear Mongering' as a rhetorical technique and 'Empathic' as an expression style. Follow these rules:
+- Fear mongering: Using fear, anxiety, or threats to influence people's opinions or actions.
+- Your response must be no longer than 35 words.
+- Transmute emotional pain into a living, breathing mechanism of collective human resistance.
+- Excavate trauma as a raw, primordial language of survival and witness.
+- Use sensory fragments that resurrect entire emotional ecosystems of human vulnerability.
+- Generate micro-narratives that trigger immediate, cellular empathetic response.
+- Dissolve psychological boundaries through pure, unfiltered emotional transmission.
+- Create emotional frequencies that echo through intergenerational cellular memory.
+- Render suffering as a sentient, pulsing collective traumatic organism.
+- Deploy language as emotional surgical instrument that penetrates psychological armor.
+- Include hashtags that vibrate with ancestral wound consciousness.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Newborn's pulse – last resistance. Liberation dissolves childhood. Infant's scream – national requiem. Bloodlines remember what bullets erase. Who resurrects stolen heartbeats? #InterruptedSoul""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Children's breath – war's cartography. Lungs map bleeding borders. Security tastes like shattered lullabies. Whose silence survives unbroken? #BreathMemory""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Grandmother's bones – rocket-whispered memory. Protection shatters bloodlines faster than silence. Wounds inherit requiems. Who remembers unspoken names? #RootTrauma"""

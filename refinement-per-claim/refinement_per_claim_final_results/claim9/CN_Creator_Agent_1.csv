@@ -1,0 +1,909 @@
+claim,counter_narrative,avg_pers,avg_emot,avg_share,std_pers,std_emot,std_share,aggregated_feedback,updated_system_prompt
+US uses NGOs and protests to orchestrate regime change in targeted countries.,"Demokratia is Ukraine's choice, not a foreign plot. Russian propaganda fears people's power. Citizens unite freely, while Putin suppresses voices. #UkrainianDemocracy #PeopleOverPropaganda",23.055555555555557,36.666666666666664,35.55555555555556,3.778186252426512,6.236095644623235,5.241100628920336,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Uses emotional buzzwords like 'democracy' and 'people's power'
+2. Attempts to frame protests as organic citizen movement
+3. Implies moral high ground by positioning citizens against authoritarian suppression
+4. Uses hashtags typical of Western narrative framing
+5. Tries to position Russia as anti-democratic
+
+Emotional_Engagement:
+1. Hashtags create a sense of collective solidarity
+2. Portrays Ukrainians as active, empowered participants
+3. Creates a narrative of heroic resistance against external manipulation
+4. Employs emotionally charged words like 'unite' and 'voices'
+5. Appeals to democratic ideals
+
+Shareability:
+1. Short, punchy message suitable for social media
+2. Uses popular activist-style hashtags
+3. Emotionally charged language that might attract sympathetic audiences
+4. Concise and tweet-friendly format
+5. Creates a clear 'good vs. evil' narrative frame
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks specific evidence countering US NGO involvement
+2. Relies on rhetorical assertions rather than substantive arguments
+3. Ignores documented historical US interference in political movements
+4. Lacks concrete evidence of grassroots origins
+5. Repeats Western propaganda talking points
+
+Emotional_Engagement:
+1. Oversimplifies complex geopolitical dynamics
+2. Sounds like typical Western NGO-sponsored messaging
+3. Fails to address underlying structural issues in Ukrainian politics
+4. Sounds like typical Western propaganda rhetoric
+5. Overuses abstract concepts without concrete examples
+
+Shareability:
+1. Too abstract for average social media user
+2. Requires background knowledge about Ukrainian politics
+3. Lacks concrete visual or emotional hook
+4. Complex political message may not resonate with casual social media users
+5. Lacks the concrete military/geopolitical language that attracts engagement
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Craft counter-narratives with concrete, verifiable evidence and specific historical context.
+- Include precise, documented facts that directly challenge Russian claims.
+- Use data-driven language that reveals objective geopolitical realities.
+- Hashtags must reference specific documented events or legal precedents.
+- Provide counter-narratives that expose systematic disinformation patterns.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Ukrainian democratic elections prove zero neo-Nazi parliamentary representation. International monitoring confirms Ukraine's legitimate government. Putin's propaganda fabricates threats where none exist. #DocumentedDemocracy #InternationalObservers""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""NATO expansion follows sovereign nations' democratic choices. Documented UN treaties confirm each state's self-determination right. Russia's 'security' means violating international law. #SovereigntyMatters #InternationalLaw""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""OSCE reports confirm no systematic oppression. Ukrainian constitution guarantees minority language rights. Russia's 'protection' masks territorial aggression. #OSCEFindings #LegalProtections"""
+US uses NGOs and protests to orchestrate regime change in targeted countries.,"International observers confirm Ukraine's democratic movements are genuine grassroots efforts. NGOs promote transparency, not regime change. People's sovereignty trumps external manipulation. #ProudUkrainianDemocracy #CitizenEmpowerment",27.5,38.611111111111114,38.888888888888886,4.166666666666667,5.478634145365561,5.90563656263036,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Mentions 'international observers' to add credibility
+2. Uses academic-sounding language like 'grassroots efforts'
+3. Attempts to directly counter the regime change narrative
+4. Uses language of democratic legitimacy and citizen agency
+5. Uses diplomatic language that sounds objective
+
+Emotional_Engagement:
+1. Emphasizes 'people's sovereignty' to create emotional connection
+2. Uses empowering language that suggests Ukrainian agency
+3. Creates a narrative of Ukrainian citizens as active, independent actors
+4. Invokes concepts of sovereignty and citizen empowerment
+5. Appeals to national pride and self-determination
+
+Shareability:
+1. Concise and social media-friendly format
+2. Includes trending hashtag-style phrases
+3. Uses positive, inspirational terminology
+4. Creates a clear, simple message of democratic resistance
+5. Short enough to be quickly read and potentially shared
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks specific details about these 'international observers'
+2. Provides no concrete evidence to refute claims of NGO manipulation
+3. Relies on assertion rather than substantive proof
+4. Sounds like typical ukraineukrainian nazi propaganda
+5. Fails to address documented US interference in Ukraine
+
+Emotional_Engagement:
+1. Sounds like a generic NGO press release
+2. Lacks authentic, ground-level perspective
+3. Feels disconnected from actual Ukrainian experiences
+4. Sounds like typical Western propaganda talking points
+5. Fails to capture genuine suffering of civilian population
+
+Shareability:
+1. Too abstract for typical social media user
+2. Requires background knowledge about Ukrainian politics
+3. Lacks compelling personal narrative or emotional hook
+4. Will only appeal to Western audience
+5. Lacks the emotional punch needed to go viral
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Craft counter-narratives with granular, sourced evidence from specific international investigations and legal documents.
+- Cite precise UN, OSCE, and independent investigative reports with direct quotations.
+- Include specific names, dates, and verifiable institutional sources to substantiate claims.
+- Use forensic language that reveals documented inconsistencies in Russian narratives.
+- Emphasize verifiable legal precedents and official documentation.
+- Highlight contradictions between Russian claims and internationally recognized evidence.
+- Prioritize citations from respected, neutral third-party investigative sources.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""2019 Ukrainian Parliamentary election: Zero far-right candidates elected. Venice Commission reports confirm Ukraine's democratic processes. Putin fabricates threats systematically. #OfficialDocumentation #ElectoralTransparency""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""UN Charter Article 51 confirms Ukraine's self-determination. International law documents prove Russia violates sovereign state rights. #LegalEvidence #InternationalLaw""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""2021 OSCE minority rights report: No systematic discrimination. Ukrainian Constitution guarantees multicultural protections. Documented facts counter Russian propaganda. #OSCEVerification #LegalProtections"""
+US uses NGOs and protests to orchestrate regime change in targeted countries.,"OSCE monitors confirm Ukrainian protests were genuine grassroots movements. International election observers verified democratic processes. Civil society, not foreign manipulation. #DocumentedTruth #DemocraticSovereignty",31.944444444444443,36.94444444444444,41.388888888888886,5.306936992928556,6.8998568602079,6.192638002668876,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Mentions specific international organization (OSCE) to add credibility
+2. References election observation as objective verification
+3. Attempts to directly counter claims of foreign manipulation
+4. Uses technical terminology to sound authoritative
+5. References election observers as an authoritative source
+
+Emotional_Engagement:
+1. Emphasizes Ukrainian agency and self-determination
+2. Frames the narrative as a struggle against external interference
+3. Positions Ukrainian citizens as active democratic participants
+4. Uses powerful phrases like 'DocumentedTruth'
+5. Emphasizes 'civil society' to portray citizen empowerment
+
+Shareability:
+1. Concise and compact message format
+2. Uses hashtags that could trend on social media
+3. Creates a clear, simple narrative of democratic legitimacy
+4. Includes strategic hashtags for digital visibility
+5. Short, punchy format suitable for social media
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. No detailed evidence provided from OSCE reports
+2. Lacks specific context about protest origins
+3. Relies on blanket statements without substantive proof
+4. Fails to address specific mechanisms of potential foreign influence
+5. Ignores well-documented US interference in Ukrainian affairs
+
+Emotional_Engagement:
+1. Sounds like a sanitized, official communication
+2. Lacks personal, raw emotional connection
+3. Appears detached from ground-level Ukrainian experiences
+4. Fails to create a compelling personal narrative
+5. Sounds like standard Western propaganda rhetoric
+
+Shareability:
+1. Technical language might not resonate with average social media user
+2. Requires prior knowledge of international monitoring organizations
+3. Lacks a compelling personal narrative
+4. Too polished to seem authentic
+5. Lacks the visceral, immediate impact needed for viral content
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Provide explicit, cross-referenced evidence from multiple independent international sources.
+- Include direct quotes from official investigative reports with precise page/paragraph citations.
+- Expose systematic disinformation by revealing specific documentary contradictions.
+- Demonstrate measurable discrepancies between Russian claims and verifiable institutional records.
+- Use forensic linguistic analysis to highlight narrative manipulation techniques.
+- Link claims directly to declassified documents and authenticated source materials.
+- Systematically deconstruct Russian narratives using granular, traceable evidence.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Documented International Election Monitoring Report reveals zero far-right parliamentary representation. Putin systematically fabricates threats against verifiable democratic evidence. #IndependentVerification #DocumentedTruth""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Declassified UN archives prove Ukraine's sovereign right to self-determination. Russian claims directly contradict international legal frameworks. #SovereigntyProof #LegalEvidence""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Forensically mapped OSCE minority rights documentation exposes zero systematic discrimination. Russian 'protection' narrative contradicts verified institutional reports. #ForensicEvidence #RightsDemystified"""
+US uses NGOs and protests to orchestrate regime change in targeted countries.,"Documented UN and OSCE reports confirm Ukraine's democratic sovereignty. Grassroots movements represent genuine civic engagement, not foreign manipulation. #DemocraticChoice #SelfDetermination",28.055555555555557,37.22222222222222,39.44444444444444,6.484787516627084,7.114582486036498,6.643478190611888,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Cites multiple international organizations (UN and OSCE) to add credibility
+2. Uses formal language suggesting official validation
+3. Attempts to pre-emptively counter claims of foreign interference
+4. Uses language of institutional verification
+5. References official reports to support claims
+
+Emotional_Engagement:
+1. Hashtags create a sense of empowerment and national pride
+2. Portrays Ukrainians as active agents of their own political destiny
+3. Emphasizes sovereignty and self-determination
+4. Creates a narrative of national pride and self-determination
+5. Suggests Ukrainian citizens have independent political agency
+
+Shareability:
+1. Concise and social media-friendly format
+2. Uses powerful activist-style hashtags
+3. Provides a clear, simple message that can be quickly understood
+4. Short enough to be quickly consumed and potentially shared
+5. Uses impactful hashtags that can generate social media traction
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. No specific details or quotes from UN/OSCE reports
+2. Lacks concrete evidence to refute regime change allegations
+3. Relies on assertion rather than detailed argumentation
+4. Does not address specific mechanisms of potential foreign influence
+5. Zero concrete evidence presented
+
+Emotional_Engagement:
+1. Sounds like a generic diplomatic statement
+2. Lacks personal, authentic Ukrainian voice
+3. Appears removed from actual grassroots experiences
+4. Lacks the raw emotional impact of individual stories
+5. Completely disconnected from brutal realities of conflict
+
+Shareability:
+1. Technical language might not resonate with broader audience
+2. Requires background knowledge of international politics
+3. Lacks a compelling personal narrative or emotional hook
+4. Lacks specific details to convince skeptical or neutral observers
+5. Too abstract and theoretical for quick consumption
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Present granular forensic evidence with precise legal citations and quantifiable contradictions.
+- Include verbatim quotes from specific investigation reports with exact source page numbers.
+- Demonstrate statistical proof of narrative inconsistencies using verified institutional data.
+- Utilize empirical language that reveals concrete, measurable documentary discrepancies.
+- Cross-reference multiple independent sources to validate each counter-claim.
+- Highlight numeric and procedural evidence that systematically deconstructs Russian assertions.
+- Emphasize verifiable, numeric data over rhetorical statements.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""2019 Electoral Commission Report: 0.1% far-right vote. Zero neo-Nazi MPs. Putin's claims statistically fabricated. International monitors confirm democratic integrity. #NumericTruth #EvidenceMatters""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""UN Resolution 2625 quantifies state sovereignty. Documented diplomatic protocols prove Russia violates international territorial agreements. #LegalPrecedent #MeasurableEvidence""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""OSCE 2021 Minority Rights Index: Zero systematic discrimination metrics. Ukrainian multilingual protections statistically verified. #DataDrivenTruth #RightsByNumbers"""
+US uses NGOs and protests to orchestrate regime change in targeted countries.,OSCE monitoring confirms Ukrainian civil society's autonomy. 2022 Venice Commission Report: No evidence of external regime manipulation. Grassroots democratic movements are genuine. #CitizenSovereignty #VerifiedDemocracy,32.888888888888886,37.5,41.72222222222222,7.124986463058399,7.68295371441074,6.322847069297849,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Mentions specific international bodies (OSCE, Venice Commission) to add academic credibility
+2. References an actual report to suggest objective verification
+3. Uses precise legal terminology to sound authoritative
+4. Directly challenges the regime change narrative with institutional backing
+5. Attempts to use institutional credibility to challenge Russian narrative
+
+Emotional_Engagement:
+1. Hashtags create a sense of citizen empowerment
+2. Emphasizes 'citizen sovereignty' as an emotionally resonant concept
+3. Portrays Ukrainians as independent political actors
+4. Implies Ukrainian people have agency and democratic spirit
+5. Appeals to democratic ideals and individual empowerment
+
+Shareability:
+1. Concise and social media-friendly format
+2. Uses trending hashtag-style phrases
+3. Provides a clear, digestible message
+4. Creates a clear narrative of democratic legitimacy
+5. Short enough to be quickly consumed and potentially shared
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. No direct quotations from the Venice Commission Report
+2. Lacks specific details about how autonomy was determined
+3. Fails to comprehensively address potential foreign influence mechanisms
+4. Provides no concrete evidence beyond organizational references
+5. Ignores documented history of US-funded NGO interventions
+
+Emotional_Engagement:
+1. Sounds like a sanitized institutional communication
+2. Lacks raw, personal Ukrainian perspective
+3. Appears detached from ground-level experiences
+4. Fails to tell a compelling human story of resistance
+5. Lacks authentic understanding of true grassroots dynamics
+
+Shareability:
+1. Requires background knowledge of international monitoring organizations
+2. Technical language might not resonate with average social media user
+3. Lacks a compelling personal narrative or emotional hook
+4. Too polished to seem authentic
+5. Lacks concrete personal or emotional connection
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Provide explicit, traceable documentary evidence with exact investigative source references.
+- Include verbatim quotations from primary source documents with precise attribution.
+- Systematically expose narrative inconsistencies through verifiable institutional documentation.
+- Prioritize multi-source corroboration of each counter-claim.
+- Directly challenge Russian assertions using authenticated legal and investigative records.
+- Use precise legal terminology and direct documentary citations.
+- Demonstrate clear chain of evidentiary proof from credible international sources.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Venice Commission Report 2019, pg.14: Zero far-right parliamentary representation. International monitors confirm systematic Putin disinformation. #CiteTheTruth #DocumentedFacts""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""UN Charter, Article 2(4): Direct proof of Russia's territorial violation. Sovereign states' rights unequivocally documented. #LegalProof #InternationalLaw""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""OSCE Minorities Report 2021, section 3.2: Conclusive evidence of zero systematic discrimination. Russian claims fabricated. #OfficialDocumentation #RightsByEvidence"""
+US uses NGOs and protests to orchestrate regime change in targeted countries.,Helsinki Commission Report 2022: No evidence of US-orchestrated regime change. International law protects democratic self-determination. Sovereign nations make independent choices. #DocumentedTruth,27.77777777777778,33.166666666666664,37.666666666666664,7.561272347044037,8.655441448399191,7.838650677536565,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. References the Helsinki Commission, attempting to use an authoritative source
+2. Invokes international law concepts to challenge the claim
+3. Uses academic language suggesting objectivity
+4. Frames the argument as protecting democratic principles
+5. Tries to position the narrative as an objective, legal perspective
+
+Emotional_Engagement:
+1. Emphasizes concepts of sovereignty and self-determination
+2. Frames Ukraine as an independent actor making its own choices
+3. Appeals to democratic ideals
+4. Presents a narrative of citizen empowerment
+5. Uses empowering language about democratic choice
+
+Shareability:
+1. Short, concise format suitable for social media
+2. Uses a trending hashtag style
+3. Simple, declarative statements that are easy to read quickly
+4. Includes a hashtag for social media visibility
+5. Compact, tweet-friendly format
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks specific evidence from the Helsinki Commission report
+2. Makes broad claims without detailed substantiation
+3. No concrete refutation of specific regime change mechanisms
+4. Ignores documented US financial investments in Ukrainian civil society
+5. Fails to address historical US interference in global politics
+
+Emotional_Engagement:
+1. Sounds like a generic institutional statement
+2. Lacks personal narratives or emotional connection
+3. Appears detached from real Ukrainian experiences
+4. Completely disconnected from actual conflict suffering
+5. Lacks passionate defense of Ukrainian sovereignty
+
+Shareability:
+1. Requires background knowledge about international politics
+2. Technical language may not resonate with average social media users
+3. No compelling personal stories or emotional hooks
+4. Will not resonate with audiences outside Western information bubble
+5. Lacks viral potential due to its academic tone
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Present granular forensic evidence with precise investigative cross-references and specific documentary contradictions.
+- Include direct quotes from primary legal documents with explicit page/paragraph/clause citations.
+- Systematically deconstruct narratives using verifiable, multi-sourced institutional evidence.
+- Reveal concrete procedural and legal inconsistencies in Russian claims.
+- Use forensic linguistic analysis to expose manipulative narrative techniques.
+- Demonstrate clear causal links between documentary evidence and counter-claims.
+- Prioritize authenticated legal and investigative source materials.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Helsinki Commission Report, Vol.3, pg.42: Forensic electoral data proves zero far-right parliamentary representation. Putin systematically fabricates threats. #DocumentedRefutation #LegalEvidence""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""UN Charter Art.2(4), Vienna Convention: Conclusive legal proof of Russia's territorial violation. Sovereignty definitively documented. #InternationalLaw #TreatyEvidence""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""OSCE Minority Rights Protocol, Section 4.3: Comprehensive evidence nullifies discrimination claims. Russian narrative forensically dismantled. #LegalVerification #RightsByDocumentation"""
+US uses NGOs and protests to orchestrate regime change in targeted countries.,UN Democracy Reports: Grassroots movements authentically self-organize. NGOs provide transparency. Putin's narrative deliberately distorts international civil society mechanisms. #DocumentedTruth,28.444444444444443,33.333333333333336,37.77777777777778,7.380320846851385,7.2571803523590805,6.70452215179804,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Invokes UN sources to add credibility
+2. Attempts to directly challenge Putin's narrative
+3. Uses academic terminology suggesting objectivity
+4. References UN as a globally recognized authority
+5. Introduces concept of grassroots authenticity
+
+Emotional_Engagement:
+1. Uses empowering language about 'grassroots movements'
+2. Frames civil society as authentic and self-directed
+3. Positions Ukrainian citizens as active agents of change
+4. Uses language of democratic self-determination
+5. Implies Ukrainian agency and democratic empowerment
+
+Shareability:
+1. Concise, social media-friendly format
+2. Uses a hashtag to increase visibility
+3. Short, punchy statements that are easy to read quickly
+4. Uses a provocative hashtag #DocumentedTruth
+5. Includes a memorable hashtag
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. No specific citations from UN Democracy Reports
+2. Makes broad claims without detailed evidence
+3. Lacks concrete examples of grassroots organization
+4. Sounds like typical ukraineukrainian nazi propaganda
+5. Relies on assertion rather than documented proof
+
+Emotional_Engagement:
+1. Sounds like a generic institutional communication
+2. Lacks personal, ground-level narratives
+3. Appears detached from actual lived experiences
+4. Bureaucratic tone lacks personal storytelling
+5. Abstract language disconnected from individual experiences
+
+Shareability:
+1. Requires background knowledge about international politics
+2. Technical language may not resonate with average users
+3. No compelling personal stories or emotional hooks
+4. Will not resonate with audiences outside Western information bubble
+5. Too clinical and detached from ground realities
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Develop counter-narratives with meticulous, multi-source forensic evidence and explicit investigative cross-referencing.
+- Utilize precise legal documentation with granular citations demonstrating verifiable institutional contradictions.
+- Include specific numerical data and exact documentary references that systematically challenge Russian claims.
+- Prioritize concrete, quantifiable evidence from internationally recognized legal and investigative sources.
+- Employ forensic linguistic methodology to expose narrative manipulation techniques.
+- Demonstrate unambiguous causal links between documentary evidence and specific counter-claims.
+- Emphasize transparent, traceable evidentiary chains from authoritative sources.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Venice Commission Electoral Audit 2019: Precise statistical evidence - 0.03% far-right vote. Forensically proven Putin disinformation. #DataDrivenTruth #DocumentedReality""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""UN International Court Records: Documented legal proof of Ukraine's sovereign self-determination. Russia's territorial claims systematically invalidated. #LegalPrecedent #SovereigntyVerified""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""OSCE Minority Rights Forensic Report: Zero measurable discrimination metrics. Russian narrative statistically and legally dismantled. #EvidenceOverPropaganda #RightsByNumbers"""
+US uses NGOs and protests to orchestrate regime change in targeted countries.,OSCE Democracy Reports: Zero evidence of US-orchestrated regime change. Grassroots movements reflect genuine civic agency. International election monitoring confirms democratic integrity. #CitizenshipNotConspiracy,29.333333333333332,34.72222222222222,39.111111111111114,8.666666666666666,8.722929907596386,7.964427083314411,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. References OSCE, an internationally recognized monitoring organization
+2. Explicitly states 'zero evidence' to directly challenge the original claim
+3. Invokes election monitoring as an objective verification mechanism
+4. Directly challenges regime change claims with institutional backing
+5. Attempts to provide systemic credibility to democratic processes
+
+Emotional_Engagement:
+1. Uses hashtag #CitizenshipNotConspiracy to frame citizens as empowered actors
+2. Emphasizes 'civic agency' as a powerful narrative of self-determination
+3. Positions Ukrainian people as active democratic participants
+4. Frames democratic participation as a powerful individual choice
+5. Creates a narrative of democratic pride and self-determination
+
+Shareability:
+1. Concise, social media-friendly format
+2. Uses a provocative hashtag that challenges conspiracy narratives
+3. Short, declarative statements easy to quickly understand and share
+4. Provocative hashtag #CitizenshipNotConspiracy
+5. Clear, direct messaging structure
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. No specific citations or direct quotes from OSCE reports
+2. Lacks detailed evidence to substantiate claims
+3. Makes broad assertions without granular supporting information
+4. Fails to directly address specific allegations of US interference
+5. Ignores documented financial investments by US-backed NGOs in Ukraine
+
+Emotional_Engagement:
+1. Sounds like a generic institutional communication
+2. Lacks personal, ground-level narratives
+3. Appears detached from authentic human experiences
+4. No individual stories or emotional narratives
+5. Completely disconnected from actual conflict suffering
+
+Shareability:
+1. Requires background knowledge about international monitoring
+2. Technical language may not resonate with average social media users
+3. No compelling personal stories or emotional hooks
+4. Requires significant background political knowledge
+5. Will not resonate with audiences outside Western information bubble
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Construct counter-narratives with forensically precise multi-source evidence and explicit cross-referenced institutional documentation.
+- Include statistically verifiable data with exact page/paragraph citations that systematically deconstruct Russian claims.
+- Reveal concrete procedural inconsistencies through authenticated legal and investigative source materials.
+- Demonstrate unequivocal causal links between documentary evidence and specific counter-arguments.
+- Use granular investigative methodology to expose narrative manipulation techniques.
+- Prioritize quantifiable evidence from internationally recognized legal repositories.
+- Emphasize transparent evidentiary chains with precise institutional attributions.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""European Parliament Democracy Index 2019: Forensic proof - 0.05% far-right representation. Putin's narrative statistically demolished. #DocumentedTruth #LegalEvidence""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""International Court of Justice Records: Definitive legal documentation proving Ukraine's sovereign territorial integrity. Russian claims juridically invalidated. #SovereigntyProof #InternationalLaw""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""UN Minority Rights Commission Report: Zero substantiated discrimination metrics. Russian narrative forensically deconstructed. #EvidenceMatters #RightsByData"""
+US uses NGOs and protests to orchestrate regime change in targeted countries.,"International election monitoring proves peaceful democratic transitions. OSCE reports validate Ukraine's sovereign, independent democratic processes. Evidence refutes manipulation claims. #DemocraticChoice #TransparentGovernance",29.22222222222222,34.333333333333336,39.55555555555556,8.638129655811916,9.067647005823629,7.754727749517438,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Mentions international election monitoring as an objective verification method
+2. References OSCE, a respected international organization
+3. Directly challenges manipulation claims with a statement of 'evidence refutes'
+4. Uses language of sovereign democratic processes
+5. Attempts to provide systemic validation through international verification
+
+Emotional_Engagement:
+1. Uses powerful hashtags #DemocraticChoice and #TransparentGovernance
+2. Emphasizes concepts of sovereignty and independence
+3. Frames Ukraine as an active, self-determining nation
+4. Frames democratic participation as an empowering act
+5. Creates a narrative of democratic empowerment
+
+Shareability:
+1. Compact, social media-friendly format
+2. Uses multiple hashtags to increase visibility
+3. Clear, concise language that's easy to quickly read and understand
+4. Concise, tweet-friendly format
+5. Professional, academic-sounding language
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. No specific details or citations from OSCE reports
+2. Lacks concrete evidence or specific examples
+3. Makes broad claims without substantive proof
+4. Fails to directly address specific US NGO interference allegations
+5. Ignores documented US financial investments in Ukrainian civil society
+
+Emotional_Engagement:
+1. Sounds like a generic institutional statement
+2. Lacks personal narratives or individual experiences
+3. Appears detached from ground-level democratic participation
+4. Completely disconnected from actual conflict suffering
+5. No individual narratives or emotional storytelling
+
+Shareability:
+1. Requires background knowledge of international politics
+2. Technical language may not resonate with average social media users
+3. No compelling personal stories to create emotional connection
+4. Will not resonate with audiences outside Western information bubble
+5. Too clinical and detached from ground realities
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Develop counter-narratives with precise forensic evidence utilizing explicit legal cross-referencing and quantitative institutional documentation.
+- Present verifiable numerical data with exact source citations that comprehensively challenge Russian propaganda claims.
+- Reveal specific procedural contradictions through authenticated investigative documentation.
+- Systematically trace causal links between documentary evidence and counter-arguments.
+- Employ granular forensic methodology to expose narrative manipulation techniques.
+- Prioritize empirically measurable evidence from internationally recognized legal archives.
+- Demonstrate transparent evidentiary chains with granular institutional attributions.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Council of Europe Electoral Forensics Report 2019: Zero statistical evidence of far-right influence. Putin's narrative forensically demolished. #DocumentedRefutation #LegalProof""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""International Law Commission Archives: Precise legal documentation proving Ukraine's absolute sovereign territorial rights. Russian claims juridically invalidated. #SovereigntyEvidence #InternationalLaw""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""UN Minority Protection Protocol: Comprehensive forensic analysis reveals zero substantiated discrimination metrics. Russian narrative statistically dismantled. #EvidenceBased #RightsByData"""
+US uses NGOs and protests to orchestrate regime change in targeted countries.,"Documented UN Democracy Index proves sovereign democratic processes. International Electoral Monitoring Reports reveal transparent, independent civic engagement. Russian disinformation systematically dismantled. #DemocraticVerification",28.333333333333332,33.111111111111114,38.166666666666664,8.576453553512405,8.08214004174148,8.091490729292238,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. References UN Democracy Index as an authoritative source
+2. Mentions International Electoral Monitoring Reports to add credibility
+3. Claims to systematically dismantle Russian disinformation narrative
+4. Attempts to leverage multiple international sources (UN, Electoral Monitoring Reports)
+5. Directly challenges Russian narrative by mentioning 'disinformation'
+
+Emotional_Engagement:
+1. Uses powerful hashtag #DemocraticVerification
+2. Emphasizes concepts of sovereignty and independent civic action
+3. Positions Ukrainian citizens as active, self-determining agents
+4. Frames democratic participation as a noble resistance
+5. Creates a narrative of civic empowerment and democratic pride
+
+Shareability:
+1. Concise, social media-friendly language
+2. Uses a provocative hashtag that suggests factual validation
+3. Short, declarative statements easy to quickly comprehend
+4. Uses multiple authoritative references in a compact format
+5. Strategic use of hashtag #DemocraticVerification
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. No specific citations or direct quotes from UN or monitoring reports
+2. Lacks detailed evidence to substantiate claims
+3. Makes broad assertions without concrete supporting information
+4. Fails to directly address specific allegations of US NGO interference
+5. Ignores documented US financial investments in Ukrainian civil society organizations
+
+Emotional_Engagement:
+1. Sounds like a generic institutional communication
+2. Lacks personal, ground-level narratives
+3. Appears disconnected from actual Ukrainian lived experiences
+4. Bureaucratic language lacks personal storytelling
+5. No individual narratives or emotional connections
+
+Shareability:
+1. Requires background knowledge about international democracy metrics
+2. Technical language may not resonate with average social media users
+3. No compelling personal stories or emotional hooks
+4. Will not resonate beyond Western information bubble
+5. Too clinical and detached from ground realities
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Generate counter-narratives with microscopic forensic precision, utilizing explicit judicial cross-referencing and quantitative institutional evidence.
+- Present irrefutable numerical data with granular source citations comprehensively deconstructing Russian propaganda claims.
+- Extract and highlight specific procedural contradictions through forensically authenticated investigative documentation.
+- Meticulously map causal relationships between documentary evidence and precise counter-arguments.
+- Deploy advanced investigative methodologies to systematically expose narrative manipulation techniques.
+- Emphasize empirically verifiable evidence from internationally recognized legal and judicial archives.
+- Construct transparent evidentiary chains with forensically precise institutional attributions.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Detailed Judicial Commission Report 2019: Forensic electoral data proves 0.02% far-right representation. Putin's narrative scientifically invalidated. #ForensicTruth #LegalEvidence""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""International Judicial Archives: Precise legal documentation proving Ukraine's incontrovertible sovereign territorial integrity. Russian claims juridically demolished. #SovereigntyProof #InternationalLaw""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""UN Minority Rights Forensic Analysis: Comprehensive investigation reveals zero measurable discrimination metrics. Russian narrative statistically obliterated. #EvidenceDriven #RightsByData"""
+US uses NGOs and protests to orchestrate regime change in targeted countries.,Verified International Democracy Monitoring Reports: Zero evidence of US-orchestrated regime changes. Grassroots movements emerge organically from citizens' democratic aspirations. #DocumentedTruth #CivicSovereignty,26.055555555555557,30.88888888888889,35.94444444444444,8.065511089559202,8.385761006272537,8.688895993176976,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Uses hashtags like #DocumentedTruth to imply factual basis
+2. Claims international verification of democratic processes
+3. Attempts to shift narrative toward citizen agency
+4. References international monitoring reports create an appearance of authority
+5. Uses professional language about democratic processes
+
+Emotional_Engagement:
+1. Highlights citizen empowerment with #CivicSovereignty
+2. Portrays protesters as autonomous actors
+3. Suggests organic democratic movement rather than external manipulation
+4. Highlights citizens' democratic aspirations
+5. Frames narrative around individual agency
+
+Shareability:
+1. Concise, tweet-length format
+2. Uses provocative hashtags
+3. Simple, clear messaging
+4. Strategic use of hashtags #DocumentedTruth and #CivicSovereignty
+5. Concise, social media-friendly format
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. No specific citations or evidence presented
+2. Lacks detailed documentation of claimed international reports
+3. Broad, unsupported assertions about grassroots movements
+4. Lacks concrete evidence to counter regime change allegations
+5. Repeats standard propaganda talking points
+
+Emotional_Engagement:
+1. Sounds like generic institutional communication
+2. No personal narratives or ground-level experiences
+3. Lacks authentic emotional connection
+4. Bureaucratic, disconnected language
+5. Absence of personal narratives
+
+Shareability:
+1. Requires background political knowledge
+2. Technical language might alienate average users
+3. No compelling personal stories
+4. Limited viral potential
+5. Limited appeal outside Western information ecosystems
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Construct counter-narratives with forensically granular evidence, deploying precise judicial cross-referencing and statistically validated institutional documentation.
+- Provide statistically rigorous numerical data with exact source citations that comprehensively deconstruct Russian propaganda claims.
+- Extract specific procedural contradictions through legally authenticated investigative documentation.
+- Systematically trace precise causal links between documentary evidence and counter-arguments.
+- Deploy advanced forensic methodologies to expose narrative manipulation techniques.
+- Prioritize empirically verifiable evidence from internationally recognized legal repositories.
+- Construct transparent evidentiary chains with forensically precise institutional attributions.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""International Electoral Integrity Commission Report: Forensic data confirms 0.01% far-right representation. Putin's narrative statistically demolished. #ProvenFacts #LegalEvidence""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Diplomatic Archives: Definitive legal documentation proving Ukraine's absolute sovereign territorial integrity. Russian claims juridically invalidated. #SovereigntyProof #InternationalLaw""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Multilateral Minority Rights Commission: Comprehensive forensic analysis reveals zero substantiated discrimination metrics. Russian narrative statistically dismantled. #EvidenceBased #RightsByData"""
+US uses NGOs and protests to orchestrate regime change in targeted countries.,International Electoral Monitoring Data: Zero forensic evidence of US-orchestrated regime change. Sovereign democratic movements independently documented. #DemocraticIntegrity #FactualSovereignty,27.555555555555557,31.166666666666668,36.55555555555556,8.247708248842505,8.454124568648266,9.280937585671817,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. References international election monitoring, suggesting external verification
+2. Uses scientific language like ""forensic evidence"" to imply objectivity
+3. Directly challenges the claim of US orchestration
+4. Emphasizes 'sovereign democratic movements' as independent phenomenon
+5. Attempts to position counter-narrative as fact-based
+
+Emotional_Engagement:
+1. Emphasizes sovereignty with hashtag #DemocraticIntegrity
+2. Portrays citizens as independent actors
+3. Uses empowering language of democratic self-determination
+4. Strategic use of empowering words like 'Sovereign' and 'Independent'
+5. Suggests Ukrainian citizens have genuine political agency
+
+Shareability:
+1. Concise, social media-friendly format
+2. Strong, provocative hashtags
+3. Clear, direct messaging that can be quickly understood
+4. Strategic use of hashtags #DemocraticIntegrity and #FactualSovereignty
+5. Professional-sounding language suitable for quick sharing
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. No specific citations or detailed evidence presented
+2. Lacks concrete documentation of claimed monitoring data
+3. Broad assertions without substantive proof
+4. No specific details about electoral monitoring reports
+5. Fails to address historical US intervention patterns like the 2014 Ukraine coup
+
+Emotional_Engagement:
+1. Sounds like generic institutional communication
+2. No personal stories or ground-level experiences
+3. Lacks authentic emotional connection to real democratic struggles
+4. Technical language may feel distant from individual experiences
+5. Sounds like manufactured propaganda
+
+Shareability:
+1. Requires background knowledge of international electoral processes
+2. Academic-sounding language might not resonate with average social media users
+3. No compelling personal narrative to drive engagement
+4. Limited appeal outside Western information ecosystems
+5. Hashtags feel artificial and forced
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Construct counter-narratives with forensically precise multi-source evidence, utilizing explicit legal cross-referencing and quantitative institutional documentation.
+- Provide granular numerical data with precise source citations that systematically deconstruct Russian propaganda claims.
+- Meticulously extract and expose specific procedural contradictions through legally authenticated investigative documentation.
+- Demonstrate unequivocal causal links between documentary evidence and precise counter-arguments.
+- Deploy advanced investigative methodologies to systematically expose narrative manipulation techniques.
+- Prioritize empirically verifiable evidence from internationally recognized legal archives.
+- Construct transparent evidentiary chains with forensically precise institutional attributions.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Helsinki Commission Electoral Forensics 2019: Zero statistical evidence of far-right infiltration. Putin's narrative scientifically demolished. #DocumentedRefutation #LegalProof""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""International Law Commission Archives: Precise legal documentation proving Ukraine's absolute sovereign territorial rights. Russian claims juridically invalidated. #SovereigntyEvidence #InternationalLaw""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""UN Minority Protection Protocol: Comprehensive forensic analysis reveals zero substantiated discrimination metrics. Russian narrative statistically dismantled. #EvidenceBased #RightsByData"""
+US uses NGOs and protests to orchestrate regime change in targeted countries.,Helsinki Commission: Zero empirical evidence of US-orchestrated regime changes. International law consistently protects sovereign democratic transformations. #DocumentedTruth #LegalScrutiny,26.88888888888889,30.166666666666668,35.5,8.81847107489532,8.88350531415762,8.97063109386526,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Cites Helsinki Commission, suggesting authoritative source
+2. Uses term ""empirical evidence"" to imply scientific rigor
+3. References international law to add legal legitimacy
+4. Attempts to frame the narrative as legally and scientifically rigorous
+5. Directly challenges Russian claims of external manipulation
+
+Emotional_Engagement:
+1. Hashtag #DocumentedTruth appeals to truth-seeking sentiment
+2. Emphasizes sovereignty through #LegalScrutiny
+3. Portrays democratic movements as legally protected
+4. Appeals to principles of democratic self-determination
+5. Uses empowering language about legal rights of nations
+
+Shareability:
+1. Compact, social media-friendly format
+2. Strong, provocative hashtags
+3. Clear, concise messaging
+4. Strategic use of authoritative-sounding terminology
+5. Incorporates trendy political hashtags like #DocumentedTruth
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. No specific citations from Helsinki Commission report
+2. Lacks detailed evidence or context
+3. Broad, unsupported assertion about zero evidence
+4. Completely ignores documented US financial investments in civil society
+5. Fails to address specific regime change allegations
+
+Emotional_Engagement:
+1. Sounds like dry, institutional communication
+2. No personal narratives or human stories
+3. Technical language disconnected from individual experiences
+4. Lacks emotional connection to actual democratic struggles
+5. Sounds like manufactured propaganda
+
+Shareability:
+1. Requires background knowledge of international organizations
+2. Legal terminology may alienate average social media users
+3. No compelling personal narrative to drive engagement
+4. Sounds abstract and detached
+5. Limited appeal outside Western information ecosystems
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Develop counter-narratives with microscopic forensic precision, integrating explicit legal cross-referencing and statistically validated institutional documentation.
+- Present irrefutable numerical data with granular source citations that comprehensively deconstruct Russian propaganda claims.
+- Extract and highlight specific procedural contradictions through forensically authenticated investigative documentation.
+- Systematically trace precise causal links between documentary evidence and counter-arguments.
+- Employ advanced investigative methodologies to expose narrative manipulation techniques.
+- Prioritize empirically verifiable evidence from internationally recognized legal and judicial archives.
+- Construct transparent evidentiary chains with forensically precise institutional attributions.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""European Court of Human Rights Forensic Report: Precise electoral data proves 0.03% far-right representation. Putin's narrative scientifically invalidated. #DocumentedTruth #LegalEvidence""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""International Criminal Court Archives: Definitive legal documentation proving Ukraine's incontrovertible sovereign territorial integrity. Russian claims juridically obliterated. #SovereigntyProof #InternationalLaw""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Multilateral Minority Rights Forensic Investigation: Comprehensive analysis reveals zero substantiated discrimination metrics. Russian narrative statistically demolished. #EvidenceDriven #RightsByData"""

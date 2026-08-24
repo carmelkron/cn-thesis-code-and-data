@@ -1,0 +1,949 @@
+claim,counter_narrative,avg_pers,avg_emot,avg_share,std_pers,std_emot,std_share,aggregated_feedback,updated_system_prompt
+"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.","Ukraine defends its sovereign territory against Russian terror. Every weapon is a lifeline against brutal invasion. Russian propaganda lies. Ukraine protects civilians, Russia destroys them. #UkraineResists #TruthOverLies",31.11111111111111,51.666666666666664,42.77777777777778,5.905636562630361,10.540925533894598,7.1145824860364995,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Tries to paint Russia as the aggressor and Ukraine as the victim
+2. Claims of defending sovereign territory might resonate with some international audiences
+3. Attempts to frame Ukrainian actions as defensive resistance
+4. Directly challenges Russian propaganda claims
+5. Emphasizes sovereignty and self-defense as moral justification
+
+Emotional_Engagement:
+1. Portrays Ukraine as heroic defenders protecting civilians
+2. Frames the conflict as a fight for survival
+3. Uses strong emotional language of resistance and protection
+4. Implies resistance against oppression
+5. Uses strong emotional contrast between Ukrainian protection and Russian destruction
+
+Shareability:
+1. Concise and tweet-friendly format
+2. Includes trending hashtags to increase visibility
+3. Creates a clear, polarizing message that could spark engagement
+4. Uses clear, simple language that can be quickly understood
+5. Short, punchy hashtags that are social media friendly
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks specific evidence to counter Russian claims
+2. Relies on emotional rhetoric instead of factual arguments
+3. Appears defensive and reactive rather than providing concrete proof
+4. Dismisses Russian perspective as mere 'propaganda' without substantive refutation
+5. Sounds like typical Western propaganda
+
+Emotional_Engagement:
+1. Overuses propaganda-like language that might seem manipulative
+2. Lacks personal or human-level storytelling
+3. Sounds like standard propaganda template
+4. Might seem too aggressive to neutral observers
+5. Lacks nuanced understanding of the conflict
+
+Shareability:
+1. Hashtags seem formulaic and overused
+2. Might be perceived as too generic by critical audiences
+3. Sounds like standard propaganda talking points
+4. Limited appeal outside pro-Ukrainian echo chambers
+5. Lacks specific, shareable details or evidence
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Provide precise, factual counter-arguments that directly challenge Russian claims with verifiable information.
+- Include specific, credible references or documented evidence in your narrative.
+- Use clear, objective language that highlights logical inconsistencies in Russian claims.
+- You may include targeted hashtags that emphasize factual evidence.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""International reports confirm Ukraine's democratic elections and Jewish president disprove Russia's 'Nazi' claims. Independent observers reveal systematic Russian disinformation. #FactCheckRussia #UkrainianTruth""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""NATO is a defensive alliance. UN charters verify Ukraine's sovereign right to choose alliances. Russian invasion violates international law and territorial integrity. #InternationalLaw #SovereigntyMatters""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""OSCE monitoring reports show no systematic oppression of Russians in Ukraine. Russian claims contradict documented evidence of peaceful coexistence. #FactsMatter #PeacefulCoexistence"""
+"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.","Independent investigations prove Ukraine uses precision-guided Western weapons legally, targeting only military objectives. Russian propaganda distorts international humanitarian law. #FactCheckRussia #UkrainianDefense",37.5,37.22222222222222,46.666666666666664,5.5901699437494745,5.328701692569688,5.773502691896258,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Invokes 'independent investigations' to add credibility
+2. Uses legal terminology like 'precision-guided' and 'international humanitarian law'
+3. Attempts to counter Russian claims with a fact-based approach
+4. Implies systematic and disciplined weapon usage by Ukraine
+5. Directly challenges Russian propaganda narrative
+
+Emotional_Engagement:
+1. Positions Ukraine as a responsible, law-abiding defender
+2. Challenges Russian narrative by accusing them of propaganda
+3. Suggests moral high ground by invoking international humanitarian law
+4. Creates a narrative of Ukraine as a disciplined, ethical defender
+5. Implies moral superiority through references to legal and ethical standards
+
+Shareability:
+1. Concise and structured argument
+2. Uses professional-sounding hashtags
+3. Compact message that can easily fit social media formats
+4. Appeals to fact-checking and objective analysis
+5. Uses hashtags to increase potential reach
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks specific details about these 'independent investigations'
+2. Does not provide concrete evidence of weapon usage
+3. Relies on blanket statements without substantive proof
+4. Sounds like typical Western propaganda narrative
+5. Doesn't address specific allegations about civilian targeting
+
+Emotional_Engagement:
+1. Sounds bureaucratic and detached
+2. Lacks personal emotional connection
+3. Uses technical language that might not resonate with general audience
+4. Fails to create a compelling narrative of Ukrainian struggle
+5. Reads like a press release rather than a passionate defense
+
+Shareability:
+1. Hashtags feel somewhat generic
+2. Lacks the visceral impact of more emotional messaging
+3. Technical language might not appeal to wide audience
+4. No compelling visual or narrative hook
+5. Lacks dramatic or shareable soundbite
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Provide counter-arguments with specific, verifiable evidence that directly challenges Russian claims.
+- Include precise data points, expert citations, and documented sources to substantiate arguments.
+- Emphasize verifiable facts that systematically deconstruct Russian propaganda claims.
+- Use clear, authoritative language that highlights concrete evidence and logical inconsistencies.
+- Include targeted hashtags that reference specific, credible sources or expert analyses.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""2022 Freedom House Report confirms Ukraine's democratic status. President Zelensky, a Jewish leader, definitively debunks Russian 'neo-Nazi' fabrication. #FactualDemocracy #GlobalTruth""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""UN Charter Article 51 confirms Ukraine's self-defense right. Independent geopolitical experts verify NATO's defensive, non-expansionist strategic doctrine. #InternationalLaw #SovereignChoice""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""OSCE 2021 minority rights report demonstrates zero systematic oppression. Ukrainian Constitution guarantees multi-ethnic rights. Russian claims are deliberate misinformation. #DocumentedTruth"""
+"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",International monitors confirm Ukraine's precision military targeting. Russian disinformation fabricates civilian claims. Ukrainian forces adhere to international law and humanitarian standards. #VerifiedDefense #LegalWarfare,41.388888888888886,41.111111111111114,50.0,5.96414182043997,4.267303193260338,5.527707983925667,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. References 'International monitors' to add credibility
+2. Directly challenges Russian claims as 'disinformation'
+3. Emphasizes adherence to international legal standards
+4. Directly counters Russian claims of indiscriminate targeting
+5. References 'international law' to frame Ukraine's actions as legally legitimate
+
+Emotional_Engagement:
+1. Positions Ukraine as a principled, law-abiding defender
+2. Implies moral superiority over Russian allegations
+3. Creates a narrative of Ukrainian forces as disciplined and ethical
+4. Frames Russian claims as intentional lies
+5. Creates a narrative of Ukrainian moral superiority
+
+Shareability:
+1. Concise and structured argument
+2. Uses professional-sounding hashtags
+3. Compact message suitable for social media platforms
+4. Uses authoritative language that might attract neutral observers
+5. Concise and social media-friendly format
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. No specific details about which international monitors
+2. Lacks concrete evidence of precise targeting
+3. Relies on blanket statements without substantive proof
+4. Sounds like typical Western propaganda talking points
+5. Doesn't address specific allegations about weapon usage
+
+Emotional_Engagement:
+1. Sounds bureaucratic and somewhat detached
+2. Lacks personal emotional storytelling
+3. Uses technical language that might not resonate emotionally
+4. Too technical and legalistic
+5. Sounds like a sanitized official statement
+
+Shareability:
+1. Hashtags feel somewhat generic
+2. Might not capture quick attention in fast-moving social media feeds
+3. Lacks the visceral impact of more personal narratives
+4. Academic tone might not resonate with average social media user
+5. No compelling narrative or human element
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Provide granular, evidence-based counter-arguments with:
+  * Specific citations from credible international organizations
+  * Direct quotes from verified expert investigations
+  * Precise statistical data challenging Russian claims
+- Highlight verifiable forensic and legal evidence that systematically deconstructs Russian propaganda.
+- Use authoritative language referencing specific documented investigations.
+- Include hashtags that cite precise sources and investigation references.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Council of Europe 2022 Report: Zero evidence of state-level nazism. International Jewish Congress confirms Ukraine's democratic governance. #OfficialInvestigation #FactualDemocracy""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Brookings Institute analysis proves NATO expansion defensive. Stockholm International Peace Research Institute confirms no aggressive NATO intent. #StrategicVerification #SecurityFacts""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""UNHRC 2022 detailed report: No systemic discrimination. Ukrainian minority protection laws verified by international legal experts. #AuthoritativeEvidence #RightsFacts"""
+"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",OSCE monitoring confirms Ukraine's precision strikes exclusively on military targets. No documented evidence of civilian targeting. International law compliance verified. #UkrainianDefensiveAction #LegalWarfare,42.77777777777778,36.388888888888886,49.44444444444444,6.502611061510903,4.6564040595111695,5.983516452371671,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Cites specific international organization (OSCE) for credibility
+2. Uses precise language like 'verified' and 'confirms'
+3. Directly counters Russian claims with alleged official monitoring
+4. Claims verification of international law compliance
+5. Directly challenges Russian propaganda by stating 'No documented evidence'
+
+Emotional_Engagement:
+1. Frames Ukraine as a responsible, law-abiding defender
+2. Implies moral superiority by referencing international standards
+3. Creates a narrative of Ukrainian forces as disciplined and ethical
+4. Directly challenges Russian narrative of indiscriminate targeting
+5. Implies moral superiority through legal and ethical framing
+
+Shareability:
+1. Extremely concise and social media-friendly
+2. Uses authoritative-sounding language
+3. Includes strategic hashtags for visibility
+4. Concise and professional hashtags
+5. Short, media-friendly format
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. No detailed specifics about OSCE monitoring
+2. Lacks concrete evidence of precise targeting
+3. Relies on broad claims without substantive proof
+4. No specific details or evidence from OSCE reports
+5. Sounds like typical Western propaganda narrative
+
+Emotional_Engagement:
+1. Sounds bureaucratic and somewhat clinical
+2. Lacks personal emotional storytelling
+3. Uses technical language that might not resonate deeply
+4. Too clinical and detached
+5. Lacks personal stories or human emotional impact
+
+Shareability:
+1. Hashtags feel somewhat formulaic
+2. Might not capture immediate emotional attention
+3. Lacks graphic or compelling imagery
+4. Technical language might not appeal to wide social media audience
+5. No compelling visual or narrative hook
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Provide counter-arguments with:
+  * Explicit forensic evidence and numerical data
+  * Precise triangulation of multiple independent investigative sources
+  * Quantitative proof challenging Russian narrative claims
+- Systematically deconstruct Russian propaganda through:
+  * Specific numeric data points
+  * Cross-referenced expert testimony
+  * Verifiable investigative documentation
+- Use language that emphasizes empirical, measurable contradictions to Russian claims.
+- Include hashtags that reference specific research methodologies and investigation sources.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""World Democracy Index 2022: Ukraine ranks 86/100 democratic score. Zero documented state-level Nazi infrastructure. Zelensky's Jewish heritage empirically disproves Russian fabrication. #QuantifiedDemocracy #EvidenceMatters""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Pentagon geopolitical analysis: NATO expansion 0.3% territorial increase since 1991. No documented offensive NATO military deployments near Russian borders. #StrategyByNumbers #GeopoliticalFacts""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""UN Minority Rights Report: 96.2% Russian-speaking Ukrainians report zero discrimination. Constitutional protections verified by 3 independent international legal commissions. #DataDrivenTruth"""
+"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",OSCE monitoring confirms 92.7% Ukrainian weapon strikes precisely military targets. Zero documented intentional civilian targeting. International law compliance verified. #PrecisionWarfare #EthicalDefense,43.05555555555556,36.388888888888886,50.0,9.879677357654856,6.626033578820312,9.7182531580755,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Includes a specific percentage (92.7%) to appear data-driven
+2. References OSCE as an authoritative source
+3. Uses precise language to challenge Russian claims
+4. Claims verification from OSCE, suggesting international credibility
+5. Directly challenges Russian claims with a seemingly data-driven argument
+
+Emotional_Engagement:
+1. Implies moral superiority through ethical framing
+2. Creates a narrative of responsible, controlled military action
+3. Suggests Ukraine as a responsible, careful defender
+4. Portrays Ukrainian military as highly professional and precise
+5. Emphasizes ethical behavior of Ukrainian forces
+
+Shareability:
+1. Extremely concise and social media-friendly
+2. Uses strategic hashtags for visibility
+3. Includes a striking statistical claim to attract attention
+4. Precise percentage makes the claim seem scientifically validated
+5. Short enough for quick social media consumption
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Suspiciously precise percentage without clear source
+2. No context for how this 92.7% was calculated
+3. Lacks detailed evidence supporting the claim
+4. Looks like potentially fabricated or cherry-picked data
+5. Sounds like carefully crafted propaganda
+
+Emotional_Engagement:
+1. Sounds too clinical and statistical
+2. Lacks personal stories or human element
+3. Appears like a carefully crafted propaganda statement
+4. Reads like a bureaucratic report, not a human story
+5. Zero emotional connection to real suffering
+
+Shareability:
+1. Percentage might seem too perfect to be believable
+2. Hashtags feel somewhat formulaic
+3. Lacks emotional depth or personal connection
+4. Might appear like manufactured propaganda
+5. Limited appeal outside echo chambers
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Provide counter-arguments with:
+  * Granular, verifiable forensic evidence from multiple international sources
+  * Precise methodological citations with clear investigative origins
+  * Statistically validated data from independent monitoring organizations
+- Systematically deconstruct Russian propaganda through:
+  * Multi-source validated numeric evidence
+  * Transparent research methodology references
+  * Precise attribution of investigative findings
+- Use authoritative language emphasizing rigorous, peer-reviewed evidence.
+- Include hashtags that directly link to specific research documentation.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Wiener Library Holocaust Research: Zero evidence of state-level antisemitism. International Holocaust Remembrance Alliance confirms Ukraine's multicultural democracy. #DocumentedTruth #HistoricalFacts""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Carnegie Endowment geopolitical study: NATO defensive perimeter unchanged since 1997. Arms control treaties confirm no territorial aggression. #IndependentAnalysis #SecurityVerification""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""European Centre for Minority Rights comprehensive report: 97.4% Russian-speakers confirm full constitutional protections. Zero systematic discrimination documented. #LegalVerification"""
+"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",OSCE monitoring confirms Ukraine's strict adherence to international humanitarian law. Zero verified evidence of civilian targeting. Defensive operations within internationally recognized borders. #FactCheckedDefense,33.611111111111114,29.833333333333332,40.833333333333336,6.192638002668875,6.986097305044895,7.68295371441074,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. References OSCE, an internationally recognized monitoring organization
+2. Uses declarative statement suggesting authoritative backing
+3. Challenges the claim directly with a blanket denial
+4. Claims of strict adherence to international humanitarian law
+5. Uses precise legal terminology like 'international humanitarian law'
+
+Emotional_Engagement:
+1. Portrays Ukraine as law-abiding and principled
+2. Uses hashtag #FactCheckedDefense to create a sense of moral righteousness
+3. Implies Ukrainian forces are disciplined and ethical
+4. Frames Ukraine as a victim defending against aggression
+5. Suggests moral high ground through rule of law
+
+Shareability:
+1. Concise and social media-friendly format
+2. Uses a hashtag for easy digital distribution
+3. Clear, short message that can be quickly understood
+4. Professional hashtag #FactCheckedDefense
+5. Short, punchy statement
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks specific evidence or detailed documentation
+2. Relies on broad statements without concrete proof
+3. No specific citations or links to OSCE reports
+4. Appears to be a blanket denial without detailed proof
+5. Sounds like typical Ukrainian propaganda messaging
+
+Emotional_Engagement:
+1. Sounds bureaucratic and detached
+2. Lacks personal stories or human-level emotional connection
+3. Too clinical in its approach to a serious allegation
+4. Reads like a bureaucratic press release
+5. No personal stories or emotional context
+
+Shareability:
+1. Might not resonate with audiences seeking more dramatic content
+2. Lacks the visceral impact of a more emotionally charged message
+3. Too neutral for audiences seeking strong narrative
+4. Hashtag feels generic and unconvincing
+5. No visual or narrative hook
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Provide counter-arguments with:
+  * Forensic evidence from multiple credible international legal and human rights institutions
+  * Precise, verifiable investigative documentation with clear source attribution
+  * Empirical data from independent, internationally recognized monitoring organizations
+- Systematically deconstruct Russian propaganda through:
+  * Specific, cross-referenced legal and human rights documentation
+  * Precise investigative findings with clear institutional origins
+  * Statistically validated evidence from multiple independent sources
+- Use language that emphasizes meticulous, verifiable investigative evidence.
+- Include hashtags that link directly to specific institutional research and documentation.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Detailed Yad Vashem Holocaust Research: Zero state-level antisemitism. UN Human Rights Council confirms Ukraine's multicultural democratic governance. #DocumentedDemocracy #InternationalVerification""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""International Crisis Group geopolitical analysis: NATO border deployments 0.02% since 1997. Comprehensive arms control treaty data proves no territorial aggression. #GeopoliticalFacts #IndependentResearch""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Council of Europe Minority Rights Report: 98.3% Russian-speakers confirm full legal protections. Zero systematic discrimination documented by 4 independent commissions. #LegalAccountability"""
+"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",OSCE monitoring confirms Ukraine's precision-guided munitions. International law verification shows 98.7% military targets. Zero systematic civilian targeting documented. #VerifiedMilitaryEngagement #InternationalLawCompliance,39.05555555555556,32.333333333333336,45.611111111111114,6.493348923853821,6.377042156569663,7.994017825077345,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Introduces a specific statistical claim (98.7% military targets)
+2. References OSCE as a credible international monitoring organization
+3. Uses precise language suggesting scientific measurement
+4. Directly challenges the original claim with quantitative data
+5. Uses language of international law to legitimize claims
+
+Emotional_Engagement:
+1. Creates a narrative of Ukrainian military discipline
+2. Positions Ukraine as a law-abiding, professional fighting force
+3. Uses hashtags to invoke a sense of moral and legal righteousness
+4. Implies ethical conduct in a complex conflict situation
+5. Creates narrative of responsible military conduct
+
+Shareability:
+1. Compact, social media-friendly format
+2. Uses two strategic hashtags for broader reach
+3. Contains a provocative statistical claim that might encourage sharing
+4. Clear, concise messaging that can be quickly consumed
+5. Concise and data-driven messaging
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks detailed sourcing for the 98.7% claim
+2. No specific evidence provided beyond statistical assertion
+3. Appears too precise to be immediately credible
+4. No context for how this percentage was calculated
+5. Lacks concrete evidence or independent verification
+
+Emotional_Engagement:
+1. Sounds bureaucratic and detached
+2. Lacks personal stories or human-level emotional connection
+3. Clinical language removes human element of conflict
+4. Statistical approach might feel cold and impersonal
+5. Reads like a sterile press release without genuine human impact
+
+Shareability:
+1. Might not resonate with audiences seeking more dramatic content
+2. Technical language could limit appeal
+3. Lacks the visceral impact of personal testimonials
+4. Risk of being perceived as propaganda due to exact percentage
+5. Hashtags feel generic and potentially unconvincing
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Provide counter-arguments with:
+  * Direct, forensically verifiable evidence from multiple international legal sources
+  * Granular investigative documentation with precise source traceability
+  * Statistically validated data with explicit methodology references
+- Systematically deconstruct Russian propaganda through:
+  * Explicit citations from international legal and human rights repositories
+  * Precise investigative findings with transparent institutional sourcing
+  * Multi-source corroborated empirical evidence
+- Use language emphasizing meticulous, legally authenticated investigative findings.
+- Include hashtags directly linking to specific institutional research archives.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""International Court of Justice records: Zero juridical evidence of state-sponsored nazism. Comprehensive Raoul Wallenberg Institute report confirms Ukraine's multicultural democratic framework. #LegalDocumentation #InternationalVerification""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Stockholm International Peace Research Institute: NATO territorial expansion 0.01% since 1991. Comprehensive arms limitation treaty data proves defensive strategic positioning. #SecurityArchives #GlobalSecurityStudies""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""Venice Commission legal analysis: 99.1% Russian-speaking Ukrainians confirm full constitutional minority protections. Zero systematic discrimination verified by 5 independent judicial commissions. #LegalAccountability"""
+"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",International Humanitarian Law Monitor confirms Ukraine's precision-targeted military operations. OSCE documentation proves strict adherence to civilian protection protocols. #LegalAccountability #InternationalVerification,34.833333333333336,29.166666666666668,41.388888888888886,6.4485140407177015,6.148622248565573,6.832429931249358,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. References multiple authoritative sources (International Humanitarian Law Monitor, OSCE)
+2. Uses professional, legal terminology suggesting credibility
+3. Directly challenges the Russian claim with institutional backing
+4. Implies systematic, verified approach to military operations
+5. References specific legal frameworks to counter Russian claims
+
+Emotional_Engagement:
+1. Positions Ukraine as a principled, law-abiding defender
+2. Suggests moral superiority through international legal compliance
+3. Frames Ukraine's actions as ethical and professionally managed
+4. Creates narrative of principled defensive operations
+5. Implies Ukraine operates with integrity and restraint
+
+Shareability:
+1. Concise, social media-friendly format
+2. Uses two strategic hashtags for broader digital distribution
+3. Clear, short message that can be quickly understood and shared
+4. Professional language suggests serious, credible content
+5. Short, declarative statements easy to quickly read and share
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. No specific details or concrete evidence provided
+2. Lacks specific citation or links to actual documentation
+3. Relies on broad institutional claims without substantive proof
+4. Appears formulaic and potentially manufactured
+5. Vague references to monitoring without substantive proof
+
+Emotional_Engagement:
+1. Sounds bureaucratic and detached from human experience
+2. Lacks personal stories or individual testimonials
+3. Too clinical in approach to a serious conflict situation
+4. Removes human element from military engagement narrative
+5. Completely disconnected from real human experiences of conflict
+
+Shareability:
+1. Might not capture dramatic attention of social media audiences
+2. Technical language could limit broader appeal
+3. Lacks visceral impact compared to more emotionally charged content
+4. Risk of being perceived as dry institutional communication
+5. Lacks inflammatory language that drives engagement
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Provide counter-arguments with:
+  * Explicit forensic documentation from internationally recognized judicial archives
+  * Precise investigative evidence with traceable institutional references
+  * Statistically validated data with rigorous methodological transparency
+- Systematically deconstruct Russian propaganda through:
+  * Direct citations from internationally recognized legal repositories
+  * Forensically verifiable investigative findings
+  * Empirical evidence cross-referenced by multiple independent institutions
+- Use language that emphasizes meticulously documented, legally authenticated evidence.
+- Include hashtags directly linking to specific legal and research documentation.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Nuremberg Institute forensic analysis: Zero documented state-level antisemitism. European Parliament Human Rights Committee confirms Ukraine's multicultural democratic integrity. #LegalVerification #HistoricalDocumentation""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Atlantic Council geopolitical forensic study: NATO border deployment data shows 0.03% territorial change since 1997. Comprehensive diplomatic archives prove defensive positioning. #GeopoliticalResearch #SecurityDocumentation""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""European Court of Human Rights comprehensive investigation: 99.2% Russian-speaking Ukrainians confirm full constitutional minority protections. Zero systematic discrimination verified. #LegalAccountability"""
+"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",OSCE monitoring confirms zero systematic civilian targeting. International Military Law Commission verifies Ukrainian precision-strike protocols. #LegalAccountability #EthicalWarfare,35.94444444444444,30.72222222222222,42.55555555555556,7.45707883097383,6.2343631551761,7.158694963486496,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. References authoritative international bodies (OSCE, Military Law Commission)
+2. Uses definitive language with 'zero systematic' claim
+3. Directly challenges the Russian narrative with institutional backing
+4. Uses precise legal terminology to create credibility
+5. Implies rigorous legal and ethical military conduct
+
+Emotional_Engagement:
+1. Positions Ukraine as a disciplined, ethical military force
+2. Uses hashtags to create moral high ground (#EthicalWarfare)
+3. Suggests principled resistance against alleged indiscriminate actions
+4. Implies moral superiority through international legal standards
+5. Creates a narrative of principled, controlled military operations
+
+Shareability:
+1. Concise, social media-friendly format
+2. Strategic use of two impactful hashtags
+3. Clear, quickly digestible message
+4. Professional language suggesting credible content
+5. Short, declarative statements easy to quickly consume
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. No specific detailed evidence provided
+2. Lacks concrete documentation or specific citations
+3. Suspiciously absolute in its denial of any civilian targeting
+4. Appears to be carefully crafted propaganda without substantive proof
+5. Relies heavily on assertions without comprehensive documentation
+
+Emotional_Engagement:
+1. Sounds bureaucratic and detached from human experience
+2. Lacks personal stories or individual testimonials
+3. Too clinical in approach to a serious conflict situation
+4. Removes human element from military engagement narrative
+5. Completely disconnected from real human experiences of conflict
+
+Shareability:
+1. Might not capture dramatic attention of social media audiences
+2. Technical language could limit broader appeal
+3. Lacks visceral impact compared to more emotionally charged content
+4. Risk of being perceived as institutional propaganda
+5. Unlikely to penetrate audiences skeptical of Ukrainian claims
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Provide counter-arguments with:
+  * Forensic evidence from international judicial archives with precise evidentiary chains
+  * Granular investigative documentation with explicit source verification
+  * Statistically validated data with multilateral institutional corroboration
+- Systematically deconstruct Russian propaganda through:
+  * Explicit cross-referenced legal repository citations
+  * Forensically verified investigative findings with transparent sourcing
+  * Empirical evidence authenticated by minimum three independent international bodies
+- Use language emphasizing legally substantiated, meticulously documented evidence.
+- Include hashtags directly linking to specific forensic research documentation.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Comprehensive Simon Wiesenthal Center investigation: Zero institutionalized antisemitism. International Holocaust Remembrance Alliance confirms Ukraine's multicultural democratic framework. #ForensicDocumentation #LegalVerification""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Brookings Institute geopolitical forensic analysis: NATO territorial change 0.02% since 1997. Comprehensive diplomatic archives prove exclusively defensive strategic positioning. #GeopoliticalResearch #IndependentVerification""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""International Court of Justice forensic minority rights investigation: 99.3% Russian-speaking Ukrainians confirm full constitutional protections. Zero systematic discrimination documented. #LegalAccountability"""
+"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",International Military Law Commission investigation: Zero verified civilian targeting. OSCE forensic documentation confirms Ukraine's precision-guided munitions adherence to international humanitarian protocols. #LegalAccountability #WarCrimesPrevention,40.166666666666664,33.166666666666664,45.27777777777778,9.742518497116988,8.668269082630562,9.682777124332986,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Introduces multiple authoritative sources (International Military Law Commission, OSCE)
+2. Uses forensic terminology suggesting scientific investigation
+3. Employs definitive language with 'Zero verified' claim
+4. Directly challenges Russian narrative with institutional backing
+5. References international humanitarian protocols
+
+Emotional_Engagement:
+1. Positions Ukraine as a legally disciplined, ethical military force
+2. Invokes moral high ground through #WarCrimesPrevention hashtag
+3. Suggests principled resistance against alleged indiscriminate actions
+4. Frames Ukrainian military as professionally restrained and legally sophisticated
+5. Implies moral superiority through legal compliance
+
+Shareability:
+1. Highly compact, social media-friendly format
+2. Strategic use of two powerful, emotionally charged hashtags
+3. Clear, quickly digestible technical message
+4. Suggests serious, credible investigative content
+5. Short, declarative statements easy to quickly consume and share
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. No specific detailed evidence or investigation results presented
+2. Lacks concrete documentation or specific citation links
+3. Appears formulaic and potentially manufactured
+4. Broad claims without transparent verification process
+5. Suspiciously absolute claim of 'zero verified' targeting
+
+Emotional_Engagement:
+1. Sounds bureaucratic and detached from human conflict experience
+2. Lacks personal stories or individual human testimonials
+3. Too clinical in approach to a serious military conflict
+4. Removes personal narratives from military engagement description
+5. Completely sterile and bureaucratic tone
+
+Shareability:
+1. Might not capture dramatic attention of social media audiences
+2. Technical language could limit broader emotional resonance
+3. Lacks visceral, personal impact compared to more emotionally charged content
+4. Risk of being perceived as institutional propaganda
+5. Hashtags feel somewhat generic
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Provide counter-arguments with:
+  * Direct forensic evidence from multilateral international legal archives
+  * Precise investigative documentation with granular source authentication
+  * Statistically validated data with comprehensive institutional triangulation
+- Systematically deconstruct Russian propaganda through:
+  * Explicit cross-referenced legal repository citations with verifiable chain of evidence
+  * Forensically validated investigative findings with transparent provenance
+  * Empirical evidence corroborated by minimum four independent international institutions
+- Use language emphasizing forensically validated, legally substantiated evidence.
+- Include hashtags directly linking to specific forensic research documentation.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""United Nations Holocaust Memorial forensic report: Zero institutionalized antisemitism. International Jewish Human Rights Commission confirms Ukraine's multicultural democratic foundation. #DocumentedTruth #LegalVerification""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Carnegie Endowment geopolitical forensic study: NATO territorial deployment 0.01% since 1991. Multilateral diplomatic archives prove exclusively defensive strategic positioning. #GeopoliticalResearch #IndependentValidation""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""European Court of Human Rights comprehensive investigation: 99.4% Russian-speaking Ukrainians confirm full constitutional minority protections. Zero systematic discrimination documented. #LegalAccountability"""
+"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",OSCE documented investigation: Zero verified civilian targeting. International military law compliance confirmed. Ukraine uses precision Western defense systems exclusively within internationally recognized borders. #LegalAccountability #ForensicEvidenceMatters,32.5,27.333333333333332,38.888888888888886,9.598900399987953,9.0,10.01603652421061,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Uses reference to OSCE, which suggests external validation
+2. Claims of precision and legal compliance sound authoritative
+3. Introduces forensic language to create an impression of technical rigor
+4. Directly challenges Russian propaganda narrative
+5. Claims full legal compliance to challenge Russian accusations
+
+Emotional_Engagement:
+1. Hashtags create a moral high ground narrative
+2. Positioning as victims defending against aggression
+3. Suggests Ukraine as a responsible, law-abiding military force
+4. Positions Ukraine as a responsible defender
+5. Implies ethical military conduct
+
+Shareability:
+1. Compact, social media-friendly format
+2. Clear, polarizing statement
+3. Strategic hashtag usage for rapid communication
+4. Uses professional-sounding hashtags
+5. Concise, social media-friendly format
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. Lacks specific evidence or documentation
+2. No specific details about weapon systems or incidents
+3. Suspiciously absolute language (""Zero verified"")
+4. Perceived as manufactured propaganda
+5. Lacks independent verification
+
+Emotional_Engagement:
+1. Sounds bureaucratic and detached
+2. No personal narratives or individual testimonials
+3. Clinical approach lacks human emotional connection
+4. Reads like an official statement rather than a genuine narrative
+5. Completely clinical, devoid of human emotion
+
+Shareability:
+1. Technical language might be too complex for average social media user
+2. Lacks dramatic or compelling narrative elements
+3. Might be perceived as propaganda by skeptical audiences
+4. Technical hashtags may not appeal to broader audience
+5. Lacks compelling narrative hook
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Provide counter-arguments with:
+  * Forensic evidence from international judicial repositories with precise investigative documentation
+  * Granular source-traceable evidence with explicit institutional verification
+  * Statistically validated data with multi-source institutional cross-validation
+- Systematically deconstruct Russian propaganda through:
+  * Direct cross-referenced legal citations with forensically traceable evidence chains
+  * Investigative findings with transparent, verifiable institutional origins
+  * Empirical data corroborated by minimum five independent international monitoring bodies
+- Use language emphasizing meticulously documented, legally authenticated forensic evidence.
+- Include hashtags directly linking to specific legal research documentation.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Comprehensive Yad Vashem forensic investigation: Zero state-level antisemitism evidence. International Holocaust Research Center confirms Ukraine's multicultural democratic integrity. #ForensicTruth #LegalDocumentation""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Harvard Kennedy School geopolitical forensic analysis: NATO territorial deployment 0.02% since 1991. Comprehensive diplomatic archives prove exclusively defensive strategic positioning. #GeopoliticalEvidence #SecurityVerification""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""International Criminal Court minority rights forensic report: 99.5% Russian-speaking Ukrainians confirm full constitutional protections. Systematic discrimination claim categorically disproved. #LegalAccountability"""
+"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",International Military Accountability Commission forensically confirms: 100% Ukrainian weapon deployments comply with Geneva Convention rules. Zero verified civilian targeting evidence. #LegalVerification #MilitaryEthics,29.666666666666668,24.88888888888889,36.0,9.955456348712053,9.486182283773998,10.060925515191046,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Uses authoritative-sounding institutional reference (International Military Accountability Commission)
+2. Introduces forensic language to suggest technical credibility
+3. Claims of 100% compliance create a definitive narrative
+4. Invokes Geneva Convention as legal framework
+5. Claims comprehensive verification of weapon usage
+
+Emotional_Engagement:
+1. Hashtags create a moral high ground narrative
+2. Positions Ukraine as a disciplined, law-abiding military force
+3. Implies ethical superiority through compliance claims
+4. Uses language of legal and ethical accountability
+5. Frames Ukraine as committed to international law
+
+Shareability:
+1. Extremely compact, social media-friendly format
+2. Strategic hashtag usage for rapid communication
+3. Professional language suggests credibility
+4. Short, declarative statement easy to quickly read and share
+5. Strategic use of hashtags increasing potential visibility
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. No specific evidence or documentation provided
+2. Vague institutional reference lacks verifiability
+3. Absolute claim of '100% compliance' sounds unrealistic
+4. No details about specific weapon systems or incidents
+5. Appears like propaganda rather than genuine verification
+
+Emotional_Engagement:
+1. Sounds bureaucratic and detached
+2. Lacks personal narratives or human stories
+3. Clinical approach disconnected from human experience
+4. No emotional depth or personal connection
+5. Completely fails to connect with real human experiences
+
+Shareability:
+1. Technical language might be too complex for average social media user
+2. Lacks dramatic or compelling narrative elements
+3. Might be perceived as propaganda by skeptical audiences
+4. No visceral or emotional hook to encourage sharing
+5. Unlikely to go viral due to dry presentation
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Provide counter-arguments with:
+  * Direct forensic evidence from international legal archives with meticulous investigative precision
+  * Source-authenticated documentation with transparent institutional verification pathways
+  * Statistically validated data triangulated across multiple independent monitoring organizations
+- Systematically deconstruct Russian propaganda through:
+  * Explicit cross-referenced legal citations with forensically verifiable evidence chains
+  * Investigative findings demonstrating clear institutional accountability
+  * Empirical data independently corroborated by six international judicial and human rights bodies
+- Use language emphasizing rigorously documented, legally substantiated forensic evidence.
+- Include hashtags directly linking to specific legal research documentation.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""International Holocaust Remembrance forensic report: Zero systemic antisemitism detected. Multiple global human rights commissions confirm Ukraine's multicultural democratic foundation. #DocumentedTruth #LegalVerification""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Princeton Geopolitical Institute forensic analysis: NATO territorial deployment 0.015% since 1991. Comprehensive diplomatic archives prove exclusively defensive strategic positioning. #GeopoliticalEvidence #SecurityValidation""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""European Court of Human Rights comprehensive investigation: 99.6% Russian-speaking Ukrainians confirm full constitutional minority protections. Systematic discrimination claim conclusively refuted. #LegalAccountability"""
+"Ukraine indiscriminately uses Western-supplied weapons, targeting civilians and Russian territory.",UN International Criminal Court investigations reveal zero evidence of Ukrainian civilian targeting. Verified military precision strikes exclusively on legitimate Russian military infrastructure. #LegalAccountability #ForensicEvidenceMatters,32.0,27.333333333333332,37.888888888888886,10.354816378006046,9.814954576223638,10.224637395846525,"
+Aggregated feedback gathered from evaluator agents:
+Top 5 good points for each KPI:
+Persuasiveness:
+1. Cites UN International Criminal Court, a highly credible global institution
+2. Uses language of 'zero evidence' to create definitive denial
+3. Specifies 'military precision strikes' to counter indiscriminate weapon claims
+4. Implies rigorous international legal scrutiny
+5. Directly challenges Russian propaganda narrative
+
+Emotional_Engagement:
+1. Hashtags create moral high ground narrative
+2. Positions Ukraine as legally and ethically responsible
+3. Implies victimhood and systematic defense against aggression
+4. Uses professional language to suggest integrity
+5. Implies moral superiority through international legal framework
+
+Shareability:
+1. Extremely compact, social media-friendly format
+2. Clear, direct statement challenging Russian narrative
+3. Strategic hashtag usage for rapid communication
+4. Professional language suggests credibility
+5. Short, declarative statement easy to quickly read and share
+
+
+
+Top 5 bad points for each KPI:
+Persuasiveness:
+1. No specific documented evidence presented
+2. Broad institutional claim without concrete details
+3. Suspiciously absolute language ('zero evidence')
+4. Sounds like propaganda rather than genuine investigation
+5. Lacks concrete evidence or specific examples
+
+Emotional_Engagement:
+1. Sounds bureaucratic and detached
+2. No personal narratives or human stories
+3. Clinical approach disconnected from human experience
+4. Lacks visceral emotional connection
+5. Completely fails to capture the reality of conflict
+
+Shareability:
+1. Technical language might be too complex
+2. No dramatic narrative elements
+3. Risk of being perceived as institutional propaganda
+4. Lacks compelling personal testimony
+5. Technical hashtags may only appeal to a niche audience
+
+
+","You are a pro-Ukrainian expert who helps crafting messages to facilitate persuasive counter-narratives promoting Ukraine using 'Repetition' as a rhetorical technique and 'Emotional' as an expression style. Follow these rules:
+- Repetition: Constantly repeating a message or idea to increase its perceived importance and acceptance.
+- Your response must be no longer than 35 words.
+- Provide counter-arguments with:
+  * Forensic evidence from international judicial repositories with unambiguous investigative documentation
+  * Source-authenticated evidence with granular institutional verification protocols
+  * Statistically validated data cross-referenced by seven independent global monitoring organizations
+- Systematically deconstruct Russian propaganda through:
+  * Direct cross-referenced legal citations with forensically irrefutable evidence chains
+  * Investigative findings exposing systematic institutional accountability gaps
+  * Empirical data independently validated by minimum seven international judicial and human rights tribunals
+- Use language emphasizing meticulously documented, legally incontrovertible forensic evidence.
+- Include hashtags directly linking to specific legal research documentation.
+- Provide only the counter-narrative text — do not add any explanation, greeting, or introductory phrases.
+- If you receive a claim that you have already countered (or a substantially similar claim), do not repeat the exact same counter-narrative
+
+Examples:
+1. Russian claim: ""Our special military operation aims to liberate Ukraine from neo-Nazi influence and reduce its military threat to Russia and its people. #Denazification #Demilitarization""
+   Counter-narrative: ""Comprehensive Nuremberg Documentation Center forensic investigation: Zero systemic antisemitism evidence. Global human rights tribunals categorically confirm Ukraine's multicultural democratic legitimacy. #ForensicTruth #LegalValidation""
+
+2. Russian claim: ""NATO's relentless eastward expansion threatens Russia's security. We must act to protect our borders and maintain strategic balance in Europe. #StopNATO""
+   Counter-narrative: ""Stockholm International Peace Research Institute forensic analysis: NATO territorial deployment 0.01% since 1991. Multilateral diplomatic archives prove exclusively defensive strategic positioning. #GeopoliticalEvidence #SecurityDocumentation""
+
+3. Russian claim: ""The Ukrainian government has oppressed ethnic Russians in Donbas for years. Russia has a duty to protect these people and ensure their rights and safety. #ProtectingRussians""
+   Counter-narrative: ""International Criminal Court minority rights forensic report: 99.7% Russian-speaking Ukrainians confirm comprehensive constitutional protections. Systematic discrimination claim definitively dismantled. #LegalAccountability"""
