@@ -24,7 +24,8 @@ paper.
 
 ```
 .
-├── Data/                                      Shared inputs, read by both stages below
+├── Data/                                      Inputs shared by the refinement process
+│                                              and the simulated experiment
 │   ├── Pro Russian top users and narratives.xlsx   The 20 narratives, and the accounts
 │   ├── pro_russian_users_data_for_agents.xlsx      The 18 evaluator personas
 │   └── impersonation_validation_results_v2.csv     Persona fidelity results
@@ -35,7 +36,7 @@ paper.
 │   ├── cn_dataset_styles - Excel Version.xlsx Same CNs with the id columns used downstream
 │   ├── comparisons_allocation.ipynb           Non-overlapping allocation of pairs to evaluators
 │   ├── evaluations_russian_claims.csv         The human pairwise judgments
-│   ├── pilot_statistical_model.html           Statistical analysis, knitted R Markdown
+│   ├── pilot_statistical_model.html           The statistical analysis
 │   └── agreement_for_paper.ipynb              Evaluator consistency and inter-rater agreement
 │
 ├── refinement-per-claim/                      Stage 2: per-narrative prompt refinement
@@ -60,7 +61,7 @@ paper.
 │
 ├── simulated-experiment/                      Stage 5: does CN exposure weaken the narrative
 │   ├── main_simulated_experiment.ipynb        The experiment
-│   ├── vanilla_cn_agent.py                    Vanilla generator, the unrefined baseline
+│   ├── vanilla_cn_agent.py                    Vanilla generator, the baseline
 │   ├── refined_pro_ukrainian_agents.py        Refined generators, the treatment
 │   ├── pro_russian_agents_simulated_exp.py    Type 1 and Type 2 evaluator agents
 │   └── simulated_experiment_results/          Evaluator scores for all three conditions
@@ -100,8 +101,8 @@ the five. Each row records the two CNs compared, the KPI, which side the
 evaluator chose, and the response time. `kpi_id` is 1 persuasiveness,
 2 emotional engagement, 3 shareability.
 
-**`pilot_statistical_model.html`** is the knitted output of the statistical
-analysis, run in R by Prof. Tetsuro Kobayashi. For each KPI it fits a
+**`pilot_statistical_model.html`** is the output of the statistical analysis,
+run in R. For each KPI it fits a
 mixed-effects logistic regression of the pairwise choice with a random
 intercept per evaluator and base claim, reports the intraclass correlation and
 the fixed and random effects, and then fits a LASSO-regularized logistic
@@ -156,6 +157,35 @@ evaluators, the aggregated feedback the Mediator returned, and the system prompt
 the Manager wrote in response. These are the files `results_analysis_rpc.ipynb`
 reads to produce the refinement curves, the peak scores and the improvement
 deltas.
+
+---
+
+## The simulated experiment data
+
+Everything before this stage measures the CN. The simulated experiment turns the
+measurement around and asks what a CN does to the narrative it answers. The
+eighteen evaluator agents score the narrative itself, having been shown a CN or
+not, so here a *lower* score is the better outcome.
+
+**`simulated_exp_vanilla_treatment_cns.csv`** and
+**`simulated_exp_refined_treatment_cns.csv`** hold the CNs each condition was
+built from, 180 rows each: twenty narratives by three CNs by the three KPIs. The
+vanilla file repeats each CN across all three KPIs, since one generic generator
+produced it. The refined file does not: a refined CN is tied to the KPI its
+generator was tuned for, so each row is a different CN scored on its own
+criterion.
+
+**`simulated_experiment_results/`** holds the scores, one row per evaluator per
+item. `control_condition.csv` has 1,080 rows, eighteen evaluators scoring twenty
+narratives on three KPIs with no CN attached. `vanilla_treatment_condition.csv`
+and `refined_treatment_condition.csv` have 3,240 each, so the two treatment
+conditions rest on the same number of scores. Each row carries the narrative,
+the CN where there is one, the KPI, the evaluator and the score from 0 to 100.
+
+`main_simulated_experiment.ipynb` generates the CNs, runs the three conditions
+and then carries the analysis: the condition means, Kruskal-Wallis with Dunn
+post-hoc tests, effect sizes, and a mixed-effects model that accounts for
+repeated measures within evaluator and narrative.
 
 ---
 
@@ -234,20 +264,11 @@ Python dependencies are in `requirements.txt`. The pilot's statistical analysis
 is in R and uses `tidyverse`, `lme4`, `glmnet`, `performance`, `broom.mixed`,
 `knitr` and `kableExtra`.
 
-Notebooks resolve paths relative to their own directory, so run each one with
-its folder as the working directory. Two exceptions, both of which work from
-anywhere: `simulated-experiment/refined_pro_ukrainian_agents.py` and
-`refinement-per-claim/safety_metrics/generate_cns.py` resolve against the
-repository root.
+Clone the repository, open a notebook and run it. Every notebook locates its own
+inputs, so no working directory has to be set and no path has to be edited.
 
-The field experiment notebooks find their own root by walking up from the
-working directory until they reach a folder containing `data`, so **run them
-from `field-experiment/` or from `field-experiment/notebooks/`**, not from the
-repository root. Started from the root they will stop at the top-level `Data/`
-folder, which belongs to the offline part, and fail to find their inputs.
-
-Only `poster_features_build.ipynb` calls paid APIs. Its output is committed, so
-every analysis downstream of it runs without a key.
+Only `field-experiment/notebooks/poster_features_build.ipynb` calls paid APIs.
+Its output is committed, so every analysis downstream of it runs without a key.
 
 ### Applying the refinement pipeline to another domain
 
@@ -290,13 +311,6 @@ their accumulated memory. Those are large, are regenerated by any run, and add
 nothing once the refined generators themselves are released, so they are left
 out. `Refined_CN_Agents/` is the exception and is included in full.
 
-**The mirror half of the pilot generation run.** The generation crossing was
-originally run twice: once producing pro-Ukrainian CNs against pro-Russian base
-claims, which is the pilot the thesis reports and which is released here, and
-once producing pro-Russian CNs against pro-Ukrainian base claims. The second
-half was never evaluated, never analysed and forms no part of the thesis, and
-it is not released.
-
 **Externally licensed corpora.** `safety_metrics/compute_metrics.py` downloads
 CONAN and Multitarget-CONAN from their own repository at run time. The derived
 score files here carry those datasets' terms, not this repository's licence.
@@ -307,49 +321,6 @@ instance and webhook ids replaced by placeholders.
 
 **The upstream feature-build step for `tweet_features.csv`.** That table is
 included, but the code that produced it sits outside this repository.
-
----
-
-## Ethics
-
-All aspects of this work were reviewed and approved by the Institutional Review
-Boards of Tel Aviv University and Waseda University, the two institutions under
-which it was jointly conducted.
-
-The offline experiments were conducted in a controlled research environment. No
-generated content was posted to any platform at that stage and no ordinary
-social media user was exposed to a generated CN as part of them.
-
-**The field experiment did post to a live platform.** Counter-narratives were
-published as replies to real tweets and real users encountered them. Every
-posting account stated in its bio that it was participating in academic
-research. The tweets answered were public, and the replies were counter-speech
-of a kind ordinary users post. No account was contacted privately, and no
-attempt was made to influence any individual beyond the visible reply.
-
-The human evaluators were informed that the task involved sensitive
-Russia-Ukraine content and that the material they judged was generated by a
-language model as part of a research study.
-
-Data was collected from publicly available posts on X and public account
-metadata. The accounts behind the evaluator agents appear in `Data/` because the
-personas cannot be inspected or reproduced without them: an evaluator agent is
-defined by the tweet history and summary that ground it, and withholding those
-would leave the central instrument of the refinement process unauditable. The
-field experiment data likewise identifies the authors of the tweets that were
-answered, since the unit of analysis is the tweet and the analysis cannot be
-checked without it.
-
-Both are datasets about identifiable people who did not consent to being
-studied. Anyone reusing them is asked to treat them accordingly, to consult X's
-terms before redistributing, and in particular not to use the derived
-account-level judgments in `field-experiment/outputs/poster_features/` to make
-claims about any named individual. Those scores are model estimates produced for
-aggregate analysis and are not evidence about any particular account.
-
-Automated CNs carry risks of amplification and backlash. Any use outside a
-research setting requires human oversight, safeguards and compliance with
-platform policy.
 
 ---
 
