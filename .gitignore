@@ -2,6 +2,12 @@
 .env
 .env.*
 !.env.example
+*.key
+
+# Paid API response caches from the field experiment's feature-build step.
+# Never commit these: they hold raw third-party responses about named accounts.
+*cache*.json
+**/avatar_cache/
 
 # Python
 __pycache__/

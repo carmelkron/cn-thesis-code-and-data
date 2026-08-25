@@ -30,3 +30,13 @@ tqdm
 detoxify
 transformers
 torch
+
+# Field experiment only (field-experiment/notebooks/)
+xgboost                   # the ML section of main_effect.ipynb
+shap                      # feature attribution for that model
+requests
+google-generativeai       # poster_features_build.ipynb, needs GEMINI_API_KEY
+# xpoz                    # poster_features_build.ipynb also calls the XPOZ API.
+#                           Not on PyPI; supplied by XPOZ. That notebook's
+#                           output is committed, so every downstream analysis
+#                           runs without it.

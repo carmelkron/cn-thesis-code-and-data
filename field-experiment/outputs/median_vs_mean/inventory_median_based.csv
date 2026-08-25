@@ -1,0 +1,16 @@
+analysis,statistic_used,mean_check,reason
+Main effect: Views growth,median + MWU,YES,Headline result; heavy right tail — mean could differ
+Main effect: Likes growth,median + MWU,YES,Null on median; check if mean reveals outlier-driven penalty
+Main effect: Shares growth,median + MWU,YES,Null on median; check mean
+Engagement rate: Likes/View,median (ratio),YES,Ratio with skew; mean sensitive to low-view tweets
+Engagement rate: Shares/View,median (ratio),YES,Same
+Trajectory shapes,MWU on shape params,NO,Shape params are bounded ratios/day-indices; mean adds little
+CN relevance,quartile MWU + reg,NO,moderator synthesis: null across methods
+Poster features,interaction reg,NO,moderator synthesis: null across methods
+CN content,stratified MWU,NO,moderator synthesis: null across methods
+Tweet features,interaction reg,PART,Only rhetorical_style×Shares survived the moderator synthesis — check that one
+Podolak,engagement ratios,NO,Already ratio-based; covered by rate check above
+Saveski,CATE distribution,NO,Distribution IS the point; mean not meaningful
+Causal forest BLP,OLS on CATEs,NO,Already mean-based (OLS)
+GPI,reg p-values,NO,Already mean-based (OLS)
+Power simulation,MWU power sim,NO,Method-specific; not a descriptive contrast

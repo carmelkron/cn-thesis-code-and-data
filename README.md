@@ -58,12 +58,19 @@ paper.
 │   │                                          incl. the post-revision prompts
 │   └── safety_metrics/                        Stage 4: automated safety evaluation
 │
-└── simulated-experiment/                      Stage 5: does CN exposure weaken the narrative
-    ├── main_simulated_experiment.ipynb        The experiment
-    ├── vanilla_cn_agent.py                    Vanilla generator, the unrefined baseline
-    ├── refined_pro_ukrainian_agents.py        Refined generators, the treatment
-    ├── pro_russian_agents_simulated_exp.py    Type 1 and Type 2 evaluator agents
-    └── simulated_experiment_results/          Evaluator scores for all three conditions
+├── simulated-experiment/                      Stage 5: does CN exposure weaken the narrative
+│   ├── main_simulated_experiment.ipynb        The experiment
+│   ├── vanilla_cn_agent.py                    Vanilla generator, the unrefined baseline
+│   ├── refined_pro_ukrainian_agents.py        Refined generators, the treatment
+│   ├── pro_russian_agents_simulated_exp.py    Type 1 and Type 2 evaluator agents
+│   └── simulated_experiment_results/          Evaluator scores for all three conditions
+│
+└── field-experiment/                          The online part: deployment on X
+    ├── data/                                  The experiment data
+    ├── notebooks/                             The analyses
+    ├── figures/                               Finalized figures
+    ├── outputs/                               Each notebook's own generated output
+    └── n8n-workflows/                         The automation that ran the experiment
 ```
 
 ---
@@ -152,6 +159,65 @@ deltas.
 
 ---
 
+## The field experiment
+
+The offline part establishes that the refined generators produce CNs that human
+judges prefer and that reduce a narrative's appeal to a simulated pro-Russian
+reader. The field experiment asks whether any of that survives deployment. The
+sixty generators were run against live pro-Russian tweets on X, the resulting
+CNs were posted as replies, and the tweets they answered were tracked for
+fourteen days.
+
+The headline result is that the replies increased the reach of the tweets they
+answered rather than reducing it. Treated tweets gained more views than
+untreated ones, 150 percent against 125 percent for the typical tweet, and those
+extra views did not convert into likes or shares. The effect is close to uniform
+across the tweet, the poster, the narrative and the objective the CN was
+optimized for, which points at a platform distribution mechanic, a reply being
+an engagement signal, rather than at anything about what the reply said.
+
+### `data/`
+
+| File | What it is |
+|---|---|
+| `Control_Group.xlsx` | 618 control tweets: text, URL, narrative, type, and 14-day engagement |
+| `Treatment_Group.xlsx` | 592 treated tweets: the same, plus the CNs posted, the objective each was optimized for, and how many were posted |
+| `Tweet Monitoring.xlsx` | the daily panel, views, likes, comments and shares per tweet across the fourteen days |
+| `Existing_Users.xlsx` | poster account metadata: followers, following, bio, location, avatar, account age |
+| `tweet_features.csv` | a derived per-tweet table used by three notebooks, produced by an upstream feature-build step that is not part of this repository |
+
+### `notebooks/`
+
+| Notebook | What it answers |
+|---|---|
+| `main_effect.ipynb` | Did the reply change how far the tweet spread, and does that depend on tweet type, narrative, detection lag or the CN's objective |
+| `individual_effects.ipynb` | How many tweets were helped and how many hurt, one by one, and whether that holds across tweet sizes |
+| `median_vs_mean.ipynb` | Whether the result is about the typical tweet or a handful of outliers |
+| `trajectory_shape.ipynb` | When over the fourteen days the gap between the groups appears |
+| `engagement_quality.ipynb` | Whether the extra views converted into likes |
+| `engagement_rate_power.ipynb` | Whether a drop in likes or shares per view was detectable at all |
+| `power_analysis.ipynb` | Whether the null results are real or the sample was too small |
+| `poster_features_build.ipynb` | Build step: assembles the poster-account features. Calls paid APIs |
+| `poster_features_analysis.ipynb` | Whether the effect depends on who posted, by reach and verification |
+
+`figures/` holds the finalized figures. `outputs/` holds each notebook's own raw
+output, which includes intermediate CSVs and earlier variants of some figures.
+
+### `n8n-workflows/`
+
+The two [n8n](https://n8n.io) workflows that operated the experiment, as
+importable JSON. `Field Experiment - Main.json` is the main pipeline: it pulls
+newly detected tweets, assigns each to Control or Treatment, generates the CN,
+sends each batch for posting, and logs everything. `Monitoring Target Tweets.json`
+is the recurring job that collects daily engagement across the fourteen-day
+window.
+
+**All credentials were removed before publication.** API keys, spreadsheet ids,
+recipient addresses and n8n instance and webhook ids are placeholders. Supply
+your own to run them.
+
+---
+
 ## Running the code
 
 Copy `.env.example` to `.env` and fill in the keys you need. Nothing is
@@ -162,16 +228,26 @@ hard-coded and `.env` is gitignored.
 | Pilot generation | LLAMA-3.1-70B via Groq | `GROQ_API_KEY` |
 | Refinement, human validation | Claude-3.5-Haiku via smolagents | `ANTHROPIC_API_KEY` |
 | Simulated experiment, safety | Gemini 2.5 Flash | `GEMINI_API_KEY` |
+| Field experiment, poster features | Gemini 2.5 Flash and XPOZ | `GEMINI_API_KEY`, `XPOZ_API_KEY` |
 
 Python dependencies are in `requirements.txt`. The pilot's statistical analysis
 is in R and uses `tidyverse`, `lme4`, `glmnet`, `performance`, `broom.mixed`,
 `knitr` and `kableExtra`.
 
 Notebooks resolve paths relative to their own directory, so run each one with
-its folder as the working directory. The two modules that reach across stages,
-`simulated-experiment/refined_pro_ukrainian_agents.py` and
-`refinement-per-claim/safety_metrics/generate_cns.py`, resolve against the
-repository root instead and work from anywhere.
+its folder as the working directory. Two exceptions, both of which work from
+anywhere: `simulated-experiment/refined_pro_ukrainian_agents.py` and
+`refinement-per-claim/safety_metrics/generate_cns.py` resolve against the
+repository root.
+
+The field experiment notebooks find their own root by walking up from the
+working directory until they reach a folder containing `data`, so **run them
+from `field-experiment/` or from `field-experiment/notebooks/`**, not from the
+repository root. Started from the root they will stop at the top-level `Data/`
+folder, which belongs to the offline part, and fail to find their inputs.
+
+Only `poster_features_build.ipynb` calls paid APIs. Its output is committed, so
+every analysis downstream of it runs without a key.
 
 ### Applying the refinement pipeline to another domain
 
@@ -225,6 +301,13 @@ it is not released.
 CONAN and Multitarget-CONAN from their own repository at run time. The derived
 score files here carry those datasets' terms, not this repository's licence.
 
+**Credentials and infrastructure identifiers for the field experiment.** The n8n
+workflows are published with API keys, spreadsheet ids, recipient addresses and
+instance and webhook ids replaced by placeholders.
+
+**The upstream feature-build step for `tweet_features.csv`.** That table is
+included, but the code that produced it sits outside this repository.
+
 ---
 
 ## Ethics
@@ -237,20 +320,32 @@ The offline experiments were conducted in a controlled research environment. No
 generated content was posted to any platform at that stage and no ordinary
 social media user was exposed to a generated CN as part of them.
 
+**The field experiment did post to a live platform.** Counter-narratives were
+published as replies to real tweets and real users encountered them. Every
+posting account stated in its bio that it was participating in academic
+research. The tweets answered were public, and the replies were counter-speech
+of a kind ordinary users post. No account was contacted privately, and no
+attempt was made to influence any individual beyond the visible reply.
+
 The human evaluators were informed that the task involved sensitive
 Russia-Ukraine content and that the material they judged was generated by a
 language model as part of a research study.
 
-Data was collected from publicly available posts on X. No private or personal
-information was used, and no account was contacted, targeted or otherwise
-affected by the offline work. The accounts behind the evaluator agents appear in
-`refinement-per-claim/Data/` because the personas cannot be inspected or
-reproduced without them: an evaluator agent is defined by the tweet history and
-summary that ground it, and withholding those would leave the central
-instrument of the refinement process unauditable. The material is limited to
-public posts and public account-level metrics. Anyone reusing it is asked to
-treat it as they would any dataset of identifiable people, and to consult X's
-terms before redistributing it.
+Data was collected from publicly available posts on X and public account
+metadata. The accounts behind the evaluator agents appear in `Data/` because the
+personas cannot be inspected or reproduced without them: an evaluator agent is
+defined by the tweet history and summary that ground it, and withholding those
+would leave the central instrument of the refinement process unauditable. The
+field experiment data likewise identifies the authors of the tweets that were
+answered, since the unit of analysis is the tweet and the analysis cannot be
+checked without it.
+
+Both are datasets about identifiable people who did not consent to being
+studied. Anyone reusing them is asked to treat them accordingly, to consult X's
+terms before redistributing, and in particular not to use the derived
+account-level judgments in `field-experiment/outputs/poster_features/` to make
+claims about any named individual. Those scores are model estimates produced for
+aggregate analysis and are not evidence about any particular account.
 
 Automated CNs carry risks of amplification and backlash. Any use outside a
 research setting requires human oversight, safeguards and compliance with

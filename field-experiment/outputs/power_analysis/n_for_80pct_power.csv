@@ -1,0 +1,4 @@
+metric,observed_power,n_orig_per_group,n_for_80pct_power,multiplier_for_80,verdict
+Views,0.96,605.0,605.0,1.0,reaches 80%
+Likes,0.076,605.0,,,">10× orig N, plausibly truly null"
+Shares,0.042,605.0,,,">10× orig N, plausibly truly null"

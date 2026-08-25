@@ -1,0 +1,422 @@
+{
+  "name": "Monitoring Target Tweets",
+  "nodes": [
+    {
+      "parameters": {
+        "jsCode": "// 1. Setup today's date (midnight)\nconst today = new Date();\ntoday.setHours(0, 0, 0, 0);\n\n// 2. Create \"Today\" string in YYYY-MM-DD format\n// We build this manually to ensure it uses the local server time, not UTC\nconst yyyy = today.getFullYear();\nconst mm = String(today.getMonth() + 1).padStart(2, '0'); // Months are 0-indexed\nconst dd = String(today.getDate()).padStart(2, '0');\nconst todayStr = `${yyyy}-${mm}-${dd}`;\n\n// 3. Create a Set to track URLs we have already added (for deduplication)\nconst seenUrls = new Set();\nconst returnItems = [];\n\n// 4. Loop through all items\nfor (const item of items) {\n  const data = item.json;\n  const dateStr = data[\"Start_Date (Creation)\"];\n  const url = data[\"URL\"];\n\n  // --- A. Date Filter Logic ---\n  if (!dateStr) continue; \n\n  const rowDate = new Date(dateStr);\n  if (isNaN(rowDate.getTime())) continue; \n  \n  rowDate.setHours(0, 0, 0, 0);\n\n  const diffTime = today - rowDate;\n  const diffDays = diffTime / (1000 * 60 * 60 * 24);\n\n  // REJECTION LOGIC:\n  // If diffDays is LESS than 1 (meaning 0, i.e., today)... SKIP.\n  // OR if diffDays is GREATER than 13... SKIP.\n  // This leaves only days 1 through 13.\n  if (diffDays < 1 || diffDays > 13) continue;\n\n  // --- B. Deduplication Logic ---\n  if (seenUrls.has(url)) continue;\n  seenUrls.add(url);\n\n  // --- C. Construct Output ---\n  returnItems.push({\n    json: {\n      \"Group\": data[\"Group\"],\n      \"URL\": data[\"URL\"],\n      \"Start_Date (Creation)\": data[\"Start_Date (Creation)\"],\n      \"Sample_Date\": todayStr\n    }\n  });\n}\n\nreturn returnItems;"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        432,
+        0
+      ],
+      "id": "71fd2482-0282-4cc9-842a-a8727f72be5a",
+      "name": "Get Relevant Tweets (Up to 13 days ago and not from today)"
+    },
+    {
+      "parameters": {
+        "binaryPropertyName": "data_monitor",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        640,
+        0
+      ],
+      "id": "0e416dae-f635-48f2-9056-ee4b73e6ef73",
+      "name": "Convert to CSV"
+    },
+    {
+      "parameters": {
+        "sendTo": "redacted@example.com, redacted@example.com",
+        "subject": "=to_monitor_{{$today.format('yyyy-MM-dd')}}",
+        "message": "=",
+        "options": {
+          "attachmentsUi": {
+            "attachmentsBinary": [
+              {
+                "property": "data_monitor"
+              }
+            ]
+          }
+        }
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        848,
+        0
+      ],
+      "id": "c879b5ae-f01f-49f2-8f41-ede6e68374a2",
+      "name": "Send CSV to Intercept",
+      "webhookId": "",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "kMYIdEpA2elEV2zb",
+          "name": "Gmail account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "YOUR_SHEET_ID_A",
+          "mode": "list",
+          "cachedResultName": "",
+          "cachedResultUrl": ""
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "",
+          "cachedResultUrl": ""
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        224,
+        0
+      ],
+      "id": "21527214-56cf-4bf9-92d1-2197a6c41ed5",
+      "name": "Get Tweets",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "Zi3qLLeIyhBo2c5I",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 0 18 * * 0-4"
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        192
+      ],
+      "id": "83eed46d-48d8-4b3a-8814-dd06c0c3afd8",
+      "name": "Schedule 2 - After Getting Metrics"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "triggerAtHour": 8
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ],
+      "id": "53882182-bcea-4b39-a417-e22c0e3ffcfd",
+      "name": "Schedule 1 - Sending Tweets"
+    },
+    {
+      "parameters": {
+        "binaryPropertyName": "attachment_0",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1,
+      "position": [
+        432,
+        192
+      ],
+      "id": "8955a94c-0fc4-44c9-8cbd-78f982129f60",
+      "name": "Extract Data from CSV"
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "YOUR_SHEET_ID_A",
+          "mode": "list",
+          "cachedResultName": "",
+          "cachedResultUrl": ""
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "",
+          "cachedResultUrl": ""
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Group": "={{ $json.Group }}",
+            "URL": "={{ $json.URL }}",
+            "Start_Date (Creation)": "={{ $json['Start_Date (Creation)'] }}",
+            "Sample_Date": "={{ $json.Sample_Date }}",
+            "Views": "={{ $json.Views }}",
+            "Likes": "={{ $json.Likes }}",
+            "Comments": "={{ $json.Comments }}",
+            "Shares": "={{ $json.Shares }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "Group",
+              "displayName": "Group",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "URL",
+              "displayName": "URL",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Start_Date (Creation)",
+              "displayName": "Start_Date (Creation)",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Sample_Date",
+              "displayName": "Sample_Date",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Views",
+              "displayName": "Views",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Likes",
+              "displayName": "Likes",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Comments",
+              "displayName": "Comments",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Shares",
+              "displayName": "Shares",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        640,
+        192
+      ],
+      "id": "636079c0-2dbb-47e9-a35d-afab944316e8",
+      "name": "Append Data to Monitored Tweets",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "Zi3qLLeIyhBo2c5I",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "getAll",
+        "limit": "={{ new Date().getDay() === 0 ? 3 : 1 }}",
+        "simple": false,
+        "filters": {
+          "sender": "redacted@example.com"
+        },
+        "options": {
+          "downloadAttachments": true
+        }
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        224,
+        192
+      ],
+      "id": "0e5de132-0fd9-488c-813e-160863005427",
+      "name": "Get Latest CSV File(s)",
+      "webhookId": "",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "kMYIdEpA2elEV2zb",
+          "name": "Gmail account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "content": "## Operation 1: Send tweets for monitoring - on a daily basis (including weekends)",
+        "height": 112,
+        "width": 368
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -416,
+        0
+      ],
+      "id": "4a690489-cbcd-4b84-9cb7-ae553c61cd6c",
+      "name": "Sticky Note"
+    },
+    {
+      "parameters": {
+        "content": "## Operation 2: Retrieve daily monitoring result (On Sunday, retrieve from Sunday, Saturday and Friday)",
+        "height": 112,
+        "width": 464
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -512,
+        192
+      ],
+      "id": "40bb26d1-1fca-46f8-978c-07d500ebcc44",
+      "name": "Sticky Note1"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Get Relevant Tweets (Up to 13 days ago and not from today)": {
+      "main": [
+        [
+          {
+            "node": "Convert to CSV",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convert to CSV": {
+      "main": [
+        [
+          {
+            "node": "Send CSV to Intercept",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Tweets": {
+      "main": [
+        [
+          {
+            "node": "Get Relevant Tweets (Up to 13 days ago and not from today)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Schedule 1 - Sending Tweets": {
+      "main": [
+        [
+          {
+            "node": "Get Tweets",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Schedule 2 - After Getting Metrics": {
+      "main": [
+        [
+          {
+            "node": "Get Latest CSV File(s)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract Data from CSV": {
+      "main": [
+        [
+          {
+            "node": "Append Data to Monitored Tweets",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Latest CSV File(s)": {
+      "main": [
+        [
+          {
+            "node": "Extract Data from CSV",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "35341e43-cdb7-429a-beb3-c576e61b269d",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": ""
+  },
+  "id": "sRpRqz1yoggXZ8ba",
+  "tags": []
+}

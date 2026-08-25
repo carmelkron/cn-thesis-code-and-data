@@ -1,0 +1,13 @@
+rate,multiplier,n_ctrl,n_trt,power
+likes_rate_change,1.0,618,592,0.388
+likes_rate_change,1.5,927,888,0.515
+likes_rate_change,2.0,1236,1184,0.674
+likes_rate_change,3.0,1854,1776,0.832
+likes_rate_change,5.0,3090,2960,0.96
+likes_rate_change,10.0,6180,5920,1.0
+shares_rate_change,1.0,618,592,0.211
+shares_rate_change,1.5,927,888,0.303
+shares_rate_change,2.0,1236,1184,0.37
+shares_rate_change,3.0,1854,1776,0.509
+shares_rate_change,5.0,3090,2960,0.754
+shares_rate_change,10.0,6180,5920,0.968

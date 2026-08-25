@@ -1,0 +1,1555 @@
+{
+  "name": "Field Experiment - Main",
+  "nodes": [
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "7cf8d58d-8be8-46a8-aded-2c2d2d6f67d6",
+              "leftValue": "={{ $json.group }}",
+              "rightValue": "Treatment",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        1296,
+        416
+      ],
+      "id": "248458d7-2951-4419-bb74-cf451a7523fe",
+      "name": "Control/Treatment Split (False is Control)"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Group tweets by 'Narratives'\nconst groupedByNarratives = {};\nfor (const item of $input.all()) {\n  const narrative = item.json.Narrative;\n  if (!groupedByNarratives[narrative]) {\n    groupedByNarratives[narrative] = [];\n  }\n  groupedByNarratives[narrative].push(item.json);\n}\n\n// Randomize within each Narrative's tweets\nconst results = [];\nfor (const [narrative, tweets] of Object.entries(groupedByNarratives)) {\n  \n  // 1. Shuffle tweets for this narrative\n  const shuffled = tweets.sort(() => Math.random() - 0.5);\n  \n  // 2. Calculate Midpoint with randomization for odd numbers\n  // If length is even (e.g. 10), floor and ceil are the same (5).\n  // If length is odd (e.g. 11), we randomly choose between 5 and 6.\n  const useCeil = Math.random() < 0.5;\n  const midpoint = useCeil \n    ? Math.ceil(shuffled.length / 2) \n    : Math.floor(shuffled.length / 2);\n  \n  // 3. Assign Control group (0 to midpoint)\n  for (let i = 0; i < midpoint; i++) {\n    results.push({\n      ...shuffled[i],\n      group: 'Control'\n    });\n  }\n  \n  // 4. Assign Treatment group (midpoint to end)\n  for (let i = midpoint; i < shuffled.length; i++) {\n    results.push({\n      ...shuffled[i],\n      group: 'Treatment'\n    });\n  }\n}\n\nreturn results.map(item => ({ json: item }));"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1072,
+        416
+      ],
+      "id": "6d2409fd-dee0-4a75-80a7-0cba97db3582",
+      "name": "Control/Treatment Assignment"
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "YOUR_SHEET_ID_D",
+          "mode": "list",
+          "cachedResultName": "",
+          "cachedResultUrl": ""
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 896349518,
+          "mode": "list",
+          "cachedResultName": "",
+          "cachedResultUrl": ""
+        },
+        "filtersUI": {
+          "values": [
+            {
+              "lookupColumn": "ClaimNumber",
+              "lookupValue": "={{ $json.claimNumber }}"
+            },
+            {
+              "lookupColumn": "KPI",
+              "lookupValue": "={{ $json.assigned_kpi }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        2144,
+        416
+      ],
+      "id": "a70059c1-f5ac-4a6f-ba6f-79dcb253ad20",
+      "name": "Get Agent System Prompt",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "Zi3qLLeIyhBo2c5I",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "models/gemini-2.5-flash",
+          "mode": "list",
+          "cachedResultName": ""
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "={{ $json.Final_User_Prompt }}"
+            }
+          ]
+        },
+        "options": {
+          "systemMessage": "={{ $json.SystemPrompt }}",
+          "candidateCount": "={{ $json.target_response_count }}",
+          "temperature": 1,
+          "thinkingBudget": 2048
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.googleGemini",
+      "typeVersion": 1,
+      "position": [
+        2592,
+        320
+      ],
+      "id": "f9500f30-e0fd-4042-8e65-114c3e0afdb3",
+      "name": "CN Generator Agent",
+      "retryOnFail": true,
+      "waitBetweenTries": 5000,
+      "credentials": {
+        "googlePalmApi": {
+          "id": "OxacwrXCnmiQA0RR",
+          "name": "Google Gemini(PaLM) Api account"
+        }
+      },
+      "onError": "continueErrorOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Define the available KPIs\nconst globalKpis = ['Persuasiveness', 'Emotional Engagement', 'Shareability'];\n\n// Group items by narrative\nconst groupedByNarrative = {};\nfor (const item of $input.all()) {\n  const narrative = item.json.Narrative;\n  if (!groupedByNarrative[narrative]) {\n    groupedByNarrative[narrative] = [];\n  }\n  groupedByNarrative[narrative].push(item.json);\n}\n\nconst results = [];\n\n// Assign KPIs within each narrative's tweets\nfor (const [narrative, tweets] of Object.entries(groupedByNarrative)) {\n  const tweetCount = tweets.length;\n  \n  // 1. Create a specific shuffled order of KPIs for THIS narrative.\n  // This ensures that if there is a remainder, the \"lucky\" KPI that gets \n  // the extra slot is chosen randomly, not based on the fixed global order.\n  const narrativeKpis = [...globalKpis].sort(() => Math.random() - 0.5);\n\n  // Create balanced KPI assignment for this author\n  const assignments = [];\n  const itemsPerKPI = Math.floor(tweetCount / narrativeKpis.length);\n  const remainder = tweetCount % narrativeKpis.length;\n  \n  for (let i = 0; i < narrativeKpis.length; i++) {\n    // The first few KPIs in our shuffled list get the extra item\n    const count = itemsPerKPI + (i < remainder ? 1 : 0);\n    for (let j = 0; j < count; j++) {\n      assignments.push(narrativeKpis[i]);\n    }\n  }\n  \n  // 2. Shuffle the final assignments list\n  // (This mixes the order so the \"Persuasiveness\" tweets aren't all at the top)\n  for (let i = assignments.length - 1; i > 0; i--) {\n    const j = Math.floor(Math.random() * (i + 1));\n    [assignments[i], assignments[j]] = [assignments[j], assignments[i]];\n  }\n  \n  // Apply assignments to tweets\n  tweets.forEach((tweet, index) => {\n    results.push({\n      json: {\n        ...tweet,\n        assigned_kpi: assignments[index],\n        // Note: This calculates the distribution for this specific batch\n        narrative_kpi_distribution: assignments.reduce((acc, kpi) => {\n          acc[kpi] = (acc[kpi] || 0) + 1;\n          return acc;\n        }, {})\n      }\n    });\n  });\n}\n\nreturn results;"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1504,
+        304
+      ],
+      "id": "a22347fc-8032-4a4b-857f-b705b884786b",
+      "name": "Narrative-Stratified KPI Assignment"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Create mapping object for claims to numbers\nconst claimsMapping = {\n  \"NATO Expansion Provoked Russian Invasion\": 1,\n  \"Ukraine Controlled by Nazis\": 2,\n  \"Russia Defending Against Western Aggression\": 3,\n  \"West Orchestrated Ukraine Coup in 2014\": 4,\n  \"Russian Military Achieving Successful Operation\": 5,\n  \"Protecting Ethnic Russians in Donbas\": 6,\n  \"West Prolonging Conflict for Profit\": 7,\n  \"Crimea Legitimately Part of Russia\": 8,\n  \"Color Revolutions are US-Backed Coups\": 9,\n  \"Ukraine Persecutes Russian-Speaking Minorities\": 10,\n  \"West Spreads Anti-Russian Propaganda\": 11,\n  \"Russia Seeks Peaceful Conflict Resolution\": 12,\n  \"US Undermines Global Sovereignty\": 13,\n  \"Russian World Defending Traditional Values\": 14,\n  \"West Broke Promises About NATO\": 15,\n  \"Ukraine Using Western Weapons Recklessly\": 16,\n  \"Russia Liberating Ukrainian Territories\": 17,\n  \"Sanctions Ineffective Against Russia\": 18,\n  \"US Funds Neo-Nazi Groups in Ukraine\": 19,\n  \"Russia Defending Against Western Imperialism\": 20\n};\n\n// Process each input item\nconst outputItems = [];\n\nfor (const inputItem of $input.all()) {\n  // Get the claim text from the input item\n  // Adjust the property name based on your actual data structure\n  const claimText = inputItem.json.Narrative\n  \n  // Find exact match\n  let claimNumber = claimsMapping[claimText];\n  \n  // If no exact match found, try fuzzy matching\n  if (!claimNumber) {\n    // Look for partial matches or close matches\n    const claimKeys = Object.keys(claimsMapping);\n    \n    for (const key of claimKeys) {\n      // Check if the input contains the key or vice versa\n      if (claimText.includes(key) || key.includes(claimText)) {\n        claimNumber = claimsMapping[key];\n        break;\n      }\n    }\n    \n    // If still no match, try case-insensitive comparison\n    if (!claimNumber) {\n      const lowerClaim = claimText.toLowerCase();\n      for (const key of claimKeys) {\n        if (key.toLowerCase() === lowerClaim) {\n          claimNumber = claimsMapping[key];\n          break;\n        }\n      }\n    }\n  }\n  \n  // Create output item by copying all original data and adding claim number\n  outputItems.push({\n    json: {\n      ...inputItem.json,  // Preserve all original data\n      claimNumber: claimNumber || null\n    }\n  });\n}\n\nreturn outputItems;"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1728,
+        304
+      ],
+      "id": "a2493f84-dbca-40bf-83cf-b12410ccaa46",
+      "name": "Map Narratives to Claim Numbers"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Access the JSON object from the first item in the 'items' array.\nconst alerts = $input.first().json.alerts;\nconst transformedAlerts = [];\n\n// ----------------------------------------------------------\n// CONFIGURATION: Narrative Logic\n// Keys must match the 'key' field returned by your AI filter exactly.\n// ----------------------------------------------------------\nconst NARRATIVE_RULES = {\n    \"NATO Expansion Provoked Russian Invasion\": [\n        \"NATO expansion\", \"NATO eastward expansion\", \"NATO provoked Russia\", \n        \"Russia security threat\", \"NATO aggression Ukraine\", \"NATO crossed red lines\", \n        \"Russia warned NATO\"\n    ],\n    \"Ukraine Controlled by Nazis\": [\n        \"Ukraine Nazis\", \"Nazi regime in Ukraine\", \"Ukrainian Nazis\", \n        \"denazify Ukraine\", \"Azov battalion Nazi\", \"neo-Nazis in Kyiv\", \n        \"Zelensky Nazi\"\n    ],\n    \"Russia Defending Against Western Aggression\": [\n        \"Russia defending itself\", \"NATO provocation\", \"Russia defensive operation\", \n        \"Russia protecting borders\", \"geopolitical threat NATO\", \n        \"special military operation justification\"\n    ],\n    \"West Orchestrated Ukraine Coup in 2014\": [\n        \"US-backed coup Ukraine\", \"Maidan coup\", \"Western coup in Kyiv\", \n        \"CIA Ukraine coup\", \"color revolution Ukraine\", \"Yatsenyuk Nuland\", \n        \"Victoria Nuland cookies\"\n    ],\n    \"Russian Military Achieving Successful Operation\": [\n        \"Russia winning war\", \"Ukraine losing badly\", \"Russian military advances\", \n        \"liberated territories Donbas\", \"Ukrainian army collapse\", \n        \"Russia defeats NATO weapons\"\n    ],\n    \"Protecting Ethnic Russians in Donbas\": [\n        \"protect Russian speakers\", \"Donbas persecution\", \"Ukrainian government abuses\", \n        \"Russian language banned\", \"Kyiv genocide in Donbas\", \"Luhansk victims\"\n    ],\n    \"West Prolonging Conflict for Profit\": [\n        \"military-industrial complex Ukraine\", \"NATO profits from war\", \n        \"US arms dealers\", \"Raytheon Lockheed Ukraine\", \n        \"prolonging war for money\", \"endless war Western agenda\"\n    ],\n    \"Crimea Legitimately Part of Russia\": [\n        \"Crimea voted to join Russia\", \"Crimea referendum democratic\", \n        \"Crimea is Russian\", \"Crimeans chose Russia\", \"Crimea self-determination\"\n    ],\n    \"Color Revolutions are US-Backed Coups\": [\n        \"US-funded NGOs regime change\", \"NGOs destabilizing countries\", \n        \"foreign-backed protests\", \"Soros Ukraine\", \"USAID subversion\", \n        \"CIA protest engineering\"\n    ],\n    \"Ukraine Persecutes Russian-Speaking Minorities\": [\n        \"discrimination against Russians\", \"ethnic Russians oppressed\", \n        \"Russian speakers targeted\", \"language laws Ukraine\", \"Donbas human rights\"\n    ],\n    \"West Spreads Anti-Russian Propaganda\": [\n        \"Western lies about Russia\", \"media demonizes Putin\", \n        \"disinformation about war\", \"fake news Ukraine\", \"Western propaganda machine\"\n    ],\n    \"Russia Seeks Peaceful Conflict Resolution\": [\n        \"Russia wants peace\", \"West rejects diplomacy\", \"Russia peace talks\", \n        \"Russia offered negotiations\", \"Zelensky refuses talks\"\n    ],\n    \"US Undermines Global Sovereignty\": [\n        \"US global domination\", \"American imperialism\", \"US interferes in sovereign nations\", \n        \"CIA regime change\", \"Washington destabilizes world\"\n    ],\n    \"Russian World Defending Traditional Values\": [\n        \"Russia defends traditional values\", \"Western moral decay\", \"LGBT agenda West\", \n        \"Russia Christian values\", \"cultural war East vs West\"\n    ],\n    \"West Broke Promises About NATO\": [\n        \"NATO promised not to expand\", \"Gorbachev NATO assurance\", \"NATO betrayal\", \n        \"West broke promises\", \"post-Cold War lies\"\n    ],\n    \"Ukraine Using Western Weapons Recklessly\": [\n        \"Ukraine targets civilians\", \"Western weapons on civilians\", \n        \"Ukraine war crimes\", \"Kyiv hits Russian soil\", \"HIMARS on civilian areas\"\n    ],\n    \"Russia Liberating Ukrainian Territories\": [\n        \"liberated Donetsk\", \"Luhansk freed by Russia\", \"Russian army liberates\", \n        \"Ukrainian cities liberated\", \"Donbas saved by Russia\"\n    ],\n    \"Sanctions Ineffective Against Russia\": [\n        \"sanctions hurt West\", \"Russia economy strong\", \"sanctions failed\", \n        \"EU suffers from sanctions\", \"gas prices EU sanctions\"\n    ],\n    \"US Funds Neo-Nazi Groups in Ukraine\": [\n        \"US supports Azov\", \"neo-Nazi Azov Battalion\", \"America funds Nazis\", \n        \"NATO trains Nazis\", \"Zelensky backs extremists\"\n    ],\n    \"Russia Defending Against Western Imperialism\": [\n        \"Russia against NATO imperialism\", \"US imperial agenda\", \n        \"Russia protects sovereignty\", \"resist Western domination\", \n        \"anti-imperialist Russia\"\n    ]\n};\n\n// The dummy narrative that acts as a \"Gatekeeper\"\nconst CONTROL_NARRATIVE_KEY = \"Pro-Russia Stance - Control\";\n\n// ----------------------------------------------------------\n// HELPER FUNCTIONS\n// ----------------------------------------------------------\n\nfunction formatTimestamp(timestamp) {\n  if (!timestamp) return null;\n  const date = new Date(timestamp);\n  return date.toLocaleString('en-US', {\n    year: 'numeric',\n    month: 'short',\n    day: 'numeric',\n    hour: '2-digit',\n    minute: '2-digit',\n    second: '2-digit',\n    hour12: true\n  });\n}\n\nfunction getBestNarrativeResult(results, assetName) {\n  // 1. Safety check: if no results, return null\n  if (!results || results.length === 0) return null;\n\n  // 2. If only one result exists, return it immediately\n  if (results.length === 1) return results[0];\n\n  // 3. If we have multiple results and an Asset name, try to match keywords\n  if (assetName) {\n    const normalizedAsset = assetName.toString().toLowerCase();\n\n    // Iterate through the available narrative results\n    const match = results.find(result => {\n      // IMPORTANT: This key must match the keys in NARRATIVE_RULES\n      const key = result.key; \n      const keywords = NARRATIVE_RULES[key] || []; \n\n      // Check if the Asset string contains any of the keywords\n      return keywords.some(keyword => normalizedAsset.includes(keyword.toLowerCase()));\n    });\n\n    // If a match is found, return it\n    if (match) return match;\n  }\n\n  // 4. Fallback: If no specific match is found, return the first one\n  return results[0];\n}\n\n// ----------------------------------------------------------\n// MAIN LOOP\n// ----------------------------------------------------------\n\nfor (const alert of alerts) {\n  // Extract ALL potential narratives\n  const allNarrativeResults = alert.ai_filter?.results || [];\n  \n  // --- NEW LOGIC START ---\n  \n  // 1. Check if the tweet has the Control Narrative\n  const hasControlNarrative = allNarrativeResults.some(result => \n    result.key === CONTROL_NARRATIVE_KEY\n  );\n\n  // If the control narrative is missing, SKIP this tweet entirely\n  if (!hasControlNarrative) {\n    continue;\n  }\n\n  // 2. Filter the list to REMOVE the control narrative.\n  // We do this so the downstream nodes get one of the \"real\" 20 narratives,\n  // not the dummy \"Pro-Russia Stance - Control\" string.\n  const specificNarratives = allNarrativeResults.filter(result => \n    result.key !== CONTROL_NARRATIVE_KEY\n  );\n\n  // --- NEW LOGIC END ---\n\n  // Run the smart selection logic on the SPECIFIC narratives only\n  const selectedResult = getBestNarrativeResult(specificNarratives, alert.asset);\n\n  // If we have a selected result (meaning the tweet had the Control tag AND at least one other tag)\n  if (selectedResult) {\n      const narrativeKey = selectedResult.key;\n      const explanation = selectedResult.content.explanation;\n\n      const newAlert = {\n        User: alert.user,\n        Detection_Date: formatTimestamp(alert.detection_date),\n        Creation_Date: formatTimestamp(alert.creation_date),\n        Tweet_Text: alert.description_short,\n        URL: alert.url,\n        Type: alert.type || 'post',\n        \n        // Our smart fields\n        Narrative: narrativeKey,\n        Explanation: explanation,\n        \n        Views: alert.views,\n        Likes: alert.likes,\n        Comments: alert.comments,\n        Shares: alert.shares,\n        Asset: alert.asset\n      };\n\n      transformedAlerts.push(newAlert);\n  }\n}\n\nreturn transformedAlerts;"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -480,
+        512
+      ],
+      "id": "00266692-fe41-4480-9516-36ae94f2b302",
+      "name": "Extract Alerts"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.brinker.ai/alerts",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "YOUR_BRINKER_API_KEY"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"fields\": [\n    \"ai_filter\",\n    \"description_short\",\n    \"user\",\n    \"language\",\n    \"url\",\n    \"location\",\n    \"creation_date\",\n    \"detection_date\",\n    \"asset\",\n    \"severity\",\n    \"likes\",\n    \"shares\",\n    \"comments\",\n    \"views\",\n    \"type\"\n  ],\n  \"filter\": {\n    \"detection_date\": {\n      \"from\": \"{{ $now.minus({minutes: 165}).format('yyyy-MM-dd') + 'T' + $now.minus({minutes: 165}).format('HH:mm:ss') }}\",\n      \"to\": \"{{ $now.format('yyyy-MM-dd') + 'T' + $now.format('HH:mm:ss') }}\"\n    },\n    \"creation_date\": {\n      \"from\": \"{{ $now.minus({minutes: 285}).format('yyyy-MM-dd') + 'T' + $now.minus({minutes: 285}).format('HH:mm:ss') }}\",\n      \"to\": \"{{ $now.format('yyyy-MM-dd') + 'T' + $now.format('HH:mm:ss') }}\"\n    },\n    \"language\": [\n      \"English\",\n      \"english\"\n    ],\n    \"hidden\": false\n  }\n}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -704,
+        512
+      ],
+      "id": "3ce9423c-9e23-4f5c-88bd-8e2defe70a4e",
+      "name": "Tweets",
+      "retryOnFail": true
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.brinker.ai/alerts",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "YOUR_BRINKER_API_KEY"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"fields\": [\n    \"url\",\n    \"user\",\n    \"avatar\",\n    \"location\",\n    \"detection_date\",\n    \"creation_date\",\n    \"description_short\",\n    \"followers\",\n    \"following\"\n  ],\n  \"filter\": {\n    \"type\": \"profile\",\n    \"detection_date\": {\n      \"from\": \"{{ $now.minus({minutes: 165}).format('yyyy-MM-dd') + 'T' + $now.minus({minutes: 165}).format('HH:mm:ss') }}\",\n      \"to\": \"{{ $now.format('yyyy-MM-dd') + 'T' + $now.format('HH:mm:ss') }}\"\n    }\n  }\n}",
+        "options": {
+          "pagination": {
+            "pagination": {
+              "parameters": {
+                "parameters": [
+                  {
+                    "type": "body",
+                    "name": "nextPageToken",
+                    "value": "={{ $response.body.nextPageToken }}"
+                  }
+                ]
+              },
+              "paginationCompleteWhen": "other",
+              "completeExpression": "={{ !$response.body.nextPageToken }}"
+            }
+          }
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -48,
+        512
+      ],
+      "id": "efd0697f-855b-409d-b1d7-dd18646d7adb",
+      "name": "Users",
+      "alwaysOutputData": false,
+      "retryOnFail": false,
+      "executeOnce": true
+    },
+    {
+      "parameters": {
+        "content": "# Extraction",
+        "height": 448,
+        "width": 1536,
+        "color": 4
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -768,
+        352
+      ],
+      "id": "911cfc31-99ab-4e42-8675-26e91ea64e76",
+      "name": "Sticky Note1"
+    },
+    {
+      "parameters": {
+        "content": "# Generation",
+        "height": 704,
+        "width": 2992,
+        "color": 2
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        816,
+        96
+      ],
+      "id": "e1f14946-7165-4f88-aa65-ec3407b872c9",
+      "name": "Sticky Note2"
+    },
+    {
+      "parameters": {
+        "jsCode": "// 1. Get all the tweets (Input 0)\nconst tweets = $('Extract Alerts').all();\n\n// 2. Get the master list items (Input 1)\n// These now contain { user_name, followers }\nconst masterListItems = $input.all(0); \n\n// 3. Create a Lookup Object for O(1) access\n// structure: { \"elonmusk\": 150000000, \"user2\": 400, ... }\nconst userFollowerMap = {};\nmasterListItems.forEach(item => {\n  userFollowerMap[item.json.user_name] = item.json.followers;\n});\n\n// 4. Filter the tweets AND enrich them with follower counts\nconst filteredTweets = tweets.filter(tweetItem => {\n  const authorUsername = tweetItem.json.User;\n  \n  // Check if the author is in our allowed map\n  if (userFollowerMap.hasOwnProperty(authorUsername)) {\n    \n    // --- CRITICAL STEP ---\n    // We add the follower count to the tweet object here\n    // so it travels down the workflow to the Poisson node.\n    tweetItem.json.Author_Followers = userFollowerMap[authorUsername];\n    \n    return true; // Keep the tweet\n  }\n  \n  return false; // Discard the tweet\n});\n\nreturn filteredTweets;"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        848,
+        416
+      ],
+      "id": "726be3c7-1b97-42f5-9580-c649d45644bb",
+      "name": "Filter Tweets by Username",
+      "executeOnce": false
+    },
+    {
+      "parameters": {
+        "jsCode": "// 1. Get all the NEW users from this node's input\nconst newUsers = $input.all(0).map(item => item.json);\n\n// 2. Call the Google Sheets node directly to get EXISTING users\nconst existingUsersData = $('Get Existing Users').all();\nconst existingUsers = existingUsersData.map(item => item.json);\n\n// 3. Create a Map to store unique users and their followers\n// Using a Map ensures we don't have duplicates, but allows us to keep the follower count.\nconst masterUserMap = new Map();\n\n// 4. Add all EXISTING users to the Map\nexistingUsers.forEach(user => {\n  // Key: username, Value: follower count\n  masterUserMap.set(user.user_name, user.followers);\n});\n\n// 5. Add all NEW users to the Map\n// (If a user exists in both, this will overwrite with the NEW data, which is usually more up-to-date)\nnewUsers.forEach(user => {\n  masterUserMap.set(user.user, user.followers);\n});\n\n// 6. Convert the Map into the array format n8n expects\nconst results = [];\nfor (const [username, followers] of masterUserMap.entries()) {\n  results.push({\n    json: { \n      user_name: username,\n      followers: followers // We now preserve this field\n    }\n  });\n}\n\nreturn results;"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        624,
+        416
+      ],
+      "id": "76f18597-4d5a-490d-9984-9a6643e33738",
+      "name": "Create Master Username List (Old & New Users)"
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "YOUR_SHEET_ID_A",
+          "mode": "list",
+          "cachedResultName": "",
+          "cachedResultUrl": ""
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "",
+          "cachedResultUrl": ""
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "User": "={{ $json.User }}",
+            "Narrative": "={{ $json.Narrative }}",
+            "Views": "={{ $json.Views }}",
+            "Likes": "={{ $json.Likes }}",
+            "Comments": "={{ $json.Comments }}",
+            "Shares": "={{ $json.Shares }}",
+            "Group": "={{ $json.group }}",
+            "KPI": "={{ $json.assigned_kpi }}",
+            "Detection_Date": "={{ $json.Detection_Date }}",
+            "Creation_Date": "={{ $json.Creation_Date }}",
+            "Tweet_Text": "={{ $json.Tweet_Text }}",
+            "URL": "={{ $json.URL }}",
+            "Explanation": "={{ $json.Explanation }}",
+            "Asset": "={{ $json.Asset }}",
+            "Claim_Number": "={{ $json.claimNumber }}",
+            "Num_of_CNs": "={{ $json.Num_of_CNs }}",
+            "CN(s)": "={{ $json['CN(s)'] }}",
+            "Type": "={{ $json.Type }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "User",
+              "displayName": "User",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Detection_Date",
+              "displayName": "Detection_Date",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Creation_Date",
+              "displayName": "Creation_Date",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Tweet_Text",
+              "displayName": "Tweet_Text",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "URL",
+              "displayName": "URL",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Type",
+              "displayName": "Type",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Narrative",
+              "displayName": "Narrative",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Explanation",
+              "displayName": "Explanation",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Views",
+              "displayName": "Views",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Likes",
+              "displayName": "Likes",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Comments",
+              "displayName": "Comments",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Shares",
+              "displayName": "Shares",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Asset",
+              "displayName": "Asset",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Group",
+              "displayName": "Group",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "KPI",
+              "displayName": "KPI",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Claim_Number",
+              "displayName": "Claim_Number",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Num_of_CNs",
+              "displayName": "Num_of_CNs",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "CN(s)",
+              "displayName": "CN(s)",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {
+          "useAppend": true
+        }
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        3392,
+        432
+      ],
+      "id": "b823a6b9-af6c-4e21-89d0-1d281755fa39",
+      "name": "Append Treatment Tweets + CNs to Sheet",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "Zi3qLLeIyhBo2c5I",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "YOUR_SHEET_ID_E",
+          "mode": "list",
+          "cachedResultName": "",
+          "cachedResultUrl": ""
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "",
+          "cachedResultUrl": ""
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "User": "={{ $json.User }}",
+            "Narrative": "={{ $json.Narrative }}",
+            "Views": "={{ $json.Views }}",
+            "Likes": "={{ $json.Likes }}",
+            "Comments": "={{ $json.Comments }}",
+            "Shares": "={{ $json.Shares }}",
+            "Group": "={{ $json.group }}",
+            "Asset": "={{ $json.Asset }}",
+            "Detection_Date": "={{ $json.Detection_Date }}",
+            "Creation_Date": "={{ $json.Creation_Date }}",
+            "Tweet_Text": "={{ $json.Tweet_Text }}",
+            "URL": "={{ $json.URL }}",
+            "Explanation": "={{ $json.Explanation }}",
+            "Type": "={{ $json.Type }}"
+          },
+          "matchingColumns": [
+            "id"
+          ],
+          "schema": [
+            {
+              "id": "User",
+              "displayName": "User",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Detection_Date",
+              "displayName": "Detection_Date",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Creation_Date",
+              "displayName": "Creation_Date",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Tweet_Text",
+              "displayName": "Tweet_Text",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "URL",
+              "displayName": "URL",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Type",
+              "displayName": "Type",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Narrative",
+              "displayName": "Narrative",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Explanation",
+              "displayName": "Explanation",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Views",
+              "displayName": "Views",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Likes",
+              "displayName": "Likes",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Comments",
+              "displayName": "Comments",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Shares",
+              "displayName": "Shares",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Asset",
+              "displayName": "Asset",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Group",
+              "displayName": "Group",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {
+          "useAppend": true
+        }
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        1504,
+        512
+      ],
+      "id": "0108b68f-3343-4adf-9475-d94381c91ab2",
+      "name": "Append Control Tweets To Sheet",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "Zi3qLLeIyhBo2c5I",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 15 10,13,16 * * 0-4"
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -944,
+        512
+      ],
+      "id": "d58e1afd-d0f2-4b28-9f3b-34897762caba",
+      "name": "Schedule Trigger"
+    },
+    {
+      "parameters": {
+        "jsCode": "// 1. Get all input items from the node\nconst items = $input.all();\n\n// 2. Iterate (map) over each item to transform it\nconst extractedPairs = items.map(item => {\n  \n  // 3. Use optional chaining (?.) to safely access the nested properties.\n  // This prevents the node from crashing if 'data', 'certificate',\n  // or 'subject' happens to be missing in one of the items.\n  \n  const url = item.json.URL;\n  const cn = item.json.Generated_CN;\n\n  // 4. Return the new, simpler object in the standard n8n format\n  return {\n    json: {\n      URL: url,\n      CN: cn\n    }\n  };\n});\n\n// 5. Return the full list of new items\nreturn extractedPairs;"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        3184,
+        224
+      ],
+      "id": "1878da6a-151c-4110-bb21-faa9003b4f59",
+      "name": "Exract [URL,CN] pairs"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        3392,
+        224
+      ],
+      "id": "a2d8656f-75b9-4c41-bbbd-dff71ca18bc1",
+      "name": "Convert to CSV"
+    },
+    {
+      "parameters": {
+        "sendTo": "redacted@example.com, redacted@example.com, redacted@example.com",
+        "subject": "=CNs_{{ $now.format('dd/MM/yyyy_HH:mm') }}",
+        "message": "CN Delivery",
+        "options": {
+          "attachmentsUi": {
+            "attachmentsBinary": [
+              {}
+            ]
+          }
+        }
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        3600,
+        224
+      ],
+      "id": "43e8f7d1-7352-43b5-825b-9a2df52e3848",
+      "name": "Send to Percepto",
+      "webhookId": "",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "kMYIdEpA2elEV2zb",
+          "name": "Gmail account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "YOUR_SHEET_ID_B",
+          "mode": "list",
+          "cachedResultName": "",
+          "cachedResultUrl": ""
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "",
+          "cachedResultUrl": ""
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        -256,
+        512
+      ],
+      "id": "784ae55b-d1dd-4574-af35-1642734b62f3",
+      "name": "Get Existing Users",
+      "alwaysOutputData": false,
+      "executeOnce": true,
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "Zi3qLLeIyhBo2c5I",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "appendOrUpdate",
+        "documentId": {
+          "__rl": true,
+          "value": "YOUR_SHEET_ID_B",
+          "mode": "list",
+          "cachedResultName": "",
+          "cachedResultUrl": ""
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "",
+          "cachedResultUrl": ""
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "user_name": "={{ $json.user }}",
+            "followers": "={{ $json.followers }}",
+            "following": "={{ $json.following }}",
+            "url": "={{ $json.url }}",
+            "avatar": "={{ $json.avatar }}",
+            "location": "={{ $json.location }}",
+            "detection_date": "={{ $json.detection_date ? $json.detection_date.toDateTime().format('yyyy-MM-dd') : '' }}",
+            "creation_date": "={{ $json.creation_date ? $json.creation_date.toDateTime().format('yyyy-MM-dd') : '' }}",
+            "description_short": "={{ $json.description_short }}"
+          },
+          "matchingColumns": [
+            "user_name"
+          ],
+          "schema": [
+            {
+              "id": "url",
+              "displayName": "url",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "user_name",
+              "displayName": "user_name",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "avatar",
+              "displayName": "avatar",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "location",
+              "displayName": "location",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "detection_date",
+              "displayName": "detection_date",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "creation_date",
+              "displayName": "creation_date",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "description_short",
+              "displayName": "description_short",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "followers",
+              "displayName": "followers",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "following",
+              "displayName": "following",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {
+          "useAppend": true
+        }
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        624,
+        608
+      ],
+      "id": "35b5221a-0716-462c-84ce-02b0d48cd4cd",
+      "name": "Append New Users",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "Zi3qLLeIyhBo2c5I",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// 1. Get all 4 items (pages) from the input\nconst allPages = $input.all();\n\n// 2. Use flatMap() to:\n//    a) Go into each item's 'alerts' array\n//    b) Unpack it\n//    c) Combine them all into one single, flat list\nconst allAlerts = allPages.flatMap(page => page.json.alerts);\n\n// 3. Return the new list in the standard n8n format\n// This will output one item for every single alert.\nreturn allAlerts.map(alert => ({ json: alert }));"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        160,
+        512
+      ],
+      "id": "9b9dde3d-3d8c-40b7-9102-0ad769f6755f",
+      "name": "Concatenate all pages"
+    },
+    {
+      "parameters": {
+        "content": "Criteria Points:\n1. Followers > 100\n2. Followers/Following >= 0.5\n3. User is at least 3 months old\n",
+        "height": 112
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        304,
+        672
+      ],
+      "id": "17d60ba2-fe80-4e69-86fa-051da1975b80",
+      "name": "Sticky Note4"
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "YOUR_SHEET_ID_C",
+          "mode": "list",
+          "cachedResultName": "",
+          "cachedResultUrl": ""
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "",
+          "cachedResultUrl": ""
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Group": "={{ $json.group }}",
+            "URL": "={{ $json.URL }}",
+            "Views": "={{ $json.Views }}",
+            "Likes": "={{ $json.Likes }}",
+            "Comments": "={{ $json.Comments }}",
+            "Shares": "={{ $json.Shares }}",
+            "Sample_Date": "={{new Date($json.Detection_Date).toISOString().split('T')[0]}}",
+            "Start_Date (Creation)": "={{ new Date($json.Creation_Date).toISOString().split('T')[0] }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "Group",
+              "displayName": "Group",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "URL",
+              "displayName": "URL",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Start_Date (Creation)",
+              "displayName": "Start_Date (Creation)",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Sample_Date",
+              "displayName": "Sample_Date",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Views",
+              "displayName": "Views",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Likes",
+              "displayName": "Likes",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Comments",
+              "displayName": "Comments",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Shares",
+              "displayName": "Shares",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        1296,
+        176
+      ],
+      "id": "fedfb2ef-4aec-4db4-ab63-4945358e0b73",
+      "name": "Add to Tweet Monitoring",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "Zi3qLLeIyhBo2c5I",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// ---------------------------------------------------------\n// CONFIGURATION: Narrative Categories\n// ---------------------------------------------------------\nconst NARRATIVE_CATEGORIES = {\n  \"Sanctions Ineffective Against Russia\": \"High\",\n  \"West Broke Promises About NATO\": \"High\",\n  \"West Prolonging Conflict for Profit\": \"High\",\n  \"West Spreads Anti-Russian Propaganda\": \"High\",\n  \"Color Revolutions are US-Backed Coups\": \"High\",\n  \"NATO Expansion Provoked Russian Invasion\": \"High\",\n\n  \"Russia Seeks Peaceful Conflict Resolution\": \"Mid\",\n  \"Russian Military Achieving Successful Operation\": \"Mid\",\n  \"US Funds Neo-Nazi Groups in Ukraine\": \"Mid\",\n  \"Russia Liberating Ukrainian Territories\": \"Mid\",\n  \"Ukraine Controlled by Nazis\": \"Mid\",\n  \"US Undermines Global Sovereignty\": \"Mid\",\n\n  \"Protecting Ethnic Russians in Donbas\": \"Low\",\n  \"Russia Defending Against Western Aggression\": \"Low\",\n  \"Ukraine Persecutes Russian-Speaking Minorities\": \"Low\",\n  \"West Orchestrated Ukraine Coup in 2014\": \"Low\",\n  \"Crimea Legitimately Part of Russia\": \"Low\",\n  \"Russia Defending Against Western Imperialism\": \"Low\",\n  \"Russian World Defending Traditional Values\": \"Low\",\n  \"Ukraine Using Western Weapons Recklessly\": \"Low\"\n};\n\n// ---------------------------------------------------------\n// CONFIGURATION: Lambda (λ) Values\n// ---------------------------------------------------------\nconst LAMBDA_MATRIX = {\n  \"Tier 1\": { \"Low\": 0.5, \"Mid\": 1.0, \"High\": 1.5 },\n  \"Tier 2\": { \"Low\": 1.0, \"Mid\": 1.5, \"High\": 2.0 },\n  \"Tier 3\": { \"Low\": 1.5, \"Mid\": 2.0, \"High\": 3.0 },\n  \"Tier 4\": { \"Low\": 2.0, \"Mid\": 3.0, \"High\": 4.0 }\n};\n\n// ---------------------------------------------------------\n// HELPER: Poisson Sampler\n// ---------------------------------------------------------\nfunction getPoisson(lambda) {\n  const L = Math.exp(-lambda);\n  let p = 1.0;\n  let k = 0;\n  \n  do {\n    k++;\n    p *= Math.random();\n  } while (p > L);\n  \n  return k - 1;\n}\n\n// ---------------------------------------------------------\n// HELPER: Determine Author Tier\n// ---------------------------------------------------------\nfunction getTier(followers) {\n  if (!followers) return \"Tier 1\"; \n  const f = parseInt(followers, 10);\n  if (f >= 10000) return \"Tier 4\";\n  if (f >= 1000) return \"Tier 3\";\n  if (f >= 500) return \"Tier 2\";\n  return \"Tier 1\";\n}\n\n// ---------------------------------------------------------\n// MAIN LOGIC\n// ---------------------------------------------------------\nconst results = [];\n\nfor (const item of $input.all()) {\n  const tweet = item.json;\n  \n  // Initialize variables\n  let k;\n  let lambda = null;\n  let category = null;\n  let tier = null;\n\n  // --- LOGIC CHANGE START ---\n  // Check if it is a comment (case-insensitive check)\n  const isComment = tweet.Type && tweet.Type.toLowerCase() === 'comment';\n\n  if (isComment) {\n      // If comment, force 1 reply\n      k = 1;\n  } else {\n      // If post (or unknown), run standard Poisson logic\n      category = NARRATIVE_CATEGORIES[tweet.Narrative] || \"Mid\";\n      tier = getTier(tweet.Author_Followers);\n      lambda = LAMBDA_MATRIX[tier][category];\n      k = getPoisson(lambda);\n      \n      // Apply Clamping (Min 1, Max 5)\n      k = Math.max(1, Math.min(5, k));\n  }\n  // --- LOGIC CHANGE END ---\n\n  const finalUserPrompt = `CLAIM TO COUNTER:\\n\"${tweet.Tweet_Text}\"`;\n\n  results.push({\n    json: {\n      ...tweet,\n      target_response_count: k,\n      Final_User_Prompt: finalUserPrompt,\n      sampling_metadata: {\n        is_comment: isComment,\n        original_lambda: lambda, // Will be null if comment\n        narrative_category: category,\n        author_tier: tier,\n        total_replies_requested: k\n      }\n    }\n  });\n}\n\nreturn results;"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1952,
+        304
+      ],
+      "id": "e5e21b1e-3b45-4878-93cb-3a5eeb0e66c0",
+      "name": "Poisson Distribution Sampler"
+    },
+    {
+      "parameters": {
+        "jsCode": "const groups = {};\n\n// 1. Iterate over all generated reply items\nfor (const item of $input.all()) {\n  const json = item.json;\n  const url = json.URL;\n\n  // 2. Initialize the group if it doesn't exist\n  if (!groups[url]) {\n    groups[url] = {\n      ...json, // Copy all original metadata (User, Stats, etc.) from the first item\n      collected_cns: []\n    };\n  }\n\n  // 3. Collect the generated CN text\n  if (json.Generated_CN) {\n    groups[url].collected_cns.push(json.Generated_CN);\n  }\n}\n\n// 4. Transform back to a clean list\nconst results = Object.values(groups).map(group => {\n  // Format the CNs into a single string:\n  // \"1. [First CN]\n  //  2. [Second CN]\"\n  const formattedCNs = group.collected_cns\n    .map((cn, i) => `${i + 1}. ${cn}`)\n    .join('\\n\\n');\n\n  return {\n    json: {\n      ...group,\n      \"CN(s)\": formattedCNs,        // The new combined text field\n      \"Num_of_CNs\": group.collected_cns.length // The count\n    }\n  };\n});\n\nreturn results;"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        3184,
+        432
+      ],
+      "id": "fa7dcf05-ddca-48e3-8092-e3713bbf051e",
+      "name": "Aggregate Results"
+    },
+    {
+      "parameters": {
+        "jsCode": "// 1. Get the original Source Data (Tweet + Prompt)\n// Because of 'Merge by Position', Source[0] matches AgentResponse[0]\nconst sourceItems = $('Merge').all();\n\n// 2. Get the Raw Agent Output\nconst agentItems = $input.all();\n\n// 3. Filter: Keep only the \"Main\" Agent responses (Index 0 or undefined)\n// This removes the redundant 'Index 1', 'Index 2' items that n8n/Gemini creates.\nconst mainAgentResponses = agentItems.filter(item => {\n    const json = item.json;\n    return json.index === undefined || json.index === 0;\n});\n\nconst results = [];\n\n// 4. Loop through the cleaned list\nfor (let i = 0; i < mainAgentResponses.length; i++) {\n    \n    // Safety check: Ensure we have a matching source item\n    if (i >= sourceItems.length) break;\n\n    const sourceData = sourceItems[i].json;\n    const agentData = mainAgentResponses[i].json;\n\n    // 5. Extract Candidates from the 'parts' array\n    // This array contains all the k variations generated for this specific tweet\n    const parts = agentData.content?.parts || [];\n\n    if (parts.length > 0) {\n        parts.forEach((part, partIndex) => {\n            if (part.text) {\n                results.push({\n                    json: {\n                        ...sourceData,       // Restore URL, User, Metrics\n                        Generated_CN: part.text, // The specific CN text\n                        cn_index: partIndex + 1\n                    }\n                });\n            }\n        });\n    } \n    // Fallback: If Gemini returned a single string instead of parts\n    else {\n        const simpleText = agentData.text || agentData.output;\n        if (simpleText) {\n            results.push({\n                json: {\n                    ...sourceData,\n                    Generated_CN: simpleText,\n                    cn_index: 1\n                }\n            });\n        }\n    }\n}\n\nreturn results;"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2960,
+        304
+      ],
+      "id": "11056b13-75e4-4cf6-b5a0-740c0b9b9467",
+      "name": "Unpack Candidates"
+    },
+    {
+      "parameters": {
+        "mode": "combine",
+        "combineBy": "combineByPosition",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.2,
+      "position": [
+        2336,
+        320
+      ],
+      "id": "f6b57f6f-c82d-43bc-8812-27aaa91ec60f",
+      "name": "Merge"
+    },
+    {
+      "parameters": {
+        "content": "### Workflow is scheduled for 10:15, 13:15 and 16:15 Israel time, on Sunday-Thursday\n### Always 15 mins after Brinker's collection",
+        "height": 448,
+        "width": 208,
+        "color": 6
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -992,
+        352
+      ],
+      "id": "a5934096-ac2a-426e-824d-14c61cad3b98",
+      "name": "Sticky Note5"
+    },
+    {
+      "parameters": {
+        "jsCode": "// 1. Get the new alerts from the main input (Input 0)\nconst newAlerts = $input.all();\n\n// 2. Get existing users\nconst existingUsersData = $('Get Existing Users').all();\nconst existingUsernames = new Set(existingUsersData.map(item => item.json.user));\n\n// 3. Define the cutoff date (3 months ago)\nconst now = new Date();\nconst threeMonthsAgo = new Date();\nthreeMonthsAgo.setMonth(now.getMonth() - 3);\n\n// 4. Filter the new alerts list\nconst filteredAlerts = newAlerts.filter(alert => {\n  // Condition 1: Must have more than 100 followers\n  const isOver100 = alert.json.followers > 100;\n\n  // Condition 2: followers/following >= 0.5\n  const isRatio = alert.json.followers / alert.json.following >= 0.5;\n  \n  // const isNew = !existingUsernames.has(alert.json.user);\n  \n  // Condition 3: Must NOT be in the last 3 months\n  const alertDate = new Date(alert.json.creation_date); \n  const isOldEnough = alertDate < threeMonthsAgo;\n\n  const isNotGrok = alert.json.user !== 'Grok';\n  \n  // Return true only if ALL THREE conditions are met\n  // return isOver100 && isNew && isOldEnough && isRatio && isNotGrok;\n  return isOver100 && isOldEnough && isRatio && isNotGrok;\n});\n\n// 6. --- CORRECTED: Return the filtered list directly ---\n// The 'filteredAlerts' array already contains the full n8n items\n// (including the 'json' and 'pairedItem' keys).\nreturn filteredAlerts;"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        384,
+        512
+      ],
+      "id": "0d742d75-5c47-4d5a-8c77-0bb45ff59319",
+      "name": "Obtain new/existing outdated Users w.r.t Criteria below",
+      "alwaysOutputData": true,
+      "executeOnce": false,
+      "notesInFlow": false
+    },
+    {
+      "parameters": {
+        "content": "Extracting tweets from current collection that were created up to 2 hours ago (maintain relevance)",
+        "height": 112,
+        "width": 176
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -736,
+        672
+      ],
+      "id": "98b4bced-79f0-4d45-b3c4-5357f82f7f06",
+      "name": "Sticky Note6"
+    },
+    {
+      "parameters": {
+        "content": "Extracting users from current collection",
+        "height": 80,
+        "width": 182
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -80,
+        688
+      ],
+      "id": "19759fd4-cdd2-4d81-ae53-6458a4e6f90b",
+      "name": "Sticky Note7"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Control/Treatment Split (False is Control)": {
+      "main": [
+        [
+          {
+            "node": "Narrative-Stratified KPI Assignment",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Append Control Tweets To Sheet",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Control/Treatment Assignment": {
+      "main": [
+        [
+          {
+            "node": "Control/Treatment Split (False is Control)",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Add to Tweet Monitoring",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Agent System Prompt": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "CN Generator Agent": {
+      "main": [
+        [
+          {
+            "node": "Unpack Candidates",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Narrative-Stratified KPI Assignment": {
+      "main": [
+        [
+          {
+            "node": "Map Narratives to Claim Numbers",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Map Narratives to Claim Numbers": {
+      "main": [
+        [
+          {
+            "node": "Poisson Distribution Sampler",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract Alerts": {
+      "main": [
+        [
+          {
+            "node": "Get Existing Users",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Tweets": {
+      "main": [
+        [
+          {
+            "node": "Extract Alerts",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Users": {
+      "main": [
+        [
+          {
+            "node": "Concatenate all pages",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Filter Tweets by Username": {
+      "main": [
+        [
+          {
+            "node": "Control/Treatment Assignment",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create Master Username List (Old & New Users)": {
+      "main": [
+        [
+          {
+            "node": "Filter Tweets by Username",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Exract [URL,CN] pairs": {
+      "main": [
+        [
+          {
+            "node": "Convert to CSV",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convert to CSV": {
+      "main": [
+        [
+          {
+            "node": "Send to Percepto",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Existing Users": {
+      "main": [
+        [
+          {
+            "node": "Users",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Concatenate all pages": {
+      "main": [
+        [
+          {
+            "node": "Obtain new/existing outdated Users w.r.t Criteria below",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "Tweets",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Poisson Distribution Sampler": {
+      "main": [
+        [
+          {
+            "node": "Get Agent System Prompt",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Aggregate Results": {
+      "main": [
+        [
+          {
+            "node": "Append Treatment Tweets + CNs to Sheet",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Unpack Candidates": {
+      "main": [
+        [
+          {
+            "node": "Exract [URL,CN] pairs",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Aggregate Results",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Merge": {
+      "main": [
+        [
+          {
+            "node": "CN Generator Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Obtain new/existing outdated Users w.r.t Criteria below": {
+      "main": [
+        [
+          {
+            "node": "Append New Users",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Create Master Username List (Old & New Users)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "callerPolicy": "workflowsFromSameOwner",
+    "availableInMCP": false
+  },
+  "versionId": "fe329000-c6ed-44ec-90d9-0c99a45b5a17",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": ""
+  },
+  "id": "ULh3yGdIr7b5t1PG",
+  "tags": []
+}
